@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.ColumnDeliveryLifecycleTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:33.626Z" hostname="diarmid-desktop" time="0.005">
+  <properties/>
+  <testcase name="queuedFailureCannotCrossRetirementOrEraseReplacementProof()" classname="dev.vox.lss.networking.client.ColumnDeliveryLifecycleTest" time="0.0"/>
+  <testcase name="severalQueuedClearsRestoreTheLastAcceptedContent()" classname="dev.vox.lss.networking.client.ColumnDeliveryLifecycleTest" time="0.0"/>
+  <testcase name="dimensionCancelledClearCannotEraseItsSavedContentClaimLater()" classname="dev.vox.lss.networking.client.ColumnDeliveryLifecycleTest" time="0.001"/>
+  <testcase name="realConsumerFailuresStillReachThePerDeliveryCap()" classname="dev.vox.lss.networking.client.ColumnDeliveryLifecycleTest" time="0.001"/>
+  <testcase name="deferredConsumerAcceptanceRemainsCancellableWithoutAFailureStrike()" classname="dev.vox.lss.networking.client.ColumnDeliveryLifecycleTest" time="0.0"/>
+  <testcase name="completedContentSurvivesButUnfinishedContentCannotBecomeAWarmProof()" classname="dev.vox.lss.networking.client.ColumnDeliveryLifecycleTest" time="0.0"/>
+  <testcase name="cancellationOfUndispatchedClearRetainsTheDataClaimAcrossSaveAndLoad()" classname="dev.vox.lss.networking.client.ColumnDeliveryLifecycleTest" time="0.001"/>
+  <testcase name="committedDeferredWorkSurvivesRetirement()" classname="dev.vox.lss.networking.client.ColumnDeliveryLifecycleTest" time="0.0"/>
+  <testcase name="aPostedFailureEventCannotOutliveDimensionCancellation()" classname="dev.vox.lss.networking.client.ColumnDeliveryLifecycleTest" time="0.001"/>
+  <testcase name="olderCancellationCannotUndoALaterAcceptedReceiptAtTheSamePosition()" classname="dev.vox.lss.networking.client.ColumnDeliveryLifecycleTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:33] [LSS-CacheIO/INFO]: Saved 1 cached column entries for minecraft_overworld
+[01:45:33] [LSS-CacheIO/INFO]: Loaded 1 cached column entries for minecraft_overworld
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server receipt-dimension-clear-a6cbe14e-56be-43be-8411-ad38b99edc75
+[01:45:33] [Test worker/INFO]: Registered voxel column consumer: dev.vox.lss.networking.client.ColumnDeliveryLifecycleTest$$Lambda/0x0000000078fad210
+[01:45:33] [LSS-CacheIO/INFO]: Saved 1 cached column entries for minecraft_overworld
+[01:45:33] [LSS-CacheIO/INFO]: Loaded 1 cached column entries for minecraft_overworld
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server receipt-clear-7cd98003-9d85-42b7-b3fc-51791da7a556
+[01:45:33] [LSS-CacheIO/INFO]: Saved 1 cached column entries for minecraft_overworld
+[01:45:33] [LSS-CacheIO/INFO]: Loaded 1 cached column entries for minecraft_overworld
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server receipt-dimension-clear-39043afd-372a-4824-a258-82ed617b952f
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

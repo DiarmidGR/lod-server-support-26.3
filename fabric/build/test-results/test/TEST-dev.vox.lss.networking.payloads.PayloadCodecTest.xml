@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.payloads.PayloadCodecTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.116Z" hostname="diarmid-desktop" time="0.002">
+  <properties/>
+  <testcase name="voxelColumnEndDimensionRoundtrip()" classname="dev.vox.lss.networking.payloads.PayloadCodecTest" time="0.001"/>
+  <testcase name="handshakeRoundtrip()" classname="dev.vox.lss.networking.payloads.PayloadCodecTest" time="0.0"/>
+  <testcase name="voxelColumnOverworldDimensionRoundtrip()" classname="dev.vox.lss.networking.payloads.PayloadCodecTest" time="0.0"/>
+  <testcase name="batchResponseRoundtrip()" classname="dev.vox.lss.networking.payloads.PayloadCodecTest" time="0.0"/>
+  <testcase name="voxelColumnNetherDimensionRoundtrip()" classname="dev.vox.lss.networking.payloads.PayloadCodecTest" time="0.0"/>
+  <testcase name="sessionConfigRoundtrip()" classname="dev.vox.lss.networking.payloads.PayloadCodecTest" time="0.0"/>
+  <testcase name="batchChunkRequestRoundtrip()" classname="dev.vox.lss.networking.payloads.PayloadCodecTest" time="0.0"/>
+  <testcase name="dirtyColumnsRoundtrip()" classname="dev.vox.lss.networking.payloads.PayloadCodecTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

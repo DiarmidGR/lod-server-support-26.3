@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.ClientColumnProcessorAwaitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.881Z" hostname="diarmid-desktop" time="0.082">
+  <properties/>
+  <testcase name="heldProcessingFlagTimesOutFalse()" classname="dev.vox.lss.networking.client.ClientColumnProcessorAwaitTest" time="0.081"/>
+  <testcase name="idleReturnsTrueImmediately()" classname="dev.vox.lss.networking.client.ClientColumnProcessorAwaitTest" time="0.0"/>
+  <testcase name="interruptReturnsFalseAndRestoresTheFlag()" classname="dev.vox.lss.networking.client.ClientColumnProcessorAwaitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

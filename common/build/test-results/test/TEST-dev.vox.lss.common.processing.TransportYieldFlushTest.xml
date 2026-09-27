@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.TransportYieldFlushTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:09.001Z" hostname="diarmid-desktop" time="0.877">
+  <properties/>
+  <testcase name="emptyQueueUnwritableTickIsNotCountedYielded()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.001"/>
+  <testcase name="refusedTickDoesNotResetTheFloorCounter()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.05"/>
+  <testcase name="armedThrowingSnapshotProbeNeverYields()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.051"/>
+  <testcase name="pruneDropsOutOfRangeEntriesAtTheCadenceTickOnly()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.1"/>
+  <testcase name="notWritableRetainsCountsSweepsAndNeverStamps()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.101"/>
+  <testcase name="disarmedFullOverloadNeverYields()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.05"/>
+  <testcase name="writableNeverYields()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.05"/>
+  <testcase name="starvationFloorSendsExactlyOnePayloadThenResets()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.051"/>
+  <testcase name="shortOverloadsPinTheYieldOff()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.05"/>
+  <testcase name="noSignalProbeNeverYields()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.051"/>
+  <testcase name="legacyBareLambdaProbeNeverYields()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.05"/>
+  <testcase name="floorSendDrawsFromThePostPruneHead()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.05"/>
+  <testcase name="maxSizePayloadSendsWritableWaitsUnwritableNeverBlockedForever()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.12"/>
+  <testcase name="sendFailureMergesPrunedPositionsIntoTheDropReport()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.051"/>
+  <testcase name="pruneKeepsInGraceEntries()" classname="dev.vox.lss.common.processing.TransportYieldFlushTest" time="0.05"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

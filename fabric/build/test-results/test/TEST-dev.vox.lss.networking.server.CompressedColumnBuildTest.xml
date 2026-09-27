@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.CompressedColumnBuildTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.147Z" hostname="diarmid-desktop" time="0.308">
+  <properties/>
+  <testcase name="capableSessionShipsCodec1Frame()" classname="dev.vox.lss.networking.server.CompressedColumnBuildTest" time="0.052"/>
+  <testcase name="zeroSectionClearShipsRawForACapableSession()" classname="dev.vox.lss.networking.server.CompressedColumnBuildTest" time="0.051"/>
+  <testcase name="nonCapableSessionShipsRawEvenWithCodecAttached()" classname="dev.vox.lss.networking.server.CompressedColumnBuildTest" time="0.05"/>
+  <testcase name="noCodecAttachedShipsRawForAWantingSession()" classname="dev.vox.lss.networking.server.CompressedColumnBuildTest" time="0.051"/>
+  <testcase name="rawCodecConstantIsZero()" classname="dev.vox.lss.networking.server.CompressedColumnBuildTest" time="0.0"/>
+  <testcase name="mixedFanOutCompressesOnceOffTheSharedHolder()" classname="dev.vox.lss.networking.server.CompressedColumnBuildTest" time="0.103"/>
+  <testcase name="oversizedUsizeStoreFrameRefusesOnRawSizeAloneWithoutADecompress()" classname="dev.vox.lss.networking.server.CompressedColumnBuildTest" time="0.001"/>
+  <system-out><![CDATA[[01:45:36] [Test worker/WARN]: Dropping oversized column [1, 2] in minecraft:overworld: 2000001 bytes exceeds send limit 2000000 (netty frame cap would kill the connection) (1 oversized drop(s) since the last report — the client re-asks and is answered up-to-date)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

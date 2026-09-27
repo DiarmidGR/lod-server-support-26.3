@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.CorrectiveSendAccountingTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:04.312Z" hostname="diarmid-desktop" time="0.007">
+  <properties/>
+  <testcase name="defaultSentinelAndOrdinaryZeroOrderAreNeverCorrective()" classname="dev.vox.lss.common.processing.CorrectiveSendAccountingTest" time="0.001"/>
+  <testcase name="onlyActualSuccessfulCorrectiveFrameIsCounted()" classname="dev.vox.lss.common.processing.CorrectiveSendAccountingTest" time="0.0"/>
+  <testcase name="failedBuildScopeDoesNotTagAnOrdinaryLaterEnqueue()" classname="dev.vox.lss.common.processing.CorrectiveSendAccountingTest" time="0.0"/>
+  <testcase name="retirementDuringSuccessfulSendCannotEraseQueuedClassification()" classname="dev.vox.lss.common.processing.CorrectiveSendAccountingTest" time="0.0"/>
+  <testcase name="otherSubmissionDuringScopeDoesNotInheritCorrectionTag()" classname="dev.vox.lss.common.processing.CorrectiveSendAccountingTest" time="0.0"/>
+  <testcase name="throwingSenderDropsWithoutCountingCorrection()" classname="dev.vox.lss.common.processing.CorrectiveSendAccountingTest" time="0.004"/>
+  <testcase name="relevancePruneDoesNotCountCorrection()" classname="dev.vox.lss.common.processing.CorrectiveSendAccountingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

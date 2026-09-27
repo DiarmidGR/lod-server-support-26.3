@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.config.ClientAliasConfigValidationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.620Z" hostname="diarmid-desktop" time="0.004">
+  <properties/>
+  <testcase name="theDefaultsCarryNoGroupsAndSubBucketsOn()" classname="dev.vox.lss.config.ClientAliasConfigValidationTest" time="0.0"/>
+  <testcase name="validateIsIdempotentOnACleanField()" classname="dev.vox.lss.config.ClientAliasConfigValidationTest" time="0.003"/>
+  <testcase name="validationActuallyDropsTheMalformedGroupAndWarns()" classname="dev.vox.lss.config.ClientAliasConfigValidationTest" time="0.0"/>
+  <testcase name="aNullFieldRestoresTheEmptyDefault()" classname="dev.vox.lss.config.ClientAliasConfigValidationTest" time="0.0"/>
+  <testcase name="malformedGroupsWarnButTheUsersFieldIsNeverRewritten()" classname="dev.vox.lss.config.ClientAliasConfigValidationTest" time="0.001"/>
+  <system-out><![CDATA[[01:45:32] [Test worker/WARN]: cacheAddressAliases group 2 dropped: the canonical (first) entry 'bad.example.com:25565' carries a port — voxy-extra substitutes the canonical verbatim into a directory name, so list the port-free spelling first
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

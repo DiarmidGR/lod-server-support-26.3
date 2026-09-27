@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.XrayMaskFilterTest" tests="22" skipped="0" failures="1" errors="0" timestamp="2026-09-27T07:45:44.083Z" hostname="diarmid-desktop" time="0.051">
+  <properties/>
+  <testcase name="goldenMaskedFixture()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.004">
+    <failure message="org.opentest4j.AssertionFailedError: xray-masked: wire bytes diverge from the committed golden at index 7 (golden 4138 B, actual 4138 B). If intentional, regenerate with -Dlss.regenGoldens=true on BOTH the fabric and paper modules and verify the two fixture copies still byte-match." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: xray-masked: wire bytes diverge from the committed golden at index 7 (golden 4138 B, actual 4138 B). If intentional, regenerate with -Dlss.regenGoldens=true on BOTH the fabric and paper modules and verify the two fixture copies still byte-match.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)
+	at knot//dev.vox.lss.networking.server.XrayMaskFilterTest.assertMatchesGolden(XrayMaskFilterTest.java:639)
+	at knot//dev.vox.lss.networking.server.XrayMaskFilterTest.goldenMaskedFixture(XrayMaskFilterTest.java:576)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="hiddenStatesReplacedByDominantStateAndOriginalUntouched()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.002"/>
+  <testcase name="maskingNeverIntroducesOrRemovesAir()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.002"/>
+  <testcase name="maskedBytesAreIdenticalAcrossPathsIncludingCountHeaders()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.001"/>
+  <testcase name="defaultListCoversTheExpectedPaperSet()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.0"/>
+  <testcase name="nullAndBlankListEntriesAreSkippedWithoutThrowing()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.0"/>
+  <testcase name="straddlingSectionMasksOnlyBelowTheCutoff()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.0"/>
+  <testcase name="maskedPaletteDropsTheRecreateSeedResidue()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.001"/>
+  <testcase name="bareAndNamespacedIdsBothResolve()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.0"/>
+  <testcase name="maskedSectionPaletteCarriesNoHiddenStates()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.001"/>
+  <testcase name="fromStatesDropsAirAndNulls()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.0"/>
+  <testcase name="unknownIdsAreSkippedAndAnAllUnknownMaskIsInert()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.001"/>
+  <testcase name="stalePaletteRebuildsForThePruneButReportsZeroReplacedCells()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.001"/>
+  <testcase name="oreFreeSectionReturnsTheSameInstance()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.001"/>
+  <testcase name="fingerprintIsTheContentHashOfTheHiddenIdentities()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.0"/>
+  <testcase name="maskIsDeterministicAcrossSectionInstances()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.002"/>
+  <testcase name="dominantTieBreaksOnLowestGlobalStateId()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.001"/>
+  <testcase name="allStatesOfAHiddenBlockAreMasked()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.001"/>
+  <testcase name="negativeSectionHeightGateAndStraddle()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.0"/>
+  <testcase name="sectionAtOrAboveCutoffReturnsTheSameInstance()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.0"/>
+  <testcase name="fallbackLadderWhenNoDominantCandidateExists()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.002"/>
+  <testcase name="airBlocksCannotBeHidden()" classname="dev.vox.lss.networking.server.XrayMaskFilterTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:44] [Test worker/WARN]: xrayHiddenBlocks: null/blank entry — skipped
+[01:45:44] [Test worker/WARN]: xrayHiddenBlocks: null/blank entry — skipped
+[01:45:44] [Test worker/WARN]: xrayHiddenBlocks: unknown block id 'not_a_block' — skipped
+[01:45:44] [Test worker/WARN]: xrayHiddenBlocks: unknown block id 'definitely:missing' — skipped
+[01:45:44] [Test worker/WARN]: xrayHiddenBlocks: unknown block id 'not_a_block' — skipped
+[01:45:44] [Test worker/WARN]: xrayHiddenBlocks: 'air' is an air block and cannot be hidden — skipped
+[01:45:44] [Test worker/WARN]: xrayHiddenBlocks: 'cave_air' is an air block and cannot be hidden — skipped
+[01:45:44] [Test worker/WARN]: xrayHiddenBlocks: 'air' is an air block and cannot be hidden — skipped
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

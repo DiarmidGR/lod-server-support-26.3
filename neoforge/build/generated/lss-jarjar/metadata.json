@@ -1,0 +1,28 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "org.xerial",
+        "artifact": "sqlite-jdbc"
+      },
+      "version": {
+        "range": "[3.49.1.0,4.0.0.0)",
+        "artifactVersion": "3.49.1.0"
+      },
+      "path": "META-INF/jarjar/sqlite-jdbc-3.49.1.0.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.github.luben",
+        "artifact": "zstd-jni"
+      },
+      "version": {
+        "range": "[1.5.7-3,2.0.0.0)",
+        "artifactVersion": "1.5.7-3"
+      },
+      "path": "META-INF/jarjar/zstd-jni-1.5.7-3.jar",
+      "isObfuscated": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.PaperXrayMaskFilterTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:54.369Z" hostname="diarmid-desktop" time="0.067">
+  <properties/>
+  <testcase name="goldenMaskedFixture()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.009"/>
+  <testcase name="hiddenStatesReplacedByDominantStateAndOriginalUntouched()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.003"/>
+  <testcase name="maskingNeverIntroducesOrRemovesAir()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.004"/>
+  <testcase name="maskedBytesAreIdenticalAcrossPathsIncludingCountHeaders()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.001"/>
+  <testcase name="nullAndBlankListEntriesAreSkippedWithoutThrowing()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.0"/>
+  <testcase name="straddlingSectionMasksOnlyBelowTheCutoff()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.0"/>
+  <testcase name="maskedPaletteDropsTheRecreateSeedResidue()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.001"/>
+  <testcase name="maskedSectionPaletteCarriesNoHiddenStates()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.001"/>
+  <testcase name="fromStatesDropsAirAndNulls()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.001"/>
+  <testcase name="unknownIdsAreSkippedAndAnAllUnknownMaskIsInert()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.0"/>
+  <testcase name="stalePaletteRebuildsForThePruneButReportsZeroReplacedCells()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.002"/>
+  <testcase name="fingerprintIsTheContentHashOfTheHiddenIdentities()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.0"/>
+  <testcase name="maskIsDeterministicAcrossSectionInstances()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.002"/>
+  <testcase name="dominantTieBreaksOnLowestGlobalStateId()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.0"/>
+  <testcase name="sectionAtOrAboveCutoffReturnsTheSameInstance()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.001"/>
+  <testcase name="fallbackLadderWhenNoDominantCandidateExists()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.003"/>
+  <testcase name="airBlocksCannotBeHidden()" classname="dev.vox.lss.paper.PaperXrayMaskFilterTest" time="0.001"/>
+  <system-out><![CDATA[[15:08:54 WARN]: [LSS] xrayHiddenBlocks: null/blank entry — skipped
+[15:08:54 WARN]: [LSS] xrayHiddenBlocks: null/blank entry — skipped
+[15:08:54 WARN]: [LSS] xrayHiddenBlocks: unknown block id 'not_a_block' — skipped
+[15:08:54 WARN]: [LSS] xrayHiddenBlocks: unknown block id 'definitely:missing' — skipped
+[15:08:54 WARN]: [LSS] xrayHiddenBlocks: unknown block id 'not_a_block' — skipped
+[15:08:54 WARN]: [LSS] xrayHiddenBlocks: 'air' is an air block and cannot be hidden — skipped
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

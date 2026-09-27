@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.wire.WireSectionCursorTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:25:56.934Z" hostname="diarmid-desktop" time="0.135">
+  <properties/>
+  <testcase name="nativeParseEmitByteIdentity()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.0"/>
+  <testcase name="v20ParseEmitByteIdentity()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.0"/>
+  <testcase name="clearColumnIsTheEmptyDictionaryEmptySectionFrameInBothLayouts()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.0"/>
+  <testcase name="scanReturnsConsumedLengthAndHonorsOffset()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.0"/>
+  <testcase name="trailingBytesAfterTheSectionArrayAreRejectedByParse()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.0"/>
+  <testcase name="truncationAtEveryByteIsContained()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.126"/>
+  <testcase name="packUnpackRoundTripsAcrossWidths()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.003"/>
+  <testcase name="packRejectsValuesThatDoNotFit()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.0"/>
+  <testcase name="blockWidths1To3AreRejectedOnBothLayoutsAndBothDirections()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.001"/>
+  <testcase name="v20PaletteIndicesAreRangeCheckedAgainstTheDictionaryBothDirections()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.001"/>
+  <testcase name="emitRejectsOutOfRangeSectionYAndCounts()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.001"/>
+  <testcase name="emitRefusesMalformedColumns()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.0"/>
+  <testcase name="v20WidthCeilingsAndClearInvariantAreEnforcedOnParse()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.001"/>
+  <testcase name="negativeAndOversizedCountsAreContained()" classname="dev.vox.lss.common.wire.WireSectionCursorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

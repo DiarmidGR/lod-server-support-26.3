@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "lss",
+  "version": "0.15.1",
+  "name": "LOD Server Support",
+  "description": "Voxy multiplayer support (unofficial). Enables players with Voxy to see fully rendered terrain out to hundreds of chunks on multiplayer servers without needing to explore the world first.",
+  "authors": [
+    "VoX"
+  ],
+  "contact": {
+    "sources": "https://github.com/VoX/lod-server-support"
+  },
+  "license": "MIT",
+  "icon": "assets/lss/icon.png",
+  "accessWidener": "lss.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.vox.lss.LSSMod"
+    ],
+    "client": [
+      "dev.vox.lss.LSSClient"
+    ],
+    "sodium:config_api_user": [
+      "dev.vox.lss.config.LSSConfigMenu"
+    ],
+    "modmenu": [
+      "dev.vox.lss.config.LSSModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "lss.mixins.json",
+    "lss-trace.mixins.json",
+    "lss-sodium-legacy.mixins.json"
+  ],
+  "jars": [
+    {
+      "file": "META-INF/jars/sqlite-jdbc-slim.jar"
+    },
+    {
+      "file": "META-INF/jars/zstd-jni-slim.jar"
+    }
+  ],
+  "depends": {
+    "minecraft": ">=26.3 <26.4-",
+    "fabricloader": ">=0.18.4",
+    "fabric-api": ">=0.161.0"
+  },
+  "suggests": {
+    "sodium": ">=0.9.0",
+    "modmenu": "*",
+    "voxy": ">=0.2.17-alpha",
+    "xaeroworldmap": "*"
+  }
+}

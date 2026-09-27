@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.store.SqliteLodStoreMaskShutdownTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:11.020Z" hostname="diarmid-desktop" time="0.533">
+  <properties/>
+  <testcase name="interruptedBetweenCommittedBatchesKeepsOldFingerprint()" classname="dev.vox.lss.common.store.SqliteLodStoreMaskShutdownTest" time="0.326"/>
+  <testcase name="interruptedMaskDropMustNotCommitNewFingerprintOverSurvivingRows()" classname="dev.vox.lss.common.store.SqliteLodStoreMaskShutdownTest" time="0.207"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

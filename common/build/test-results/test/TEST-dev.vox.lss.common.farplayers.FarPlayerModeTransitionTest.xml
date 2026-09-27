@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.farplayers.FarPlayerModeTransitionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.385Z" hostname="diarmid-desktop" time="0.002">
+  <properties/>
+  <testcase name="runtimeOffMustWithdrawAlreadyPublishedPlayersInsteadOfFreezingThem()" classname="dev.vox.lss.common.farplayers.FarPlayerModeTransitionTest" time="0.001"/>
+  <testcase name="offImmediatelyAfterRosterBypassesThrottleAndOnRestoresStationaryTarget()" classname="dev.vox.lss.common.farplayers.FarPlayerModeTransitionTest" time="0.0"/>
+  <testcase name="withheldWithdrawalRetriesAndRapidOnSupersedesOldClear()" classname="dev.vox.lss.common.farplayers.FarPlayerModeTransitionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

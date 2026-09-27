@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.SelectiveChunkNbtLoaderTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:37.204Z" hostname="diarmid-desktop" time="4.63">
+  <properties/>
+  <testcase name="absentRecordStillAbsentWithSelectiveOn()" classname="dev.vox.lss.networking.server.SelectiveChunkNbtLoaderTest" time="0.0"/>
+  <testcase name="nonCompoundRootThrowsVanillasMessage()" classname="dev.vox.lss.networking.server.SelectiveChunkNbtLoaderTest" time="0.001"/>
+  <testcase name="whitelistCoversEverySerializerRootAccessor()" classname="dev.vox.lss.networking.server.SelectiveChunkNbtLoaderTest" time="0.001"/>
+  <testcase name="corruptArrayLengthNeverYieldsASilentGarbageTag()" classname="dev.vox.lss.networking.server.SelectiveChunkNbtLoaderTest" time="0.0"/>
+  <testcase name="parseRawChunkParsesTheDivergentPayloadToAnEmptySparseTagWithTheFlagOffPin()" classname="dev.vox.lss.networking.server.SelectiveChunkNbtLoaderTest" time="1.194"/>
+  <testcase name="corruptNonSectionSubtreeSkipsWhereFullParseThrows()" classname="dev.vox.lss.networking.server.SelectiveChunkNbtLoaderTest" time="1.137"/>
+  <testcase name="selectiveParsesCorruptJunkOverDeflateThroughParseRawChunk()" classname="dev.vox.lss.networking.server.SelectiveChunkNbtLoaderTest" time="0.0"/>
+  <testcase name="rootKeyOrderingNeverChangesTheOutcome()" classname="dev.vox.lss.networking.server.SelectiveChunkNbtLoaderTest" time="0.002"/>
+  <testcase name="selectiveMatchesFullOnEverythingTheSerializerReads()" classname="dev.vox.lss.networking.server.SelectiveChunkNbtLoaderTest" time="0.0"/>
+  <testcase name="truncatedPayloadThrowsIdenticallyAndTheFallbackStaysOneDirectional()" classname="dev.vox.lss.networking.server.SelectiveChunkNbtLoaderTest" time="2.294"/>
+  <testcase name="trailingBytesRouteThroughTheFallbackWhichSucceeds()" classname="dev.vox.lss.networking.server.SelectiveChunkNbtLoaderTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:40] [Test worker/WARN]: Selective chunk parse failed at [0,0] (java.io.EOFException) — retried with full parse
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

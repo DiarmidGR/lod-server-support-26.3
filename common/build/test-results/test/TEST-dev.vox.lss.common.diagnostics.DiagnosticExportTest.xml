@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.diagnostics.DiagnosticExportTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.290Z" hostname="diarmid-desktop" time="0.037">
+  <properties/>
+  <testcase name="independentReasonsCoexistWithoutGuessingRemoteCauses()" classname="dev.vox.lss.common.diagnostics.DiagnosticExportTest" time="0.004"/>
+  <testcase name="exportHasTypedAllowlistAndBoundedRetention()" classname="dev.vox.lss.common.diagnostics.DiagnosticExportTest" time="0.03"/>
+  <testcase name="rejectsSymlinksAndOversizeAndDeniesFileAsDirectory()" classname="dev.vox.lss.common.diagnostics.DiagnosticExportTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

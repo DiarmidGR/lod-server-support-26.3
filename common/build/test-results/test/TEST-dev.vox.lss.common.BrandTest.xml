@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.BrandTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:02.979Z" hostname="diarmid-desktop" time="0.03">
+  <properties/>
+  <testcase name="loadWithoutTheResourceKeepsTheLssDefaults()" classname="dev.vox.lss.common.BrandTest" time="0.014"/>
+  <testcase name="nullOrBlankValuesKeepTheCurrentBranding()" classname="dev.vox.lss.common.BrandTest" time="0.0"/>
+  <testcase name="loadReadsBrandPropertiesFromTheClassLoader()" classname="dev.vox.lss.common.BrandTest" time="0.0"/>
+  <testcase name="applySetsEveryFieldTheVssRepackageRewrites()" classname="dev.vox.lss.common.BrandTest" time="0.001"/>
+  <testcase name="defaultsAreLodServerSupport()" classname="dev.vox.lss.common.BrandTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

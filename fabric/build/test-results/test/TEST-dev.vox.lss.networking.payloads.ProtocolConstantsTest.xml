@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.payloads.ProtocolConstantsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.119Z" hostname="diarmid-desktop" time="0.001">
+  <properties/>
+  <testcase name="estimatedColumnOverheadCoversRealVanillaHeaders()" classname="dev.vox.lss.networking.payloads.ProtocolConstantsTest" time="0.001"/>
+  <testcase name="channelConstantsParseDistinctUnderTheLssNamespace()" classname="dev.vox.lss.networking.payloads.ProtocolConstantsTest" time="0.0"/>
+  <testcase name="s2cFrameEnvelopesVsVanillaCaps()" classname="dev.vox.lss.networking.payloads.ProtocolConstantsTest" time="0.0"/>
+  <testcase name="c2sFramesFitTheServerboundCustomPayloadCap()" classname="dev.vox.lss.networking.payloads.ProtocolConstantsTest" time="0.0"/>
+  <testcase name="wireIdentityBytesArePinnedLiterally()" classname="dev.vox.lss.networking.payloads.ProtocolConstantsTest" time="0.0"/>
+  <testcase name="payloadTypesBindTheDeclaredChannels()" classname="dev.vox.lss.networking.payloads.ProtocolConstantsTest" time="0.0"/>
+  <testcase name="protocolVersionIsPinnedLiterally()" classname="dev.vox.lss.networking.payloads.ProtocolConstantsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

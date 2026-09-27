@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.trace.MoveEventMathTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:45.653Z" hostname="diarmid-desktop" time="0.001">
+  <properties/>
+  <testcase name="gapClockResetsOnABackwardsClockStep()" classname="dev.vox.lss.trace.MoveEventMathTest" time="0.0"/>
+  <testcase name="clampsReplicateVanillaMovementCheckBounds()" classname="dev.vox.lss.trace.MoveEventMathTest" time="0.0"/>
+  <testcase name="gapClockExpiresGapsOlderThanTheWindow()" classname="dev.vox.lss.trace.MoveEventMathTest" time="0.001"/>
+  <testcase name="gapClockFoldsInTheCurrentlyOpenGap()" classname="dev.vox.lss.trace.MoveEventMathTest" time="0.0"/>
+  <testcase name="mcChunkKeyUsesVanillaAsLongPackingNotPositionUtil()" classname="dev.vox.lss.trace.MoveEventMathTest" time="0.0"/>
+  <testcase name="gapClockRecordsGapsAndTrailingMax()" classname="dev.vox.lss.trace.MoveEventMathTest" time="0.0"/>
+  <testcase name="usedDeltaPacketsReplicatesTheVanillaBurstPenalty()" classname="dev.vox.lss.trace.MoveEventMathTest" time="0.0"/>
+  <testcase name="residualMath()" classname="dev.vox.lss.trace.MoveEventMathTest" time="0.0"/>
+  <testcase name="gapClockFirstPacketHasZeroGap()" classname="dev.vox.lss.trace.MoveEventMathTest" time="0.0"/>
+  <testcase name="chunkCoordFloors()" classname="dev.vox.lss.trace.MoveEventMathTest" time="0.0"/>
+  <testcase name="maskGeometryIsRowMajorCentered()" classname="dev.vox.lss.trace.MoveEventMathTest" time="0.0"/>
+  <testcase name="stopBlockSampleUsesDominantAxisBeyondTheFace()" classname="dev.vox.lss.trace.MoveEventMathTest" time="0.0"/>
+  <testcase name="maskContainsAnswersRetroDatingQueries()" classname="dev.vox.lss.trace.MoveEventMathTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

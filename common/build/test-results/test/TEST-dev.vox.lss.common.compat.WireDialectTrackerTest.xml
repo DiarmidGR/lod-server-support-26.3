@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.compat.WireDialectTrackerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.121Z" hostname="diarmid-desktop" time="0.007">
+  <properties/>
+  <testcase name="startedCountsDistinctSessionsNotPlayers()" classname="dev.vox.lss.common.compat.WireDialectTrackerTest" time="0.004"/>
+  <testcase name="diagLineRendersUnconditionallyAndStartedPersistsAfterDisconnect()" classname="dev.vox.lss.common.compat.WireDialectTrackerTest" time="0.0"/>
+  <testcase name="everyDialectMarksAndAnswersItsOwnPredicate()" classname="dev.vox.lss.common.compat.WireDialectTrackerTest" time="0.001"/>
+  <testcase name="duplicateHandshakeKeepsMembershipAndIsNotRecounted()" classname="dev.vox.lss.common.compat.WireDialectTrackerTest" time="0.0"/>
+  <testcase name="nonRegisterHandshakeShedsOnlyCrossDialectMembership()" classname="dev.vox.lss.common.compat.WireDialectTrackerTest" time="0.001"/>
+  <testcase name="crossDialectRehandshakeRecountsTheNewDialect()" classname="dev.vox.lss.common.compat.WireDialectTrackerTest" time="0.0"/>
+  <testcase name="handshakeMarksAndDisconnectDrops()" classname="dev.vox.lss.common.compat.WireDialectTrackerTest" time="0.0"/>
+  <testcase name="disconnectIsIdempotentAndPerPlayer()" classname="dev.vox.lss.common.compat.WireDialectTrackerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

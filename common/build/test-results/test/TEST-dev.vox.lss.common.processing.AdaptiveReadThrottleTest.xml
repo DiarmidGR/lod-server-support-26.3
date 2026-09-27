@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.780Z" hostname="diarmid-desktop" time="0.003">
+  <properties/>
+  <testcase name="repeatedSpikesEventuallyCrossTargetAndCut()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.0"/>
+  <testcase name="canSubmitAdmitsBelowTheLimitAndBlocksAtOrAboveIt()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.0"/>
+  <testcase name="constructorRejectsIllegalCoefficients()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.001"/>
+  <testcase name="currentLimitFloorsToInt()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.0"/>
+  <testcase name="ewmaAbsorbsASingleSpikeWithoutCuttingTheLimit()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.0"/>
+  <testcase name="decreaseIsMultiplicativeNotAdditive()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.0"/>
+  <testcase name="limitRecoversAfterCongestionClears()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.0"/>
+  <testcase name="limitNeverLeavesTheConfiguredBounds()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.0"/>
+  <testcase name="initialLimitIsClampedIntoRange()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.0"/>
+  <testcase name="increaseIsAdditiveNotMultiplicative()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.0"/>
+  <testcase name="forPoolDerivesCeilingFromPoolDepthAndTargetFromMs()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.0"/>
+  <testcase name="ewmaSeedsOnFirstSampleInsteadOfBlendingFromZero()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.001"/>
+  <testcase name="sustainedHighLatencyShrinksLimitMultiplicativelyToTheFloor()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.0"/>
+  <testcase name="belowTargetLatencyGrowsLimitAdditivelyToTheCeiling()" classname="dev.vox.lss.common.processing.AdaptiveReadThrottleTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

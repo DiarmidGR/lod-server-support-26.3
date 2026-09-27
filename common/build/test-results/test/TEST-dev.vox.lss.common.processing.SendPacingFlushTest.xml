@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.SendPacingFlushTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:08.790Z" hostname="diarmid-desktop" time="0.003">
+  <properties/>
+  <testcase name="budgetIsRawDenominated()" classname="dev.vox.lss.common.processing.SendPacingFlushTest" time="0.0"/>
+  <testcase name="killSwitchOffRestoresTheUnpacedFlush()" classname="dev.vox.lss.common.processing.SendPacingFlushTest" time="0.001"/>
+  <testcase name="starvationFloorTickShipsDespitePacing()" classname="dev.vox.lss.common.processing.SendPacingFlushTest" time="0.0"/>
+  <testcase name="bankSizedWaveDrainsInFiveTicks()" classname="dev.vox.lss.common.processing.SendPacingFlushTest" time="0.0"/>
+  <testcase name="shortOverloadsPinPacingOff()" classname="dev.vox.lss.common.processing.SendPacingFlushTest" time="0.001"/>
+  <testcase name="pingfCutAllocationShrinksTheBudgetWithIt()" classname="dev.vox.lss.common.processing.SendPacingFlushTest" time="0.0"/>
+  <testcase name="refillFloorBindsWhenTheQueueIsSmall()" classname="dev.vox.lss.common.processing.SendPacingFlushTest" time="0.0"/>
+  <testcase name="oversizedPayloadShipsWholeThroughThePresenceGate()" classname="dev.vox.lss.common.processing.SendPacingFlushTest" time="0.0"/>
+  <testcase name="deepBacklogsAreClampedAtTheBurstCeiling()" classname="dev.vox.lss.common.processing.SendPacingFlushTest" time="0.001"/>
+  <testcase name="emptyQueueBooksNothing()" classname="dev.vox.lss.common.processing.SendPacingFlushTest" time="0.0"/>
+  <testcase name="degenerateBudgetZeroStillShipsOnePayloadPerTick()" classname="dev.vox.lss.common.processing.SendPacingFlushTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

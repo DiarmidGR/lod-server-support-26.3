@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.SendActionBatcherTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:31.835Z" hostname="diarmid-desktop" time="0.014">
+  <properties/>
+  <testcase name="exactlyAtCapDoesNotSplit()" classname="dev.vox.lss.common.processing.SendActionBatcherTest" time="0.002"/>
+  <testcase name="multiplePlayersBatchAndSplitIndependently()" classname="dev.vox.lss.common.processing.SendActionBatcherTest" time="0.001"/>
+  <testcase name="clearResetsForNextTickReuse()" classname="dev.vox.lss.common.processing.SendActionBatcherTest" time="0.0"/>
+  <testcase name="splitFramesSurviveTheWireCodec()" classname="dev.vox.lss.common.processing.SendActionBatcherTest" time="0.006"/>
+  <testcase name="overCapSplitsIntoDecoderLegalFramesWithNoLoss()" classname="dev.vox.lss.common.processing.SendActionBatcherTest" time="0.001"/>
+  <testcase name="exactMultipleOfCapSplitsWithoutEmptyTailFrame()" classname="dev.vox.lss.common.processing.SendActionBatcherTest" time="0.002"/>
+  <testcase name="underCapEmitsOneFrame()" classname="dev.vox.lss.common.processing.SendActionBatcherTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.diagnostics.ServerExportJobTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.333Z" hostname="diarmid-desktop" time="0.009">
+  <properties/>
+  <testcase name="actualProductionQueueRemainsOneWorkerAndOnePending()" classname="dev.vox.lss.common.diagnostics.ServerExportJobTest" time="0.0"/>
+  <testcase name="admittedDeniedWriteIsFailureRatherThanSuccessfulPath()" classname="dev.vox.lss.common.diagnostics.ServerExportJobTest" time="0.002"/>
+  <testcase name="queueRejectionReturnsNoJobAndCreatesNothing()" classname="dev.vox.lss.common.diagnostics.ServerExportJobTest" time="0.001"/>
+  <testcase name="synchronousCompletionStillReturnsActualPath()" classname="dev.vox.lss.common.diagnostics.ServerExportJobTest" time="0.001"/>
+  <testcase name="predeterminedTargetStillUsesCreateNew()" classname="dev.vox.lss.common.diagnostics.ServerExportJobTest" time="0.001"/>
+  <testcase name="admittedHeldJobHasConcreteUniqueTargetWithoutFilesystemWork()" classname="dev.vox.lss.common.diagnostics.ServerExportJobTest" time="0.001"/>
+  <testcase name="symlinkIsCheckedWhenHeldWriterRuns()" classname="dev.vox.lss.common.diagnostics.ServerExportJobTest" time="0.001"/>
+  <testcase name="existingPublicServerWriteApiRemainsUsable()" classname="dev.vox.lss.common.diagnostics.ServerExportJobTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

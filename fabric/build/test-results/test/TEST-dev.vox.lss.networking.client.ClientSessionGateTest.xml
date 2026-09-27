@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.ClientSessionGateTest" tests="52" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:33.202Z" hostname="diarmid-desktop" time="0.022">
+  <properties/>
+  <testcase name="validEnabledConfigActivatesSessionAndBuildsManager()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.001"/>
+  <testcase name="aSecondV16ConfigOnALiveV16SessionRebuildsWithoutReAssertingV18()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="onJoinClearsTheStaticSourcelessDecodeFlag()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.001"/>
+  <testcase name="isV16ServerResetsOnJoinAndDisconnect()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="v19RungDisabledSkipsStraightTo16()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="nineteenEchoAfterTheLadderAnnouncedItEstablishesANativeBodySession()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.001"/>
+  <testcase name="joinAnnouncesCurrentThenTheLadderWalks19Then16ExactlyOnce()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="secondValidConfigRunsDisconnectTeardownBeforeReplacingManager()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="midSessionDisableRetiresTheManagerWithTheStandardTeardown()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.005"/>
+  <testcase name="validDisabledConfigRecordsReplyWithoutSession()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="v16SessionConfigWhenCompatDisabledIsTreatedAsForeignAndDisables()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="onDisconnectClearsTheStaticSourcelessDecodeFlag()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.001"/>
+  <testcase name="reEnableAfterMidSessionDisableAdoptsTheParkedGovernorAndSubKey()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.001"/>
+  <testcase name="foreignVersionMidSessionKeepsStaleManagerWithoutTeardown()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="theParkDiesWithTheConnection()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="foreignVersionFirstReplyDisablesWithoutCreatingSession()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="joinSkipsHandshakeOnLocalIntegratedServer()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="validConfigWithoutConsumersSkipsSessionSetup()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="discoveryFallbackAnnounceEnablesSourcelessArming()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="sixteenConfigOnAnEstablishedNineteenSessionReassertsNineteen()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="localReceiveResumeStaysSilentUntilTheLanServiceHasStarted()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.001"/>
+  <testcase name="downgradeGuardReassertRetiresTheV16Announce()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="v18SessionConfigBeforeTheDelayDisarmsDiscovery()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="genuineV16ConfigWithoutAPriorV18SessionStillBuildsTheLegacySession()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.001"/>
+  <testcase name="onJoinTearsDownASurvivingManagerBeforeResetting()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="compatDisabledAtJoinNeverArmsTheV16Fallback()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="joinSendsExactlyOneHandshakeWhenAllGuardsPass()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="unsolicitedNineteenConfigWithoutTheAnnounceStaysForeign()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="joinResetsSessionStateEvenWhenLodsDisabled()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.001"/>
+  <testcase name="belowRangeServerConfigIsClampedUpToProtocolMinimum()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="sessionConfigRePushCarriesTheGovernorAcrossTheManagerRebuild()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="vanillaServerScopedHandshakeSendThrowIsSwallowedAndClientStaysDormant()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.001"/>
+  <testcase name="slowNineteenEchoAfterTheLadderReachedSixteenReAnnouncesNineteen()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="localOffRetiresOnceAndLateConfigCannotRestartAcquisition()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="slowTwentyEchoAfterTheLadderAdvancedStillEstablishesAndTheRacedNineteenReasserts()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="theDowngradeGuardOutranksTheDisableTeardown()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="establishReAnnounceEchoTakesThePlainReconfigPathWithoutAnotherHandshake()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="hostileServerConfigIsClampedToProtocolBoundsBeforeUse()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="withheldWithdrawalRetriesOnlyWhileOff()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.001"/>
+  <testcase name="aThrownJoinHandshakeLeavesDiscoveryDisarmed()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="v16SessionConfigWhenCompatEnabledActivatesTheLegacySession()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="thrownEstablishReAnnounceStillEstablishesAndTheNextConfigRetriesTheHeal()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.001"/>
+  <testcase name="lateV16ConfigDoesNotDowngradeALiveV18SessionAndReassertsV18()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="establishAfterTheLadderAdvancedReAnnouncesBeforeTheManagerIsBuilt()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.001"/>
+  <testcase name="theParkCarriesTheWorldSubKeyThroughARevokeGrantCycle()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="foreignVersionOutranksEnabledFlagAndConsumers()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="disconnectZeroesCountersAndSessionState()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="joinWithoutConsumersStaysSilent()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="offAtJoinCanBeEnabledWithoutReconnect()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="nineteenConfigOnAnEstablishedNineteenSessionIsTheNormalReconfigPath()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="discoveryNeverArmsWhenJoinSentNoHandshake()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.0"/>
+  <testcase name="bothRungsDisabledNeverArmsTheLadderAtAll()" classname="dev.vox.lss.networking.client.ClientSessionGateTest" time="0.001"/>
+  <system-out><![CDATA[[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v16, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Connected to a legacy (protocol 16) server — using v16 backward-compat wire (load-only: already-generated terrain)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v16, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Connected to a legacy (protocol 16) server — using v16 backward-compat wire (load-only: already-generated terrain)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v16, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Connected to a legacy (protocol 16) server — using v16 backward-compat wire (load-only: already-generated terrain)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v16, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Establishing protocol 16 after the discovery ladder had advanced to v20 (slow echo) — re-announcing v16 so the server sheds the ladder's dialect mark before any column is served.
+[01:45:33] [Test worker/INFO]: Connected to a legacy (protocol 16) server — using v16 backward-compat wire (load-only: already-generated terrain)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v19, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Connected to a legacy (protocol 19) server — native section bodies at the current frame layout (C3 ladder rung 19)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: false)
+[01:45:33] [Test worker/INFO]: LSS disabled by the server mid-session — LOD session retired (cache saved); it re-arms automatically if the server re-enables this session.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: false)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v16, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/WARN]: Server has incompatible LSS protocol version 16 (client: 20), LOD distribution disabled
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: false)
+[01:45:33] [Test worker/INFO]: LSS disabled by the server mid-session — LOD session retired (cache saved); it re-arms automatically if the server re-enables this session.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v21, LOD distance: 0 chunks, enabled: false)
+[01:45:33] [Test worker/WARN]: Server has incompatible LSS protocol version 21 (client: 20), LOD distribution disabled
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: false)
+[01:45:33] [Test worker/INFO]: LSS disabled by the server mid-session — LOD session retired (cache saved); it re-arms automatically if the server re-enables this session.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v21, LOD distance: 0 chunks, enabled: false)
+[01:45:33] [Test worker/WARN]: Server has incompatible LSS protocol version 21 (client: 20), LOD distribution disabled
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v19, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Connected to a legacy (protocol 19) server — native section bodies at the current frame layout (C3 ladder rung 19)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v16, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Late protocol-16 session config on an established v19 session (a raced discovery reply, or a server plugin reload prompting us to re-attach) — re-announcing v19.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Establishing protocol 20 after the discovery ladder had advanced to v19 (slow echo) — re-announcing v20 so the server sheds the ladder's dialect mark before any column is served.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v16, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Late protocol-16 session config on an established v20 session (a raced discovery reply, or a server plugin reload prompting us to re-attach) — re-announcing v20.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v16, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Establishing protocol 16 after the discovery ladder had advanced to v20 (slow echo) — re-announcing v16 so the server sheds the ladder's dialect mark before any column is served.
+[01:45:33] [Test worker/INFO]: Connected to a legacy (protocol 16) server — using v16 backward-compat wire (load-only: already-generated terrain)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v19, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/WARN]: Server has incompatible LSS protocol version 19 (client: 20), LOD distribution disabled
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 0 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v19, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Establishing protocol 19 after the discovery ladder had advanced to v16 (slow echo) — re-announcing v19 so the server sheds the ladder's dialect mark before any column is served.
+[01:45:33] [Test worker/INFO]: Connected to a legacy (protocol 19) server — native section bodies at the current frame layout (C3 ladder rung 19)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Establishing protocol 20 after the discovery ladder had advanced to v19 (slow echo) — re-announcing v20 so the server sheds the ladder's dialect mark before any column is served.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v19, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Late protocol-19 session config on an established v20 session (a raced discovery reply, or a server plugin reload prompting us to re-attach) — re-announcing v20.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v16, LOD distance: 64 chunks, enabled: false)
+[01:45:33] [Test worker/INFO]: Late protocol-16 session config on an established v20 session (a raced discovery reply, or a server plugin reload prompting us to re-attach) — re-announcing v20.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Establishing protocol 20 after the discovery ladder had advanced to v16 (slow echo) — re-announcing v20 so the server sheds the ladder's dialect mark before any column is served.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 2147483647 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/ERROR]: Failed to send backpressure clear batch (1 send failure(s) since the last report; retried next halted tick)
+java.lang.IllegalStateException: temporarily unavailable
+	at knot//dev.vox.lss.networking.client.ClientSessionGateTest.lambda$withheldWithdrawalRetriesOnlyWhileOff$0(ClientSessionGateTest.java:178)
+	at knot//dev.vox.lss.networking.client.LodRequestManager.sendClearBatch(LodRequestManager.java:541)
+	at knot//dev.vox.lss.networking.client.LodRequestManager.withdrawWants(LodRequestManager.java:536)
+	at knot//dev.vox.lss.networking.client.ClientSessionGate.reconcileReception(ClientSessionGate.java:146)
+	at knot//dev.vox.lss.networking.client.ClientSessionGateTest.withheldWithdrawalRetriesOnlyWhileOff(ClientSessionGateTest.java:180)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor$CollectThenExecuteTestDefinitionConsumer.processAllTestDefinitions(JUnitPlatformTestDefinitionProcessor.java:179)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor$CollectThenExecuteTestDefinitionConsumer.access$000(JUnitPlatformTestDefinitionProcessor.java:122)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor.stop(JUnitPlatformTestDefinitionProcessor.java:116)
+	at org.gradle.api.internal.tasks.testing.SuiteTestDefinitionProcessor.stop(SuiteTestDefinitionProcessor.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.gradle.internal.dispatch.MethodInvocation.invokeOn(MethodInvocation.java:77)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:28)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:19)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:88)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:195)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:126)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v16, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Establishing protocol 16 after the discovery ladder had advanced to v20 (slow echo) — re-announcing v16 so the server sheds the ladder's dialect mark before any column is served.
+[01:45:33] [Test worker/INFO]: Connected to a legacy (protocol 16) server — using v16 backward-compat wire (load-only: already-generated terrain)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Establishing protocol 20 after the discovery ladder had advanced to v16 (slow echo) — re-announcing v20 so the server sheds the ladder's dialect mark before any column is served.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Establishing protocol 20 after the discovery ladder had advanced to v16 (slow echo) — re-announcing v20 so the server sheds the ladder's dialect mark before any column is served.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v16, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Late protocol-16 session config on an established v20 session (a raced discovery reply, or a server plugin reload prompting us to re-attach) — re-announcing v20.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Establishing protocol 20 after the discovery ladder had advanced to v16 (slow echo) — re-announcing v20 so the server sheds the ladder's dialect mark before any column is served.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: false)
+[01:45:33] [Test worker/INFO]: LSS disabled by the server mid-session — LOD session retired (cache saved); it re-arms automatically if the server re-enables this session.
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v19, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/WARN]: Server has incompatible LSS protocol version 19 (client: 20), LOD distribution disabled
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v19, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Connected to a legacy (protocol 19) server — native section bodies at the current frame layout (C3 ladder rung 19)
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v19, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/INFO]: Connected to a legacy (protocol 19) server — native section bodies at the current frame layout (C3 ladder rung 19)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

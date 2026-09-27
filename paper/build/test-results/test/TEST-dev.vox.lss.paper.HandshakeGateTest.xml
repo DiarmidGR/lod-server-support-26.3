@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.HandshakeGateTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:48.175Z" hostname="diarmid-desktop" time="0.006">
+  <properties/>
+  <testcase name="versionCheckOutranksCapabilityAndEnabledChecks()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.001"/>
+  <testcase name="zeroCapabilitiesOnDisabledServerStillClassifiesNoConsumer()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <testcase name="newerClientVersionSendsNothing()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <testcase name="v18WithCompatEnabledTakesTheNormalLadderWithTheV18Dialect()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.001"/>
+  <testcase name="fullBitmaskCapabilitiesStillRegister()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <testcase name="futureCapabilityBitsAlongsideVoxelColumnsStillRegister()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <testcase name="v16WithCompatDisabledStaysTheSilentVersionMismatch()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.001"/>
+  <testcase name="v17StillMismatchesWithBothCompatFlagsOn()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <testcase name="negativeProtocolVersionSendsNothing()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <testcase name="foreignCapabilityBitsWithoutVoxelColumnsDoNotRegister()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <testcase name="olderClientVersionSendsNothing()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <testcase name="zeroCapabilitiesRepliesButNeverRegisters()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <testcase name="happyPathRepliesAndRegisters()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <testcase name="v18WithCompatDisabledStaysTheSilentVersionMismatch()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.001"/>
+  <testcase name="theTwoCompatFlagsAreIndependent()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <testcase name="absentServiceAdvertisesDisabledWithoutRegistering()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <testcase name="onlyExactly16GetsTheV16RungAndCurrentKeepsItsDialect()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.001"/>
+  <testcase name="disabledConfigAdvertisesDisabledWithoutRegistering()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <testcase name="v16WithCompatEnabledTakesTheNormalLadderWithTheV16Dialect()" classname="dev.vox.lss.paper.HandshakeGateTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.soak.PaperSoakDriverCommandTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:54.747Z" hostname="diarmid-desktop" time="0.0">
+  <properties/>
+  <testcase name="saveAllMapsToNoOpOnFoliaOnly()" classname="dev.vox.lss.paper.soak.PaperSoakDriverCommandTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

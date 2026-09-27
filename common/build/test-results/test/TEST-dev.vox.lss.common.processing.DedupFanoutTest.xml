@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.DedupFanoutTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:04.319Z" hostname="diarmid-desktop" time="0.317">
+  <properties/>
+  <testcase name="delayedRemovalCannotDetachAReplacementRegistrationsAdmission()" classname="dev.vox.lss.common.processing.DedupFanoutTest" time="0.002"/>
+  <testcase name="secondRequesterAttachesToGroupAndResultFansOutToBoth()" classname="dev.vox.lss.common.processing.DedupFanoutTest" time="0.054"/>
+  <testcase name="notFoundFanoutEscalatesEveryRecipientToGeneration()" classname="dev.vox.lss.common.processing.DedupFanoutTest" time="0.032"/>
+  <testcase name="primaryDisconnectFreesAttachmentsSilentlyAndTheirReRequestIsServed()" classname="dev.vox.lss.common.processing.DedupFanoutTest" time="0.052"/>
+  <testcase name="saturatedResultDropsSilentlyAndCountsSupersededPerRecipient()" classname="dev.vox.lss.common.processing.DedupFanoutTest" time="0.041"/>
+  <testcase name="samePositionInDifferentDimensionsDoesNotShareAGroup()" classname="dev.vox.lss.common.processing.DedupFanoutTest" time="0.032"/>
+  <testcase name="attachedPlayerDisconnectLeavesGroupServingPrimaryAndRejoinerAttachesFresh()" classname="dev.vox.lss.common.processing.DedupFanoutTest" time="0.092"/>
+  <testcase name="attachCountsDiskQueuedAndFanoutCarriesPerRecipientSubmissionOrders()" classname="dev.vox.lss.common.processing.DedupFanoutTest" time="0.012"/>
+  <testcase name="dedupTrackerPrunesEmptyDimensionMapsOnEveryRemovalPath()" classname="dev.vox.lss.common.processing.DedupFanoutTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

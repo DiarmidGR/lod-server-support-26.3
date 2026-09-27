@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.StampedUpToDateFlowTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:31.849Z" hostname="diarmid-desktop" time="0.118">
+  <properties/>
+  <testcase name="predicateRefusalShipsUpToDateWithNoFrame()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.026"/>
+  <testcase name="defaultNeverSourceShipsUpToDateWithNoFrames()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.011"/>
+  <testcase name="tscacheRungStampsOnTheReDeclare()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.013"/>
+  <testcase name="stampedSiteCensusHoldsTheNarrowing()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.025"/>
+  <testcase name="headerFreshDeliveryStampsWithTheSourceSecond()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.022"/>
+  <testcase name="trackerIsPendingSpansMarkToInvalidationApply()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.0"/>
+  <testcase name="ineligiblePlayerGetsTheUpToDateButNoFrame()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.001"/>
+  <testcase name="storeStampConversionNeverStamps()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.011"/>
+  <testcase name="legacyDrainOverloadStillWorksWithoutASink()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.0"/>
+  <testcase name="neverStampFormProducesNoFrame()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.0"/>
+  <testcase name="stampedActionFlushesOneDecodableFrameBesideTheBatchResponse()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.0"/>
+  <testcase name="overCapAccumulationSplitsIntoFramesWithoutTruncation()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.005"/>
+  <testcase name="stampsFrameFlushesBeforeTheBatchResponse()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.0"/>
+  <testcase name="overlappingInvalidationBatchesHoldTheGuardUntilTheLastConfirms()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.0"/>
+  <testcase name="dimensionsAreNeverMixedInOneFrame()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.0"/>
+  <testcase name="theEventBlindStateStampsByAcceptedDesign()" classname="dev.vox.lss.common.processing.StampedUpToDateFlowTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.ClientResetSubtreeTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:33.192Z" hostname="diarmid-desktop" time="0.01">
+  <properties/>
+  <testcase name="allFourResetFormsExistAndParse()" classname="dev.vox.lss.networking.client.ClientResetSubtreeTest" time="0.005"/>
+  <testcase name="theForcedConfirmHangsUnderTheForcedLiteral()" classname="dev.vox.lss.networking.client.ClientResetSubtreeTest" time="0.0"/>
+  <testcase name="bothLoadersUseTheSharedSubtree()" classname="dev.vox.lss.networking.client.ClientResetSubtreeTest" time="0.001"/>
+  <testcase name="everyNodeInTheSubtreeIsExecutable()" classname="dev.vox.lss.networking.client.ClientResetSubtreeTest" time="0.0"/>
+  <testcase name="everyFormDispatchesItsExactFlagPair()" classname="dev.vox.lss.networking.client.ClientResetSubtreeTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

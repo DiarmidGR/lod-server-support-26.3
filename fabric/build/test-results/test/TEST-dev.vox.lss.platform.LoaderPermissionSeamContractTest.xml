@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.platform.LoaderPermissionSeamContractTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:44.202Z" hostname="diarmid-desktop" time="0.007">
+  <properties/>
+  <testcase name="bothLoaderReceiversUseTheProductionEntry()" classname="dev.vox.lss.platform.LoaderPermissionSeamContractTest" time="0.0"/>
+  <testcase name="thePaperCallSitePassesTheRealGate()" classname="dev.vox.lss.platform.LoaderPermissionSeamContractTest" time="0.0"/>
+  <testcase name="thePaperReplayWiringAndQuitSweepArePinned()" classname="dev.vox.lss.platform.LoaderPermissionSeamContractTest" time="0.001"/>
+  <testcase name="everyServiceGateCallSitePassesDefaultTrue()" classname="dev.vox.lss.platform.LoaderPermissionSeamContractTest" time="0.0"/>
+  <testcase name="theFabricServerImplOverridesBothPermissionMethods()" classname="dev.vox.lss.platform.LoaderPermissionSeamContractTest" time="0.0"/>
+  <testcase name="theSharedServiceTickCadenceAndNoProviderWarnArePinned()" classname="dev.vox.lss.platform.LoaderPermissionSeamContractTest" time="0.0"/>
+  <testcase name="theSharedGlueBuildsTheRealGateOnItsProductionEntry()" classname="dev.vox.lss.platform.LoaderPermissionSeamContractTest" time="0.0"/>
+  <testcase name="noOtherXplatFileTouchesTheOpenGate()" classname="dev.vox.lss.platform.LoaderPermissionSeamContractTest" time="0.004"/>
+  <testcase name="bothDisconnectHooksSweepTheGateState()" classname="dev.vox.lss.platform.LoaderPermissionSeamContractTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

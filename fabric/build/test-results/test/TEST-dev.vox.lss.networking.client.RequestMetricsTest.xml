@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.RequestMetricsTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:35.414Z" hostname="diarmid-desktop" time="0.002">
+  <properties/>
+  <testcase name="resetClearsRollingWindowsAndRatesButTotalsSurvive()" classname="dev.vox.lss.networking.client.RequestMetricsTest" time="0.0"/>
+  <testcase name="resetClearsRttSamplesAndPendingStamps()" classname="dev.vox.lss.networking.client.RequestMetricsTest" time="0.0"/>
+  <testcase name="receiveWithoutAPriorSendStampRecordsNoSampleButStillCountsTheColumn()" classname="dev.vox.lss.networking.client.RequestMetricsTest" time="0.0"/>
+  <testcase name="percentilesAreNearestRankOverAKnownSampleSet()" classname="dev.vox.lss.networking.client.RequestMetricsTest" time="0.0"/>
+  <testcase name="rttPercentilesAreMinusOneWithNoSamples()" classname="dev.vox.lss.networking.client.RequestMetricsTest" time="0.0"/>
+  <testcase name="discardingDeadStampsRevivesRttSamplingAfterTheCapFills()" classname="dev.vox.lss.networking.client.RequestMetricsTest" time="0.0"/>
+  <testcase name="reSendOverwritesStampSoTheSampleMeasuresTheLatestAttempt()" classname="dev.vox.lss.networking.client.RequestMetricsTest" time="0.0"/>
+  <testcase name="matchedSendThenReceiveRecordsOneRttSampleAndCountsTheColumn()" classname="dev.vox.lss.networking.client.RequestMetricsTest" time="0.0"/>
+  <testcase name="receiveBeforeTheStampedSendTimeIsDiscardedNotNegative()" classname="dev.vox.lss.networking.client.RequestMetricsTest" time="0.0"/>
+  <testcase name="totalPositionsRequestedIncrementsOnlyAtRecordSendCycle()" classname="dev.vox.lss.networking.client.RequestMetricsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

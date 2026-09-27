@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.FarPlayerMountLadderTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:33.644Z" hostname="diarmid-desktop" time="0.002">
+  <properties/>
+  <testcase name="theFactoryRunsForResolvableTypesAndOnlyFailureLatches()" classname="dev.vox.lss.networking.client.FarPlayerMountLadderTest" time="0.0"/>
+  <testcase name="rung1RealRegistryPinGetOptionalNotTheDefaultedGetValue()" classname="dev.vox.lss.networking.client.FarPlayerMountLadderTest" time="0.0"/>
+  <testcase name="rung1UnknownTypeLatchesOnceAndRendersUnmounted()" classname="dev.vox.lss.networking.client.FarPlayerMountLadderTest" time="0.001"/>
+  <testcase name="rung2NullCreationAndThrowingCreationBothLatchPerType()" classname="dev.vox.lss.networking.client.FarPlayerMountLadderTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:33] [Test worker/WARN]: Far-player mount 'minecraft:horse' will render as an unmounted player: type is not creatable client-side — once per type per session
+[01:45:33] [Test worker/WARN]: Far-player mount 'modx:ghost' will render as an unmounted player: unknown on this client (modded or other-MC-version mount) — once per type per session
+[01:45:33] [Test worker/WARN]: Far-player mount 'minecraft:horse' will render as an unmounted player: type is not creatable client-side — once per type per session
+[01:45:33] [Test worker/WARN]: Far-player mount 'modmod:cursed_mount' will render as an unmounted player: creation failed (java.lang.IllegalStateException: modded ctor) — once per type per session
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

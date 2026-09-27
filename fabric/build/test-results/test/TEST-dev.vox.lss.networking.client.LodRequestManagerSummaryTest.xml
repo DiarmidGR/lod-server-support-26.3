@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" tests="31" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:33.650Z" hostname="diarmid-desktop" time="0.024">
+  <properties/>
+  <testcase name="aMatchingFrameValidatesAndCounts()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.001"/>
+  <testcase name="staleResidueCountsTheTileStale()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="aRevokedPositionReopensItsRingAndRedeclares()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.002"/>
+  <testcase name="aMixedFrameCountsAppliedAndIgnoredPerEntry()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="aColumnStampsFrameForAnotherDimensionDrops()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="frameForAnotherDimensionDrops()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="aRevokedPositionRedeclaresOnTheRegionArmThroughNeedsBitsAlone()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.002"/>
+  <testcase name="malformedFrameAndApplyKillSwitchDropContained()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="flushCacheDropsABufferedFrame()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="allThreeRequestGatesHold()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.001"/>
+  <testcase name="bufferedFramesAreLatestWins()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="aRevokedPositionRedeclaresOnTheRegionArmThroughNeedsBitsAloneAfterNeverClean()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.001"/>
+  <testcase name="neverCleanTilesCountUnknownAndValidateNothing()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="aRevokedPositionRedeclaresOnTheRegionArmThroughNeedsBitsAloneAfterNoRegion()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.002"/>
+  <testcase name="aHostileCenterFrameIsContainedAndWritesNothing()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="aRevokedPositionReopensItsRingAndRedeclaresAfterNoRegion()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.001"/>
+  <testcase name="anIngestFailureDuringTheLoadReappliesBeforeTheBufferedFrame()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="aStampsFrameDuringACacheLoadIsAHarmlessNoOp()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="noRegionTilesAreNoEvidenceAndValidateNothing()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.001"/>
+  <testcase name="aThrowingSenderIsContained()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="aRevokedPositionReopensItsRingAndRedeclaresAfterNeverClean()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.001"/>
+  <testcase name="theClientRadiusNeverTripsTheServerWindowClamp()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.003"/>
+  <testcase name="retainedSummaryThenDoubtAfterDimensionExcursionRedeclares()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.004"/>
+  <testcase name="aStampsFrameBeforeAnyTickIsContained()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="initialEntryAndDimensionChangeBothFireTheRequest()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.002"/>
+  <testcase name="productionHarnessGateReadsTheSystemProperties()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="columnStampsRespectTheKillSwitch()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="aColumnStampsFrameRatchetsAndCounts()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="aHostileColumnStampsFrameIsContained()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.001"/>
+  <testcase name="frameRacingTheCacheLoadBuffersAndAppliesAfterTheLoad()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.0"/>
+  <testcase name="aDimensionChangeInvalidatesTheBufferedFrame()" classname="dev.vox.lss.networking.client.LodRequestManagerSummaryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

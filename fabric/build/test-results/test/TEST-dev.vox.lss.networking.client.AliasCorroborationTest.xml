@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.AliasCorroborationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.783Z" hostname="diarmid-desktop" time="0.001">
+  <properties/>
+  <testcase name="voxyMungeReplacesEveryColon()" classname="dev.vox.lss.networking.client.AliasCorroborationTest" time="0.0"/>
+  <testcase name="theMungeComparisonIsRealNotRedundant()" classname="dev.vox.lss.networking.client.AliasCorroborationTest" time="0.0"/>
+  <testcase name="anUnrecognizedObservedDirFallsBack()" classname="dev.vox.lss.networking.client.AliasCorroborationTest" time="0.0"/>
+  <testcase name="aMemberConnectionUnderTheMirrorObservesTheCanonicalVerbatimAndApplies()" classname="dev.vox.lss.networking.client.AliasCorroborationTest" time="0.001"/>
+  <testcase name="noVoxyConsumerAppliesAsConfigured()" classname="dev.vox.lss.networking.client.AliasCorroborationTest" time="0.0"/>
+  <testcase name="theCanonicalConnectionObservesVoxysOwnMungeAndApplies()" classname="dev.vox.lss.networking.client.AliasCorroborationTest" time="0.0"/>
+  <testcase name="matchingIsCaseSensitiveLikeTheMixinsEquals()" classname="dev.vox.lss.networking.client.AliasCorroborationTest" time="0.0"/>
+  <testcase name="anArmedXaeroBridgeFallsBackEvenWhenVoxyCorroborates()" classname="dev.vox.lss.networking.client.AliasCorroborationTest" time="0.0"/>
+  <testcase name="aMemberConnectionWithoutTheMirrorObservesItsOwnAddressAndFallsBack()" classname="dev.vox.lss.networking.client.AliasCorroborationTest" time="0.0"/>
+  <testcase name="unprobeableVoxyFailsClosed()" classname="dev.vox.lss.networking.client.AliasCorroborationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

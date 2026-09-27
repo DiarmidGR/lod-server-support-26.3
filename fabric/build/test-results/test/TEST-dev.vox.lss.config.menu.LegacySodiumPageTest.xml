@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.config.menu.LegacySodiumPageTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.723Z" hostname="diarmid-desktop" time="0.011">
+  <properties/>
+  <testcase name="anUnknownPrefixFailsAtResolveNotAtBuild()" classname="dev.vox.lss.config.menu.LegacySodiumPageTest" time="0.002"/>
+  <testcase name="pagesMirrorTheCatalogWithBrandedTitles()" classname="dev.vox.lss.config.menu.LegacySodiumPageTest" time="0.004"/>
+  <testcase name="theDependencySupplierFollowsTheStagedValue()" classname="dev.vox.lss.config.menu.LegacySodiumPageTest" time="0.001"/>
+  <testcase name="theProductionPathBuildsAgainstTheLiveConfig()" classname="dev.vox.lss.config.menu.LegacySodiumPageTest" time="0.0"/>
+  <testcase name="aThrowingSodiumDegradesToNoPages()" classname="dev.vox.lss.config.menu.LegacySodiumPageTest" time="0.001"/>
+  <testcase name="resolvesEverySurfaceMemberAgainstTheStubs()" classname="dev.vox.lss.config.menu.LegacySodiumPageTest" time="0.0"/>
+  <testcase name="seeuRevealsTheOverrideAndFlipsTheTooltip()" classname="dev.vox.lss.config.menu.LegacySodiumPageTest" time="0.0"/>
+  <testcase name="controlsMatchTheCatalogKinds()" classname="dev.vox.lss.config.menu.LegacySodiumPageTest" time="0.0"/>
+  <testcase name="hiddenRendererHidesTheRendererOnlyFarPlayerOptions()" classname="dev.vox.lss.config.menu.LegacySodiumPageTest" time="0.001"/>
+  <testcase name="theResolverPrefersTheComponentTooltipOverload()" classname="dev.vox.lss.config.menu.LegacySodiumPageTest" time="0.0"/>
+  <testcase name="theScreensApplyContractSavesEachStorageOnce()" classname="dev.vox.lss.config.menu.LegacySodiumPageTest" time="0.001"/>
+  <testcase name="aSodiumZeroPointFiveStyleSetEnabledIsDetectedAsStatic()" classname="dev.vox.lss.config.menu.LegacySodiumPageTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:32] [Test worker/WARN]: LSS options page: could not build the Sodium settings pages — config files still work (java.lang.IllegalStateException: stub: simulated Sodium build failure)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

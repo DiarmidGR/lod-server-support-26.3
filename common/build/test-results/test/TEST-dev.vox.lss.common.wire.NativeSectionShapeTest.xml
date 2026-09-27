@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.wire.NativeSectionShapeTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:25:56.712Z" hostname="diarmid-desktop" time="0.005">
+  <properties/>
+  <testcase name="v20CarriesBothCountsRegardlessOfTheNativeDescriptor()" classname="dev.vox.lss.common.wire.NativeSectionShapeTest" time="0.0"/>
+  <testcase name="foldsAreUnreachableWhileTheLineCarriesTwoShorts()" classname="dev.vox.lss.common.wire.NativeSectionShapeTest" time="0.001"/>
+  <testcase name="nativeFluidSurvivesExactlyWhenTheLineCarriesTheSecondShort()" classname="dev.vox.lss.common.wire.NativeSectionShapeTest" time="0.0"/>
+  <testcase name="longArrayPrefixReferencesAreAlwaysNativeGated()" classname="dev.vox.lss.common.wire.NativeSectionShapeTest" time="0.002"/>
+  <testcase name="v20BitWidthConstantsAreLiteralsNeverDescriptorDerived()" classname="dev.vox.lss.common.wire.NativeSectionShapeTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

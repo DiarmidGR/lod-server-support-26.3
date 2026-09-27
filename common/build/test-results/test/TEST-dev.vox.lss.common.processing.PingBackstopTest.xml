@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.PingBackstopTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:08.297Z" hostname="diarmid-desktop" time="0.002">
+  <properties/>
+  <testcase name="firstCutBindsToTheObservedSendRate()" classname="dev.vox.lss.common.processing.PingBackstopTest" time="0.001"/>
+  <testcase name="recoveryNeedsThreeCalmAdjustmentsAndStepsUpByQuarter()" classname="dev.vox.lss.common.processing.PingBackstopTest" time="0.0"/>
+  <testcase name="factorFloorsAtTheMinimumEffectiveRate()" classname="dev.vox.lss.common.processing.PingBackstopTest" time="0.0"/>
+  <testcase name="recoveryCapsAtFullAllocation()" classname="dev.vox.lss.common.processing.PingBackstopTest" time="0.0"/>
+  <testcase name="attributionGuardBlocksCutsOnIdleSessions()" classname="dev.vox.lss.common.processing.PingBackstopTest" time="0.0"/>
+  <testcase name="zeroAndAbsentSamplesNeverSeedTheBaseline()" classname="dev.vox.lss.common.processing.PingBackstopTest" time="0.0"/>
+  <testcase name="baselineDriftsUpwardSoARouteChangeRebaselines()" classname="dev.vox.lss.common.processing.PingBackstopTest" time="0.0"/>
+  <testcase name="recoveryProceedsOnAnUnchangedCalmPing()" classname="dev.vox.lss.common.processing.PingBackstopTest" time="0.0"/>
+  <testcase name="adjustmentsAreRateLimitedAndRequireAChangedPing()" classname="dev.vox.lss.common.processing.PingBackstopTest" time="0.0"/>
+  <testcase name="resetFactorClearsALiveCut()" classname="dev.vox.lss.common.processing.PingBackstopTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

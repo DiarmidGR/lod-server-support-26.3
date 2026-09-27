@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.ReadFreshnessRungTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:08.299Z" hostname="diarmid-desktop" time="0.432">
+  <properties/>
+  <testcase name="storeHitDedupSplitsPerRecipientStamp()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.022"/>
+  <testcase name="latchedRegionFallsThroughToTheRead()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.007"/>
+  <testcase name="rungIsInertWithoutATable()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.006"/>
+  <testcase name="allAirStoreHitStillClearsForADataClaimingClient()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.01"/>
+  <testcase name="headerFreshDedupSplitsPerRecipientStamp()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.032"/>
+  <testcase name="plainDiskReadNeverConvertsToUpToDate()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.011"/>
+  <testcase name="oldHeaderResultCannotArmReplacementLateOrder()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.021"/>
+  <testcase name="rejectedStoreBodyCannotArmLateCorrection()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.02"/>
+  <testcase name="storeHitForAcquisitionAskServesBytes()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.01"/>
+  <testcase name="headerFreshArmsBothEligibleDedupRecipientsAtTheirOwnOrders()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.031"/>
+  <testcase name="acquisitionAskNeverConsultsTheHeader()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.006"/>
+  <testcase name="headerFreshAttachedMemberAtExactBoundDropsSilently()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.031"/>
+  <testcase name="rejectedStoreClearCannotArmLateCorrection()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.031"/>
+  <testcase name="storeHitAtOrBelowClientStampConvertsToUpToDate()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.021"/>
+  <testcase name="ghostStoreBodyCannotArmLateCorrection()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.011"/>
+  <testcase name="staleEmptyStoreResolutionCannotArmLateCorrection()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.03"/>
+  <testcase name="storeHitNewerThanClientStampServesBytes()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.01"/>
+  <testcase name="headerFreshGhostDropsSilently()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.011"/>
+  <testcase name="ghostStoreHitDropsSilently()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.011"/>
+  <testcase name="legacySubmitOverloadNeverConsultsTheHeader()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.006"/>
+  <testcase name="stampInsideTheMarginFallsThroughToTheRead()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.01"/>
+  <testcase name="marginClearingClientStampSkipsTheRead()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.006"/>
+  <testcase name="headerFreshRefreshNeverLowersAnExistingStamp()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.02"/>
+  <testcase name="headerFreshOvertakenByEditDropsSilently()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.011"/>
+  <testcase name="storeHitOvertakenByEditServesBytesWithoutConversion()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.011"/>
+  <testcase name="absentChunkAndMissingFileFallThrough()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.011"/>
+  <testcase name="headerFreshDeliversUpToDateAndStampsStrictMargin()" classname="dev.vox.lss.common.processing.ReadFreshnessRungTest" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

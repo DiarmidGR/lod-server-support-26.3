@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.LSSApiDispatchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:33.647Z" hostname="diarmid-desktop" time="0.001">
+  <properties/>
+  <testcase name="throwingConsumersDoNotStarveOthers()" classname="dev.vox.lss.networking.client.LSSApiDispatchTest" time="0.001"/>
+  <system-out><![CDATA[[01:45:33] [Test worker/INFO]: Registered voxel column consumer: dev.vox.lss.networking.client.LSSApiDispatchTest$$Lambda/0x0000000078fc2958
+[01:45:33] [Test worker/INFO]: Registered voxel column consumer: dev.vox.lss.networking.client.LSSApiDispatchTest$$Lambda/0x0000000078fc2b98
+[01:45:33] [Test worker/INFO]: Registered voxel column consumer: dev.vox.lss.networking.client.LSSApiDispatchTest$$Lambda/0x0000000078fc2dd0
+[01:45:33] [Test worker/INFO]: Registered voxel column consumer: dev.vox.lss.networking.client.LSSApiDispatchTest$$Lambda/0x0000000078fc3008
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.PaperServiceGateSweepTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:54.305Z" hostname="diarmid-desktop" time="0.032">
+  <properties/>
+  <testcase name="grantSweepWaitsWhileStillDeniedThenHealsOnGrant()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.001"/>
+  <testcase name="grantReplayIsInertForOfflineAndRegisteredPlayers()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.001"/>
+  <testcase name="theSweepIsOrderedAfterTheLifecycleDrain()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.001"/>
+  <testcase name="perPlayerThrowIsContainedAndCountsAsHolding()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.001"/>
+  <testcase name="stillDeniedIsIdempotentZeroWorkZeroCounts()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.001"/>
+  <testcase name="aMailboxedRemoveWithNoSuccessorStillSweeps()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.001"/>
+  <testcase name="aLateMailboxedRemoveSparesAFastRejoinersFreshState()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.0"/>
+  <testcase name="aNullReplayerRetainsTheMemoInsteadOfDrainingIt()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.001"/>
+  <testcase name="aHandshakeRegistrationClearsTheDeniedMemo()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.001"/>
+  <testcase name="disarmingClearsStreaksSoReArmRestartsTheHysteresis()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.0"/>
+  <testcase name="aDimensionChangeDoesNotResetTheRevocationStreak()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.0"/>
+  <testcase name="legacySessionsAreNeverLiveRevoked()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.001"/>
+  <testcase name="aFlappingGrantNeverRevokes()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.001"/>
+  <testcase name="aGrantReplaysTheRememberedHandshakeThroughTheProductionBody()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.001"/>
+  <testcase name="theTickCadenceReadsOnlyEveryNthTick()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.018"/>
+  <testcase name="aDimensionChangeCycleKeepsTheDeniedMemo()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.0"/>
+  <testcase name="revocationNeedsTwoConsecutiveFailingSweepsThenPushesDisarmAndUnregisters()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.001"/>
+  <testcase name="disarmingTheGateDrainsTheMemo()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.001"/>
+  <testcase name="gateOffAndEmptyMemoIsCompletelyInert()" classname="dev.vox.lss.paper.PaperServiceGateSweepTest" time="0.0"/>
+  <system-out><![CDATA[[15:08:54 INFO]: [LSS] Re-offering LSS to steve (re-offer): the service permission cleared — replaying the stored handshake
+[15:08:54 INFO]: [LSS] LOD service revoked for p-d6d70fae: requireServicePermission is on and a permission recheck found a negative grant on lss.use or vss.use (either spelling denies) — the session was told LSS is disabled; it is re-offered automatically if the grant returns
+[15:08:54 INFO]: [LSS] LOD service revoked for p-e3a039a9: requireServicePermission is on and a permission recheck found a negative grant on lss.use or vss.use (either spelling denies) — the session was told LSS is disabled; it is re-offered automatically if the grant returns
+[15:08:54 INFO]: [LSS] LOD service revoked for p-3fc47436: requireServicePermission is on and a permission recheck found a negative grant on lss.use or vss.use (either spelling denies) — the session was told LSS is disabled; it is re-offered automatically if the grant returns
+[15:08:54 INFO]: [LSS] V16-compat session started for 3dd7e4ce-1256-446a-af86-7dbc3a8581d7 (dialect tracker)
+[15:08:54 INFO]: [LSS] Re-offering LSS to steve (re-offer): the service permission cleared — replaying the stored handshake
+[15:08:54 INFO]: [LSS] LOD service revoked for p-7753db65: requireServicePermission is on and a permission recheck found a negative grant on lss.use or vss.use (either spelling denies) — the session was told LSS is disabled; it is re-offered automatically if the grant returns
+[15:08:54 INFO]: [LSS] Re-offering LSS to steve (re-offer): requireServicePermission was disarmed — replaying the stored handshake
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

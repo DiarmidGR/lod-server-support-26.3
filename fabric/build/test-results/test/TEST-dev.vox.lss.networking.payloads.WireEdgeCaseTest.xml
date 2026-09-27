@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.payloads.WireEdgeCaseTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.122Z" hostname="diarmid-desktop" time="0.01">
+  <properties/>
+  <testcase name="batchResponseEncodesOnlyCountFromOversizedBackingArrays()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.0"/>
+  <testcase name="voxelColumnNamespacelessDimensionAliasesToMinecraftNamespace()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.0"/>
+  <testcase name="handshakeMalformedVarIntOverflowThrowsPinnedType()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.0"/>
+  <testcase name="dirtyColumnsExactMaxRoundTripsIntact()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.001"/>
+  <testcase name="dirtyColumnsEncoderClampsOversizedArrayToMax()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.001"/>
+  <testcase name="voxelColumnSectionBytesAtExactCapRoundTrip()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.0"/>
+  <testcase name="handshakeNegativeVersionDecodesAndGateRefusesReply()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.001"/>
+  <testcase name="handshakeTruncatedOneFieldFrameThrows()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.0"/>
+  <testcase name="voxelColumnTruncatedMidDimensionStringThrowsCleanly()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.0"/>
+  <testcase name="batchChunkRequestEncodesOnlyCountFromOversizedBackingArrays()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.0"/>
+  <testcase name="voxelColumnDecoderRejectsOversizedSectionBytes()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.001"/>
+  <testcase name="voxelColumnDimensionStringAtMaxLengthRoundTrips()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.0"/>
+  <testcase name="voxelColumnTruncatedMidTimestampThrowsCleanly()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.0"/>
+  <testcase name="handshakeTrailingBytesLeftUnread()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.001"/>
+  <testcase name="voxelColumnInvalidDimensionStringThrowsIdentifierException()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.004"/>
+  <testcase name="sessionConfigDrainsFutureVersionFrameWithTailBytes()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.0"/>
+  <testcase name="voxelColumnDimensionStringOverMaxLengthFailsOnEncode()" classname="dev.vox.lss.networking.payloads.WireEdgeCaseTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.compat.XaeroTileExtractorTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.371Z" hostname="diarmid-desktop" time="0.247">
+  <properties/>
+  <testcase name="waterMakesAnOverlayRunOverTheFloor()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.003"/>
+  <testcase name="theScanCrossesMissingSections()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.003"/>
+  <testcase name="colorlessBlocksAreSkippedAsFloor()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.001"/>
+  <testcase name="renderShapeInvisibleBlocksAreSkippedAsFloor()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.0"/>
+  <testcase name="torchesAreInvisibleAndNeverRaiseTopHeight()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.0"/>
+  <testcase name="voidColumnIsTheEraseShape()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.0"/>
+  <testcase name="plainSurfaceFloorsEveryPixel()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.001"/>
+  <testcase name="theDeepRunExtensionIsOneShotAndChargesTheFullDepth()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.001"/>
+  <testcase name="lavaIsAFloorNotAnOverlay()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.0"/>
+  <testcase name="deepWaterTakesTheOneStepExtensionAndStaysOneRun()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.0"/>
+  <testcase name="overlayRunsCarryTheLightAtTheirFirstBlock()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.001"/>
+  <testcase name="iceOverlaysLikeWater()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.0"/>
+  <testcase name="blockLightIsSampledAboveTheFloor()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.0"/>
+  <testcase name="distinctTranslucentStatesSplitIntoRunsAndSameStatesMerge()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.0"/>
+  <testcase name="waterToTheVoidHasOverlaysButNoFloor()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.0"/>
+  <testcase name="waterloggedBlocksOverlayAndFloorAtTheSameY()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.001"/>
+  <testcase name="biomeIsSampledAtTopHeightNotTheFloor()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.0"/>
+  <testcase name="resyncAllAirPresentSectionMatchesTheVoidShape()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.0"/>
+  <testcase name="lightAboveASectionBoundaryReadsAbsentAsZero()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.002"/>
+  <testcase name="glowingFloorsAreMarked()" classname="dev.vox.lss.compat.XaeroTileExtractorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

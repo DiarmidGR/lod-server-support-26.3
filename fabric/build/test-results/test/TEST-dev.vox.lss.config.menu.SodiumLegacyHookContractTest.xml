@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.config.menu.SodiumLegacyHookContractTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.740Z" hostname="diarmid-desktop" time="0.001">
+  <properties/>
+  <testcase name="theConfigIsNonRequiredAndListsTheHook()" classname="dev.vox.lss.config.menu.SodiumLegacyHookContractTest" time="0.0"/>
+  <testcase name="theHookSourceCarriesTheContractedShapeOnBothTrees()" classname="dev.vox.lss.config.menu.SodiumLegacyHookContractTest" time="0.0"/>
+  <testcase name="bothLoaderDescriptorsDeclareTheConfig()" classname="dev.vox.lss.config.menu.SodiumLegacyHookContractTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

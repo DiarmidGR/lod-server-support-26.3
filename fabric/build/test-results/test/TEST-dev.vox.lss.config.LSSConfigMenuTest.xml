@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.config.LSSConfigMenuTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.680Z" hostname="diarmid-desktop" time="0.03">
+  <properties/>
+  <testcase name="bindingsReadAndWriteTheLiveConfig()" classname="dev.vox.lss.config.LSSConfigMenuTest" time="0.005"/>
+  <testcase name="everyOptionCarriesTheCatalogsFacts()" classname="dev.vox.lss.config.LSSConfigMenuTest" time="0.024"/>
+  <testcase name="walksTheCatalogIntoTwoPagesWithTheCatalogsShape()" classname="dev.vox.lss.config.LSSConfigMenuTest" time="0.001"/>
+  <testcase name="exactlyTwoStorageHandlersAreSharedAcrossAllOptions()" classname="dev.vox.lss.config.LSSConfigMenuTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

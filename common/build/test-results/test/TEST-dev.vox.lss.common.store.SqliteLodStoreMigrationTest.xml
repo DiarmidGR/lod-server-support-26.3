@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:11.554Z" hostname="diarmid-desktop" time="6.706">
+  <properties/>
+  <testcase name="dropAllResetsTheWalkBookkeeping()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="0.211"/>
+  <testcase name="depositOverANineteenRowFlipsItToV20AtTheUpsert()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="0.205"/>
+  <testcase name="exactFromStateUpgradesInPlaceAndServesEveryRowPreMigration()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="0.005"/>
+  <testcase name="residualNineteenRowBehindTheWatermarkBlocksThePermutationKeep()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="0.414"/>
+  <testcase name="walkRetagsRowsWithCrcHashesAndResumesAcrossARestart()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="1.463"/>
+  <testcase name="migrationRejectsBadLegacyFrameHashBeforeTranslation()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="0.605"/>
+  <testcase name="tsLoserDepositOverANineteenRowLeavesItNineteen()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="0.205"/>
+  <testcase name="walkDeletesAnomalyRowsAndFinishes()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="0.657"/>
+  <testcase name="aFaultedWalkBatchRetractsRowsAndWatermarkTogetherAndRetries()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="1.062"/>
+  <testcase name="ordinaryReaderRejectsSameLegacyChecksumMismatch()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="0.004"/>
+  <testcase name="foreignFingerprintSchema3DropsAndRebuilds()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="0.003"/>
+  <testcase name="walkRetagsAllAirRowsInsteadOfDeletingThem()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="0.655"/>
+  <testcase name="migrationRejectsWrongDeclaredSizeBeforeTranslation()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="0.606"/>
+  <testcase name="devEraFourTwentyMetaWithoutWirefmtColumnDropsViaTheLayoutGuard()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="0.004"/>
+  <testcase name="migrationRejectsBadLegacyContentHashBeforeTranslation()" classname="dev.vox.lss.common.store.SqliteLodStoreMigrationTest" time="0.606"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

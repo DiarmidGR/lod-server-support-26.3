@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.wire.WireBytesParityTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:31.967Z" hostname="diarmid-desktop" time="0.009">
+  <properties/>
+  <testcase name="varIntEncodingMatchesFriendlyByteBufOnEdgesAndFuzz()" classname="dev.vox.lss.common.wire.WireBytesParityTest" time="0.005"/>
+  <testcase name="readerContainmentIsWireFormatExceptionNotArrayErrors()" classname="dev.vox.lss.common.wire.WireBytesParityTest" time="0.002"/>
+  <testcase name="varIntReadParityOnNonCanonicalEncodings()" classname="dev.vox.lss.common.wire.WireBytesParityTest" time="0.0"/>
+  <testcase name="scalarAndUtfShapesMatchFriendlyByteBuf()" classname="dev.vox.lss.common.wire.WireBytesParityTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

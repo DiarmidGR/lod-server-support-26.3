@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.region.RegionSummaryWireTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:10.106Z" hostname="diarmid-desktop" time="0.007">
+  <properties/>
+  <testcase name="recordConstructionValidatesWireBounds()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.001"/>
+  <testcase name="hostileCenterOutsideTheDomainThrowsOnBothRecords()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.001"/>
+  <testcase name="summaryRoundTripsOverTheFullStampDomain()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.0"/>
+  <testcase name="craftedMaxLongStampAliasesToNeverCleanFailSafe()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.0"/>
+  <testcase name="wrongVersionThrows()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.0"/>
+  <testcase name="belowDomainStampThrows()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.001"/>
+  <testcase name="mismatchedStampArrayLengthThrowsOnEncode()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.0"/>
+  <testcase name="underAllocatedFrameThrowsBeforeStampAllocation()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.0"/>
+  <testcase name="requestRoundTripsIncludingNegativeCenters()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.0"/>
+  <testcase name="truncationAndTrailingBytesThrow()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.001"/>
+  <testcase name="oversizedDimensionThrows()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.0"/>
+  <testcase name="maxRadiusSummaryRoundTrips()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.002"/>
+  <testcase name="hostileRadiusThrowsBeforeAllocation()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.0"/>
+  <testcase name="overlongVarlongThrows()" classname="dev.vox.lss.common.region.RegionSummaryWireTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

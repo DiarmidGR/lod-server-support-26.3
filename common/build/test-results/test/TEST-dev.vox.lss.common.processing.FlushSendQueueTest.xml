@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.FlushSendQueueTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:04.701Z" hostname="diarmid-desktop" time="1.462">
+  <properties/>
+  <testcase name="duplicateEnqueueForOnePositionIsCountedNotClobbered()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.401"/>
+  <testcase name="probeSuppressExpiresOnReadAndTheFlushSweepPrunesUnconsultedStamps()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.051"/>
+  <testcase name="drainsInSubmissionOrderAndRefreshesSnapshot()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.05"/>
+  <testcase name="aSecondSendOfTheSamePositionRefreshesTheDepartureStamp()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.1"/>
+  <testcase name="bandwidthGateStopsTheFlushMidQueue()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.352"/>
+  <testcase name="enqueuedColumnTrackingFollowsThePayloadLifecycle()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.05"/>
+  <testcase name="zeroAllocationSendsNothingButStillSnapshotsTheQueue()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.001"/>
+  <testcase name="zeroGraceDisablesStampingEntirely()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.05"/>
+  <testcase name="noSignalNeverThrottles()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.051"/>
+  <testcase name="aThrowingProbeCannotTakeTheFlushDown()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.05"/>
+  <testcase name="skipProbeCombinesEnqueuedAndSuppressed()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.0"/>
+  <testcase name="senderFailureDropsTheRemainingQueueAndReturnsDroppedPositions()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.051"/>
+  <testcase name="departureGraceExpiresOnReadAndTheSweepPrunesUnaskedStamps()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.05"/>
+  <testcase name="gaugeTracksCurrentAndHighWaterAcrossTicks()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.051"/>
+  <testcase name="probeSuppressStampsOnSendSuccessOnlyAndSurvivesGraceDisabled()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.051"/>
+  <testcase name="productionDefaultEnablesTheDepartureGrace()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.0"/>
+  <testcase name="probeSuppressClearsWithTheDiskReadDoneBit()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.051"/>
+  <testcase name="departureGraceStampsOnSendSuccessOnly()" classname="dev.vox.lss.common.processing.FlushSendQueueTest" time="0.05"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

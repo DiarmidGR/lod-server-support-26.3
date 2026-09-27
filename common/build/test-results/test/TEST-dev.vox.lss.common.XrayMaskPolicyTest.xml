@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.XrayMaskPolicyTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.089Z" hostname="diarmid-desktop" time="0.007">
+  <properties/>
+  <testcase name="onMasksEveryWorldAndAdoptsEngineValuesWhereTheyExist()" classname="dev.vox.lss.common.XrayMaskPolicyTest" time="0.002"/>
+  <testcase name="maskContentFingerprintIgnoresOrderAndDuplicates()" classname="dev.vox.lss.common.XrayMaskPolicyTest" time="0.0"/>
+  <testcase name="offIsAnUnconditionalKillSwitch()" classname="dev.vox.lss.common.XrayMaskPolicyTest" time="0.001"/>
+  <testcase name="normalizeModeYieldsCanonicalSpelling()" classname="dev.vox.lss.common.XrayMaskPolicyTest" time="0.0"/>
+  <testcase name="parseIsCaseAndWhitespaceInsensitive()" classname="dev.vox.lss.common.XrayMaskPolicyTest" time="0.0"/>
+  <testcase name="fallbackKindFromDimensionString()" classname="dev.vox.lss.common.XrayMaskPolicyTest" time="0.001"/>
+  <testcase name="unknownAndNullParseAsAuto()" classname="dev.vox.lss.common.XrayMaskPolicyTest" time="0.0"/>
+  <testcase name="maskContentFingerprintSeesSemanticChanges()" classname="dev.vox.lss.common.XrayMaskPolicyTest" time="0.001"/>
+  <testcase name="autoFollowsEngineDetectionPerWorld()" classname="dev.vox.lss.common.XrayMaskPolicyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

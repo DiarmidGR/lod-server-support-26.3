@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.WireParityTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:54.687Z" hostname="diarmid-desktop" time="0.008">
+  <properties/>
+  <testcase name="voxelColumnEmptySectionBytes()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="referenceFramesCoverEveryDeclaredChannel()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="rewriteColumnToV18DropsExactlyTheCodecByteForEveryProducerTag()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="dirtyColumns()" classname="dev.vox.lss.paper.WireParityTest" time="0.001"/>
+  <testcase name="voxelColumnVanillaDimensions()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="rewriteColumnToV18ThrowsOnANonRawCodec()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="sessionConfig()" classname="dev.vox.lss.paper.WireParityTest" time="0.001"/>
+  <testcase name="clientInfoDecodesOneVarIntAndToleratesTrailingBytes()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="rewriteColumnToV16DropsExactlyTheSourceByteForEveryProducerTag()" classname="dev.vox.lss.paper.WireParityTest" time="0.001"/>
+  <testcase name="rewriteColumnToV18KeepsTheGhostClearAndLongDimensions()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="handshake()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="rewriteColumnToV16KeepsTheGhostClearAndLongDimensions()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="voxelColumnCustomDimension()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="sessionConfigVarIntBoundaries()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="v19EchoStaysFourFieldWithNoDataVersionAppend()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="channelConstantsParseDistinctUnderLssAndVersionPinned()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="batchChunkRequest()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="sessionConfigEchoing18IsTheCurrentFourFieldLayout()" classname="dev.vox.lss.paper.WireParityTest" time="0.001"/>
+  <testcase name="batchResponseAtMaxCountMatchesReference()" classname="dev.vox.lss.paper.WireParityTest" time="0.001"/>
+  <testcase name="batchResponse()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="batchChunkRequestExtremeCorners()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="wireIdentityBytesArePinnedLiterally()" classname="dev.vox.lss.paper.WireParityTest" time="0.0"/>
+  <testcase name="sessionConfigV16EncodesTheSixFieldLayoutEchoingVersion16()" classname="dev.vox.lss.paper.WireParityTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.compat.VoxyStorageOverrideTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.110Z" hostname="diarmid-desktop" time="0.004">
+  <properties/>
+  <testcase name="mismatchHeadlineSaysMismatch()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="skippedWipeReportCanSuppressTheForceSuggestion()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="unreadableLiveRootGetsItsOwnHeadlineAndPlaceholders()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="forcePromptShowsTheDoomedPathAndNamesTheConfirmForm()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="forcePromptDisclosesTheAllServersClearWithoutAnLssSession()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.001"/>
+  <testcase name="forcePromptSaysUnverifiableRatherThanGuessingAnOverride()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="bothReportsShareTheSameRootLines()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="forcePromptWarnsWhenAnOverrideIsActuallyActive()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="anUnverifiableRootGetsItsOwnHeadlineAndCauseInsteadOfAnOverrideGuess()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="onlyTheNoInstanceVerdictHintsAtThePlainReset()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="forcePromptDegradesHonestlyWithoutVoxyOrWithoutAReadableRoot()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="skippedWipeReportOffersTheForceOverrideExactlyOnce()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="theWipeCriterionIsUnchangedAndForceWaivesOnlyTheComparison()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="anOutsideFenceRootIsRefusedTerminallyAndOffersNoConfirm()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="skippedWipeReportNamesBothRootsAndTheLikelyCause()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="theVerdictLadderDistinguishesAllFiveShapes()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="forcePromptSaysSoWhenThereIsNoOverrideToOverride()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <testcase name="noLiveRootIsNeverOfferedTheForceOverride()" classname="dev.vox.lss.compat.VoxyStorageOverrideTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

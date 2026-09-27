@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.wire.NativeToV20TranslatorTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:25:56.717Z" hostname="diarmid-desktop" time="0.191">
+  <properties/>
+  <testcase name="clearColumnTranslatesToTheEmptyDictionaryClearFrame()" classname="dev.vox.lss.common.wire.NativeToV20TranslatorTest" time="0.0"/>
+  <testcase name="convertIndexedRejectsWidthsBeyondTheNativeIndexedThresholds()" classname="dev.vox.lss.common.wire.NativeToV20TranslatorTest" time="0.001"/>
+  <testcase name="translationPreservesEveryVoxelUnderFuzz()" classname="dev.vox.lss.common.wire.NativeToV20TranslatorTest" time="0.025"/>
+  <testcase name="missingOrInvalidIdentitiesFailLoudly()" classname="dev.vox.lss.common.wire.NativeToV20TranslatorTest" time="0.0"/>
+  <testcase name="duplicatePaletteEntriesCanonicalizeToContentIdenticalBytesUnderSeededFuzz()" classname="dev.vox.lss.common.wire.NativeToV20TranslatorTest" time="0.015"/>
+  <testcase name="dictionaryIsSharedAcrossSectionsAndKindsFirstSeen()" classname="dev.vox.lss.common.wire.NativeToV20TranslatorTest" time="0.0"/>
+  <testcase name="directBlocksArePalettizedInFirstSeenOrderAndRepacked()" classname="dev.vox.lss.common.wire.NativeToV20TranslatorTest" time="0.001"/>
+  <testcase name="indexedSectionsShipLongsVerbatimWithDictIndexPalettes()" classname="dev.vox.lss.common.wire.NativeToV20TranslatorTest" time="0.0"/>
+  <testcase name="convertIndexedByteMatchesTranslateAcrossIndexedShapes()" classname="dev.vox.lss.common.wire.NativeToV20TranslatorTest" time="0.001"/>
+  <testcase name="v20BitsMatchesTheSpecTable()" classname="dev.vox.lss.common.wire.NativeToV20TranslatorTest" time="0.0"/>
+  <testcase name="roundTripIsByteExactAcrossAllPackingModesUnderSeededFuzz()" classname="dev.vox.lss.common.wire.NativeToV20TranslatorTest" time="0.148"/>
+  <testcase name="directBiomesRepackAtCeillog2IncludingTheSingleValueCollapse()" classname="dev.vox.lss.common.wire.NativeToV20TranslatorTest" time="0.0"/>
+  <testcase name="lightLayersAndCountShortsPassThroughVerbatim()" classname="dev.vox.lss.common.wire.NativeToV20TranslatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

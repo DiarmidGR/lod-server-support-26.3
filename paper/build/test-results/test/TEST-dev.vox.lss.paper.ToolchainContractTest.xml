@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.ToolchainContractTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2026-09-26T21:08:54.685Z" hostname="diarmid-desktop" time="0.001">
+  <properties/>
+  <testcase name="compiledClassFileTargetsTheLineJavaVersion()" classname="dev.vox.lss.paper.ToolchainContractTest" time="0.001"/>
+  <testcase name="resolvedMinecraftArtifactMatchesTheDeclaredLine()" classname="dev.vox.lss.paper.ToolchainContractTest" time="0.0">
+    <failure message="org.opentest4j.AssertionFailedError: gradle.properties minecraft_version must equal the MC artifact paperweight resolved — the line.env↔gradle.properties↔artifact chain's last link ==&gt; expected: &lt;26.3&gt; but was: &lt;26.2&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: gradle.properties minecraft_version must equal the MC artifact paperweight resolved — the line.env↔gradle.properties↔artifact chain's last link ==&gt; expected: &lt;26.3&gt; but was: &lt;26.2&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at dev.vox.lss.paper.ToolchainContractTest.resolvedMinecraftArtifactMatchesTheDeclaredLine(ToolchainContractTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

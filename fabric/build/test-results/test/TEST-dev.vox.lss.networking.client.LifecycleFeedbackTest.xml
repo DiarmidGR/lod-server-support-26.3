@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.LifecycleFeedbackTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:33.648Z" hostname="diarmid-desktop" time="0.002">
+  <properties/>
+  <testcase name="heldIoDisconnectDropsSinkImmediatelyAndNewSessionStillWorks()" classname="dev.vox.lss.networking.client.LifecycleFeedbackTest" time="0.001"/>
+  <testcase name="oldTicketCannotConsumeNewRegistrationAndCallbacksMayReenter()" classname="dev.vox.lss.networking.client.LifecycleFeedbackTest" time="0.0"/>
+  <testcase name="sameDimensionIdentityChangeAtTakeRejectsWithoutEvent()" classname="dev.vox.lss.networking.client.LifecycleFeedbackTest" time="0.0"/>
+  <testcase name="queuedCompletionThenInvalidationDoesNotDeliver()" classname="dev.vox.lss.networking.client.LifecycleFeedbackTest" time="0.0"/>
+  <testcase name="currentSuccessAndErrorDeliverOnceAndRelease()" classname="dev.vox.lss.networking.client.LifecycleFeedbackTest" time="0.001"/>
+  <testcase name="invalidationClearsReferencesWithoutWaitingForIoOrGc()" classname="dev.vox.lss.networking.client.LifecycleFeedbackTest" time="0.0"/>
+  <testcase name="boundedReservationRejectionAndSubmissionRelease()" classname="dev.vox.lss.networking.client.LifecycleFeedbackTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

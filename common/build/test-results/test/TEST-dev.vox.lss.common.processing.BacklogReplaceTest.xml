@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.BacklogReplaceTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.783Z" hostname="diarmid-desktop" time="0.518">
+  <properties/>
+  <testcase name="emptyClearBatchPublishesNothingToProbe()" classname="dev.vox.lss.common.processing.BacklogReplaceTest" time="0.0"/>
+  <testcase name="emptyBatchIsTheExplicitClear()" classname="dev.vox.lss.common.processing.BacklogReplaceTest" time="0.0"/>
+  <testcase name="restoreBacklogPreservesOriginalOrderAheadOfRemainder()" classname="dev.vox.lss.common.processing.BacklogReplaceTest" time="0.0"/>
+  <testcase name="republishHeldBatchLosesToANewerArrival()" classname="dev.vox.lss.common.processing.BacklogReplaceTest" time="0.001"/>
+  <testcase name="retainedEntriesKeepTheWantSetPublishedAcrossTheDrainAndRestore()" classname="dev.vox.lss.common.processing.BacklogReplaceTest" time="0.0"/>
+  <testcase name="applyPublishesTheWantSetAndDrainingTheBacklogClearsIt()" classname="dev.vox.lss.common.processing.BacklogReplaceTest" time="0.0"/>
+  <testcase name="rangeFilteredAccumulatesAndDrains()" classname="dev.vox.lss.common.processing.BacklogReplaceTest" time="0.0"/>
+  <testcase name="republishHeldBatchDetectsAPassThroughDuringTheHold()" classname="dev.vox.lss.common.processing.BacklogReplaceTest" time="0.0"/>
+  <testcase name="concurrentHoldReleaseNeverRestsAStaleBatchAndBalancesAccounting()" classname="dev.vox.lss.common.processing.BacklogReplaceTest" time="0.515"/>
+  <testcase name="replaceBacklogDropsOldEntriesAndReportsCount()" classname="dev.vox.lss.common.processing.BacklogReplaceTest" time="0.0"/>
+  <testcase name="theRetractGuardCleansAPassThroughInsideTheCasWindow()" classname="dev.vox.lss.common.processing.BacklogReplaceTest" time="0.0"/>
+  <testcase name="offerCountsReceivedAndOverwriteCountsSuperseded()" classname="dev.vox.lss.common.processing.BacklogReplaceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Exception in thread "r8-take" java.lang.AssertionError: java.util.concurrent.BrokenBarrierException
+	at dev.vox.lss.common.processing.BacklogReplaceTest.lambda$concurrentHoldReleaseNeverRestsAStaleBatchAndBalancesAccounting$0(BacklogReplaceTest.java:238)
+	at dev.vox.lss.common.processing.BacklogReplaceTest.lambda$concurrentHoldReleaseNeverRestsAStaleBatchAndBalancesAccounting$2(BacklogReplaceTest.java:253)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.util.concurrent.BrokenBarrierException
+	at java.base/java.util.concurrent.CyclicBarrier.dowait(CyclicBarrier.java:252)
+	at java.base/java.util.concurrent.CyclicBarrier.await(CyclicBarrier.java:437)
+	at dev.vox.lss.common.processing.BacklogReplaceTest.lambda$concurrentHoldReleaseNeverRestsAStaleBatchAndBalancesAccounting$0(BacklogReplaceTest.java:236)
+	... 2 more
+]]></system-err>
+</testsuite>

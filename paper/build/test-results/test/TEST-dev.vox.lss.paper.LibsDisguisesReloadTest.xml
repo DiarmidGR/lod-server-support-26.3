@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.LibsDisguisesReloadTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:51.845Z" hostname="diarmid-desktop" time="0.03">
+  <properties/>
+  <testcase name="changingPluginInstanceMustReadTheNewPluginsDisguiseRegistry()" classname="dev.vox.lss.paper.LibsDisguisesReloadTest" time="0.029"/>
+  <system-out><![CDATA[[15:08:51 INFO]: [LSS] LibsDisguises detected — disguised players are hidden from far players
+[15:08:51 INFO]: [LSS] LibsDisguises detected — disguised players are hidden from far players
+[15:08:51 INFO]: [LSS] LibsDisguises detected — disguised players are hidden from far players
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.diagnostics.StatusStateTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.345Z" hostname="diarmid-desktop" time="0.002">
+  <properties/>
+  <testcase name="intervalCapAndQueueObservationsCoexistWithoutHistoricalPressureClaim()" classname="dev.vox.lss.common.diagnostics.StatusStateTest" time="0.0"/>
+  <testcase name="noManagerStatesRemainUsefulAndMutuallyHonest()" classname="dev.vox.lss.common.diagnostics.StatusStateTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

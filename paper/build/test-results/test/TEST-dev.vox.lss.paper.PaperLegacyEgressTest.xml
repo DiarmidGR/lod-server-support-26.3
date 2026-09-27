@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.PaperLegacyEgressTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:53.591Z" hostname="diarmid-desktop" time="0.129">
+  <properties/>
+  <testcase name="rawBuildTranslatesInPlaceAndRederivesRawSize()" classname="dev.vox.lss.paper.PaperLegacyEgressTest" time="0.001"/>
+  <testcase name="v18AndV16SplicesOverTheTranslatedFrameEqualTheNativeBuiltRewrites()" classname="dev.vox.lss.paper.PaperLegacyEgressTest" time="0.001"/>
+  <testcase name="unresolvableIdentityThrowsTheTranslatorsPinnedFailure()" classname="dev.vox.lss.paper.PaperLegacyEgressTest" time="0.0"/>
+  <testcase name="corpusDirectoriesStayInLockstep()" classname="dev.vox.lss.paper.PaperLegacyEgressTest" time="0.001"/>
+  <testcase name="tinyBodyShipsRawUnderTheShrinkGate()" classname="dev.vox.lss.paper.PaperLegacyEgressTest" time="0.0"/>
+  <testcase name="compressedSessionBuildRecompressesTheNativeBody()" classname="dev.vox.lss.paper.PaperLegacyEgressTest" time="0.0"/>
+  <testcase name="overCapTranslationThrowsBeforeItCanKillTheLegacyConnection()" classname="dev.vox.lss.paper.PaperLegacyEgressTest" time="0.066"/>
+  <testcase name="duplicatePaletteFixtureCollapsesToContentIdenticalBytes()" classname="dev.vox.lss.paper.PaperLegacyEgressTest" time="0.001"/>
+  <testcase name="everyCorpusGoldenTranslatesBackToItsExactNativeBytes()" classname="dev.vox.lss.paper.PaperLegacyEgressTest" time="0.001"/>
+  <testcase name="dialectTrackerAttachIsWiredInTheServiceConstructor()" classname="dev.vox.lss.paper.PaperLegacyEgressTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

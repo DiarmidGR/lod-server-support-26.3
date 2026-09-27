@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.SectionLightDefaultsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:37.166Z" hostname="diarmid-desktop" time="0.038">
+  <properties/>
+  <testcase name="netherSaveShape_blockLightOnly_skyLayerNullAtConsumer()" classname="dev.vox.lss.networking.server.SectionLightDefaultsTest" time="0.0"/>
+  <testcase name="endVoidSaveShape_noLightTags_bothLayersNullAtConsumer()" classname="dev.vox.lss.networking.server.SectionLightDefaultsTest" time="0.001"/>
+  <testcase name="absentLayerIsWireIdenticalToAllZeroLayer_theOnlyPinnedDefault()" classname="dev.vox.lss.networking.server.SectionLightDefaultsTest" time="0.0"/>
+  <testcase name="overworldSaveShape_uniform15SkyShipsVerbatim_absenceIsNeverSynthesized()" classname="dev.vox.lss.networking.server.SectionLightDefaultsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

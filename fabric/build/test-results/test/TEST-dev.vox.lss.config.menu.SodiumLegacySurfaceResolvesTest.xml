@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.config.menu.SodiumLegacySurfaceResolvesTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.742Z" hostname="diarmid-desktop" time="0.003">
+  <properties/>
+  <testcase name="everyModernDeepLinkMemberExistsInTheLinesSodium()" classname="dev.vox.lss.config.menu.SodiumLegacySurfaceResolvesTest" time="0.001"/>
+  <testcase name="legacyStatusReturnMembersExistInActualSodium()" classname="dev.vox.lss.config.menu.SodiumLegacySurfaceResolvesTest" time="0.001"/>
+  <testcase name="everyLegacySurfaceMemberExistsInTheRealJar()" classname="dev.vox.lss.config.menu.SodiumLegacySurfaceResolvesTest" time="0.0"/>
+  <testcase name="modernStatusReturnMembersExistInActualSodium()" classname="dev.vox.lss.config.menu.SodiumLegacySurfaceResolvesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

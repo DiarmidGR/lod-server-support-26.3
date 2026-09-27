@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.payloads.CompressedColumnWireTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.111Z" hostname="diarmid-desktop" time="0.002">
+  <properties/>
+  <testcase name="overCapDeclaredChargeClampsAtMaxSectionsSize()" classname="dev.vox.lss.networking.payloads.CompressedColumnWireTest" time="0.001"/>
+  <testcase name="tinyDeclaredChargeFlooredAtShippedLength()" classname="dev.vox.lss.networking.payloads.CompressedColumnWireTest" time="0.0"/>
+  <testcase name="codec1RoundTripKeepsFrameAndHonestDeclaredCharge()" classname="dev.vox.lss.networking.payloads.CompressedColumnWireTest" time="0.0"/>
+  <testcase name="declaredContentSizeMatchesOnOwnFramesAndFailsOnGarbage()" classname="dev.vox.lss.networking.payloads.CompressedColumnWireTest" time="0.001"/>
+  <testcase name="garbageCodec1BytesChargeShippedLength()" classname="dev.vox.lss.networking.payloads.CompressedColumnWireTest" time="0.0"/>
+  <testcase name="codec1LayoutMatchesExplicitReference()" classname="dev.vox.lss.networking.payloads.CompressedColumnWireTest" time="0.0"/>
+  <testcase name="unknownCodecValuePreservedAndChargesShipped()" classname="dev.vox.lss.networking.payloads.CompressedColumnWireTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

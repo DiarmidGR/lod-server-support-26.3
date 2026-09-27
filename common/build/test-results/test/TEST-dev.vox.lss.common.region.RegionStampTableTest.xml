@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.region.RegionStampTableTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:09.882Z" hostname="diarmid-desktop" time="0.012">
+  <properties/>
+  <testcase name="missingRegionFileIsUnknown()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.001"/>
+  <testcase name="notADirectoryRegionPathIsNeverCleanForEveryTile()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="tileSweepsDoNotRetainHeaderArraysButChunkAsksDo()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.001"/>
+  <testcase name="snapshotCapStripsAndRelearns()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.001"/>
+  <testcase name="absentChunkInPresentRegionIsNeverClean()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="markAtOrBelowTheObservedHeaderDoesNotLatch()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.001"/>
+  <testcase name="headerSecondAnswersForPresentChunk()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="headerRereadWithLowerSecondsKeepsTheMonotonicBound()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.001"/>
+  <testcase name="tileStampDegenerateSecondPoisonsTheWholeRegion()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="memoServesWithoutRereadWithinHorizon()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="tileStampNoRegionIsZeroAndMarkedNoRegionIsNeverClean()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="newRegionAppearsInTheListingAfterAHorizon()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="tileStampReportsTheRegionMaxHeaderSecond()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.001"/>
+  <testcase name="throwingResolverIsUnknown()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="markAboveTheObservedHeaderLatchesTheWholeRegion()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="hostileRegionFileNamesAreSkipped()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.001"/>
+  <testcase name="fileAppearingAfterAbsenceIsPickedUpAfterHorizon()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="allAbsentHeaderIsNeverCleanNotNoRegion()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.001"/>
+  <testcase name="unresolvableDimensionIsUnknown()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="truncatedHeaderIsUnknown()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="tileStampUnresolvableDimensionIsNeverClean()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="mtimeIsTheChangeDetectorOnceSettled()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.001"/>
+  <testcase name="unreadableHeaderIsCachedForAHorizonThenRetried()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="isClaimSuppressedMirrorsTheLatchWithoutIo()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.001"/>
+  <testcase name="degenerateHeaderSecondsAreNeverClean()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <testcase name="deletedRegionAfterObservationIsNeverClean()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.001"/>
+  <testcase name="tileStampLatchesBehindAPendingMark()" classname="dev.vox.lss.common.region.RegionStampTableTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

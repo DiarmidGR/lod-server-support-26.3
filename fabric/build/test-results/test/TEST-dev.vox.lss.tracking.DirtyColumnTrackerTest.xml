@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.tracking.DirtyColumnTrackerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:45.679Z" hostname="diarmid-desktop" time="0.003">
+  <properties/>
+  <testcase name="separateDimensionsIsolated()" classname="dev.vox.lss.tracking.DirtyColumnTrackerTest" time="0.0"/>
+  <testcase name="markThenDrainReturnsPositions()" classname="dev.vox.lss.tracking.DirtyColumnTrackerTest" time="0.0"/>
+  <testcase name="duplicatePositionDeduped()" classname="dev.vox.lss.tracking.DirtyColumnTrackerTest" time="0.0"/>
+  <testcase name="unknownDimensionReturnsNull()" classname="dev.vox.lss.tracking.DirtyColumnTrackerTest" time="0.0"/>
+  <testcase name="secondDrainReturnsNull()" classname="dev.vox.lss.tracking.DirtyColumnTrackerTest" time="0.0"/>
+  <testcase name="concurrentMarkDuringDrainNeverLosesAPositionOrThrows()" classname="dev.vox.lss.tracking.DirtyColumnTrackerTest" time="0.003"/>
+  <testcase name="multiplePositionsAllReturned()" classname="dev.vox.lss.tracking.DirtyColumnTrackerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.SlotAdmissionTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:08.793Z" hostname="diarmid-desktop" time="0.001">
+  <properties/>
+  <testcase name="removeFreesTheSlot()" classname="dev.vox.lss.common.processing.SlotAdmissionTest" time="0.0"/>
+  <testcase name="slotsAreIndependent()" classname="dev.vox.lss.common.processing.SlotAdmissionTest" time="0.0"/>
+  <testcase name="updateGenSlotCapOpensAdmissionPastTheOldCapAndTheFieldStaysVolatile()" classname="dev.vox.lss.common.processing.SlotAdmissionTest" time="0.0"/>
+  <testcase name="diskNotFoundEscalationBounceLeavesNoPendingEntry()" classname="dev.vox.lss.common.processing.SlotAdmissionTest" time="0.0"/>
+  <testcase name="samePositionReplacementIsRejectedAtCapAndTheExistingEntrySurvives()" classname="dev.vox.lss.common.processing.SlotAdmissionTest" time="0.0"/>
+  <testcase name="admitsUpToCapThenRejectsAdmission()" classname="dev.vox.lss.common.processing.SlotAdmissionTest" time="0.0"/>
+  <testcase name="removingUntrackedPositionDoesNotUnderflow()" classname="dev.vox.lss.common.processing.SlotAdmissionTest" time="0.0"/>
+  <testcase name="hasPendingTracksAdmission()" classname="dev.vox.lss.common.processing.SlotAdmissionTest" time="0.0"/>
+  <testcase name="samePositionReadmissionSwapsSlotInsteadOfLeaking()" classname="dev.vox.lss.common.processing.SlotAdmissionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

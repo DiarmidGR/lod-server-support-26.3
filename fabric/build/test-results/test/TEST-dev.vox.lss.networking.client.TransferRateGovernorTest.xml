@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.TransferRateGovernorTest" tests="60" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.079Z" hostname="diarmid-desktop" time="0.009">
+  <properties/>
+  <testcase name="congestionBelowTheEngageGateContainsViaThePlateauSnapNotEngagement()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="keptUpIntervalsDoubleToTheCeilingAndTenCreditedIntervalsOpen()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.001"/>
+  <testcase name="rampEngageKeepsTheMeasuredBelowConjunctVerbatim()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="engageRequiresTwoConsecutiveCongestedIntervals()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="hintSurvivesHardResetButDiesInReset()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="negativeCounterDeltaIsNonQualifyingAndReseeds()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="sizeEstimatorRisesFastAndDecaysSlowly()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="demandLimitedShortfallWithNormalPingNeverEngages()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="awaitingLatchQualifiesMidIntervalDemandAndItsAbsenceDisqualifies()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="unarmedGovernorStartsOpenAndCapless()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="pingNormalNeverDisengagesWhileTheCapBinds()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="missingFloorRelearnsAfterDimensionChange()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="fastMeasuredRateNeverEngages()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="windowLimitedOfferBackedPlateauStillSnaps()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="congestedShortfallEngagesAtMeasuredMinusHalfStep()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="windowLimitedLatchIsIntervalScopedAndClearedByResets()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="warmRejoinByteFreeAnsweredIntervalsGrow()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="permanentEdgeRingFloorNeverReadsAsExcess()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.001"/>
+  <testcase name="inactiveHardResetsAndSuppliesNoCap()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="dimensionChangeKeepsTheMeasurementsAndDropsTheCap()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="underOfferedShortfallFreezesInsteadOfCutting()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="sustainedRateAboveTheEngageThresholdDisengages()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="haltOverlappedIntervalIsNonQualifying()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="vanillaFirstCutNeverRaisesDesired()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.001"/>
+  <testcase name="pacerFloorClearsAGovernedQuarterBatchAtDefaults()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="underOfferedIntervalHoldsAndPlateauSnapsWithoutRaising()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="everyFourthKeptUpIsADrainInterval()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="idleIntervalNeverAdjusts()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="missingVanillaExcessCutsEvenWhenKeptUp()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="missingVanillaNeverEngagesAnUnengagedSession()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="vanillaBehindHoldsTheRamp()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="composeRateCapsHandlesBothOffSentinels()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="dimensionChangeReRampsAtHalfTheProvenRate()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.001"/>
+  <testcase name="answeredTrickleUnderTheOfferFloorNeverRamps()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="movementHoldsGrowthOnlyWithPositivePingExcess()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="harnessJvmPropertiesGateTheGovernorOff()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="windowLimitedSingleAliasedMissIsForgiven()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="conversionFloorsAtOneColumnPerSecond()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="adoptFromCoversEveryStateFieldOrDocumentsTheReset()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.001"/>
+  <testcase name="bindingCapWithNormalPingNeverDisengagesWhileServerLimited()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="spuriouslyLowMissingFloorHealsByDrift()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="engagedWithNoSizeSampleSuppliesNoCap()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.001"/>
+  <testcase name="windowLimitedTwoConsecutiveMissesResetTheStreak()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="operatingRegionsStaySeparated()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="baselineDriftsUpwardOneMsPerSecond()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="missingVanillaBelowTheMarginStepsNormally()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="trickleThroughTinyBudgetSelfArrestsAndNeverCredits()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="drainIntervalNeverRaisesDesired()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="partiallyAnsweredByteFreeIntervalHoldsInsteadOfSnapping()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="movementIntervalHoldsTheClimb()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.001"/>
+  <testcase name="armedSessionStartsRampedAtInitialWithThePreSampleSeed()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="toggleOffDemotesRampOnlyAndNeverTouchesEngaged()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="keptUpStepsUpAndShortfallCutsWithTheAbsoluteBand()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="windowLimitedUnderOfferNeverSnaps()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="desiredFloorsAtMinRate()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="resetKillsEverythingIncludingBaselineAndEstimator()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="unlatchedUncreditedIntervalStillResetsTheStreak()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="windowLimitedStopAndWaitCompletesTheRamp()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.001"/>
+  <testcase name="highRttDeliveredAllOfferedStillGrows()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <testcase name="burstCapIsAQuarterOfSustainedRoundedUp()" classname="dev.vox.lss.networking.client.TransferRateGovernorTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:36] [Test worker/INFO]: LOD slow start complete — the connection kept up through the ramp; LOD downloads now run uncapped (logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 172 KB/s (link congestion: ping +1938 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 64 KB/s (link congestion: ping +1944 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 64 KB/s (link congestion: ping +1944 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 64 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 172 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 172 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 64 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 64 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 3456 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor disengaged (sustained rate above the engage threshold; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 64 KB/s (link congestion: ping +1944 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 672 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 172 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD slow start complete — the connection kept up through the ramp; LOD downloads now run uncapped (logged once per session)
+[01:45:36] [Test worker/INFO]: LOD slow start complete — the connection kept up through the ramp; LOD downloads now run uncapped (logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 64 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 172 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 172 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 64 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD slow start complete — the connection kept up through the ramp; LOD downloads now run uncapped (logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 172 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 64 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 64 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:36] [Test worker/INFO]: LOD slow start complete — the connection kept up through the ramp; LOD downloads now run uncapped (logged once per session)
+[01:45:36] [Test worker/INFO]: LOD slow start complete — the connection kept up through the ramp; LOD downloads now run uncapped (logged once per session)
+[01:45:36] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

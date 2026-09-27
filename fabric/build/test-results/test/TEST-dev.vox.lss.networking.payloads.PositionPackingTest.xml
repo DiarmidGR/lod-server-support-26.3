@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.payloads.PositionPackingTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.118Z" hostname="diarmid-desktop" time="0.001">
+  <properties/>
+  <testcase name="zeroCoords()" classname="dev.vox.lss.networking.payloads.PositionPackingTest" time="0.0"/>
+  <testcase name="hostileExtremeCoordinatesCannotSlipUnderTheGate()" classname="dev.vox.lss.networking.payloads.PositionPackingTest" time="0.0"/>
+  <testcase name="isOutOfRangeBoundaryIsInclusive()" classname="dev.vox.lss.networking.payloads.PositionPackingTest" time="0.0"/>
+  <testcase name="distinctness()" classname="dev.vox.lss.networking.payloads.PositionPackingTest" time="0.0"/>
+  <testcase name="everySlotOfARegionRoundTripsUniquely()" classname="dev.vox.lss.networking.payloads.PositionPackingTest" time="0.0"/>
+  <testcase name="mixedSigns()" classname="dev.vox.lss.networking.payloads.PositionPackingTest" time="0.0"/>
+  <testcase name="chebyshevDistanceExtremeCoordsClampInsteadOfOverflowing()" classname="dev.vox.lss.networking.payloads.PositionPackingTest" time="0.001"/>
+  <testcase name="extremeValues()" classname="dev.vox.lss.networking.payloads.PositionPackingTest" time="0.0"/>
+  <testcase name="chebyshevDistanceBasics()" classname="dev.vox.lss.networking.payloads.PositionPackingTest" time="0.0"/>
+  <testcase name="negativeCoords()" classname="dev.vox.lss.networking.payloads.PositionPackingTest" time="0.0"/>
+  <testcase name="regionAndSlotAgreeWithAFloorDivReferenceIncludingNegativesAndExtremes()" classname="dev.vox.lss.networking.payloads.PositionPackingTest" time="0.0"/>
+  <testcase name="positiveCoords()" classname="dev.vox.lss.networking.payloads.PositionPackingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.trace.MoveTraceFieldPinsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:45.657Z" hostname="diarmid-desktop" time="0.018">
+  <properties/>
+  <testcase name="rejectionTeleportTargetStillExists()" classname="dev.vox.lss.trace.MoveTraceFieldPinsTest" time="0.015"/>
+  <testcase name="accessorTargetFieldsStillExist()" classname="dev.vox.lss.trace.MoveTraceFieldPinsTest" time="0.002"/>
+  <testcase name="movePacketGettersTheClaimRecomputationUses()" classname="dev.vox.lss.trace.MoveTraceFieldPinsTest" time="0.0"/>
+  <testcase name="publicMembersTheHooksAndVanillaRungRelyOn()" classname="dev.vox.lss.trace.MoveTraceFieldPinsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

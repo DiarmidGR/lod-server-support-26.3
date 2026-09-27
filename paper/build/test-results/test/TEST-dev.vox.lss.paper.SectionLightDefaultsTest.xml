@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.SectionLightDefaultsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:54.636Z" hostname="diarmid-desktop" time="0.048">
+  <properties/>
+  <testcase name="livePath_presentLayers_shipVerbatim_acrossSparseSections()" classname="dev.vox.lss.paper.SectionLightDefaultsTest" time="0.001"/>
+  <testcase name="livePath_allZeroDataLayers_wireIdenticalToMissingLayers()" classname="dev.vox.lss.paper.SectionLightDefaultsTest" time="0.001"/>
+  <testcase name="netherSaveShape_blockLightOnly_skyLayerNullAtDecode()" classname="dev.vox.lss.paper.SectionLightDefaultsTest" time="0.0"/>
+  <testcase name="livePath_missingDataLayers_absentFlagsOnWire()" classname="dev.vox.lss.paper.SectionLightDefaultsTest" time="0.001"/>
+  <testcase name="endVoidSaveShape_noLightTags_bothLayersNullAtDecode()" classname="dev.vox.lss.paper.SectionLightDefaultsTest" time="0.0"/>
+  <testcase name="absentLayerIsWireIdenticalToAllZeroLayer_theOnlyPinnedDefault()" classname="dev.vox.lss.paper.SectionLightDefaultsTest" time="0.001"/>
+  <testcase name="overworldSaveShape_uniform15SkyShipsVerbatim_absenceIsNeverSynthesized()" classname="dev.vox.lss.paper.SectionLightDefaultsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

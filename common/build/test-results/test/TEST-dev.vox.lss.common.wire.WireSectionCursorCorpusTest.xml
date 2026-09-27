@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.wire.WireSectionCursorCorpusTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:25:56.908Z" hostname="diarmid-desktop" time="0.026">
+  <properties/>
+  <testcase name="everyCorpusGoldenTranslatesToV20VoxelForVoxel()" classname="dev.vox.lss.common.wire.WireSectionCursorCorpusTest" time="0.024"/>
+  <testcase name="everyCorpusGoldenSurvivesParseEmitByteIdentical()" classname="dev.vox.lss.common.wire.WireSectionCursorCorpusTest" time="0.001"/>
+  <testcase name="everyCorpusGoldenScansToItsExactLength()" classname="dev.vox.lss.common.wire.WireSectionCursorCorpusTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

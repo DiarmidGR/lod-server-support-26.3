@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.StoreLegacyRowCompositionTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2026-09-27T07:45:42.907Z" hostname="diarmid-desktop" time="1.175">
+  <properties/>
+  <testcase name="theMigrationWalkPersistsTheFreshV20EncodeByteExactly()" classname="dev.vox.lss.networking.server.StoreLegacyRowCompositionTest" time="0.933">
+    <failure message="org.opentest4j.AssertionFailedError: usize recomputed for the v20 body ==&gt; expected: &lt;6263&gt; but was: &lt;6325&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: usize recomputed for the v20 body ==&gt; expected: &lt;6263&gt; but was: &lt;6325&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:559)
+	at knot//dev.vox.lss.networking.server.StoreLegacyRowCompositionTest.theMigrationWalkPersistsTheFreshV20EncodeByteExactly(StoreLegacyRowCompositionTest.java:206)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="aRealNativeStoreRowServesTheV20CorpusGoldenThroughTheRealRung()" classname="dev.vox.lss.networking.server.StoreLegacyRowCompositionTest" time="0.209">
+    <failure message="org.opentest4j.AssertionFailedError: store row → rung → REAL toV20 must produce the committed v20 golden ==&gt; array lengths differ, expected: &lt;2239&gt; but was: &lt;2330&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: store row → rung → REAL toV20 must produce the committed v20 golden ==&gt; array lengths differ, expected: &lt;2239&gt; but was: &lt;2330&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArraysHaveSameLength(AssertArrayEquals.java:428)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:205)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:63)
+	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1234)
+	at knot//dev.vox.lss.networking.server.StoreLegacyRowCompositionTest.aRealNativeStoreRowServesTheV20CorpusGoldenThroughTheRealRung(StoreLegacyRowCompositionTest.java:143)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <system-out><![CDATA[[01:45:43] [Test worker/INFO]: LOD store: background migration pending — 1/1 rows to rewrite to the v20 body format (idle-paced; serves translate meanwhile)
+[01:45:43] [LSS LOD Store SQLite/INFO]: LOD store: background migration complete — 1 rows rewritten to v20 of 1 walked
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

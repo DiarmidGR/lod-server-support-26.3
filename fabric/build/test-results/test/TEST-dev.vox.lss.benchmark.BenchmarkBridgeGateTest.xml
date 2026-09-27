@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.benchmark.BenchmarkBridgeGateTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:31.674Z" hostname="diarmid-desktop" time="0.057">
+  <properties/>
+  <testcase name="soakScenarioWinsAndTheBenchmarkHaltNeverArmsEvenWithBenchmarkEnabled()" classname="dev.vox.lss.benchmark.BenchmarkBridgeGateTest" time="0.018"/>
+  <testcase name="validSoakScenarioRegistersTheDriverWithoutTheBenchmarkHalt()" classname="dev.vox.lss.benchmark.BenchmarkBridgeGateTest" time="0.005"/>
+  <testcase name="benchmarkAloneArmsTheHaltHooksProvingTheCounterOracle()" classname="dev.vox.lss.benchmark.BenchmarkBridgeGateTest" time="0.0"/>
+  <testcase name="bridgeActivatesNothingWithoutHarnessProperties()" classname="dev.vox.lss.benchmark.BenchmarkBridgeGateTest" time="0.032"/>
+  <testcase name="anyHarnessEnabledFollowsTheThreePropertyMatrix()" classname="dev.vox.lss.benchmark.BenchmarkBridgeGateTest" time="0.001"/>
+  <system-out><![CDATA[[01:45:31] [Test worker/INFO]: [Soak] Scenario active: /tmp/lss-gate-scenario7789690079258594624.json (0 steps, end anchor 1 +5s)
+[01:45:31] [Test worker/INFO]: [Benchmark] Server hook active, duration=60s
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

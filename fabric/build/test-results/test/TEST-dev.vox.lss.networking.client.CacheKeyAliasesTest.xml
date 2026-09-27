@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.CacheKeyAliasesTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.784Z" hostname="diarmid-desktop" time="0.003">
+  <properties/>
+  <testcase name="addressComponentSanitizesAndEscapesTheReservedTail()" classname="dev.vox.lss.networking.client.CacheKeyAliasesTest" time="0.001"/>
+  <testcase name="reservedBucketNamesDropTheGroup()" classname="dev.vox.lss.networking.client.CacheKeyAliasesTest" time="0.0"/>
+  <testcase name="blankAndNullEntriesDropTheGroup()" classname="dev.vox.lss.networking.client.CacheKeyAliasesTest" time="0.0"/>
+  <testcase name="collidingCanonicalBucketsDropTheLaterGroup()" classname="dev.vox.lss.networking.client.CacheKeyAliasesTest" time="0.0"/>
+  <testcase name="aSingleEntryGroupIsAcceptedAndInert()" classname="dev.vox.lss.networking.client.CacheKeyAliasesTest" time="0.0"/>
+  <testcase name="normalizationIsTrimPlusLowercaseOnly()" classname="dev.vox.lss.networking.client.CacheKeyAliasesTest" time="0.001"/>
+  <testcase name="aDroppedGroupClaimsNothingSoLaterGroupsSurvive()" classname="dev.vox.lss.networking.client.CacheKeyAliasesTest" time="0.0"/>
+  <testcase name="crossGroupDuplicatesDropTheLaterGroupOnly()" classname="dev.vox.lss.networking.client.CacheKeyAliasesTest" time="0.0"/>
+  <testcase name="matchingIsNormalizedMembershipFirstGroupWins()" classname="dev.vox.lss.networking.client.CacheKeyAliasesTest" time="0.0"/>
+  <testcase name="portBearingCanonicalsDropTheGroupButPortBearingMembersAreFine()" classname="dev.vox.lss.networking.client.CacheKeyAliasesTest" time="0.0"/>
+  <testcase name="aRejectedGroupDoesNotTakeItsNeighboursDown()" classname="dev.vox.lss.networking.client.CacheKeyAliasesTest" time="0.0"/>
+  <testcase name="nullAndEmptyShapesValidateToNothing()" classname="dev.vox.lss.networking.client.CacheKeyAliasesTest" time="0.0"/>
+  <testcase name="intraGroupCaseVariantsDedupeInsteadOfDroppingTheGroup()" classname="dev.vox.lss.networking.client.CacheKeyAliasesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

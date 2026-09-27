@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.compat.FabricPermissionsBridgeTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:31.984Z" hostname="diarmid-desktop" time="0.004">
+  <properties/>
+  <testcase name="resolutionLatchesPerJvmUntilTheTestReset()" classname="dev.vox.lss.compat.FabricPermissionsBridgeTest" time="0.0"/>
+  <testcase name="aThrowingProviderIsContainedToTheDefault()" classname="dev.vox.lss.compat.FabricPermissionsBridgeTest" time="0.001"/>
+  <testcase name="anAbsentApiAnswersTheDefaultQuietly()" classname="dev.vox.lss.compat.FabricPermissionsBridgeTest" time="0.0"/>
+  <testcase name="resolvesTheEntityOverloadByShapeAndDelegates()" classname="dev.vox.lss.compat.FabricPermissionsBridgeTest" time="0.001"/>
+  <testcase name="aDriftedApiSurfaceAnswersTheDefault()" classname="dev.vox.lss.compat.FabricPermissionsBridgeTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:31] [Test worker/WARN]: fabric-permissions-api check threw — answering the default (true) for lss.use (java.lang.IllegalStateException: permission backend mid-boot)
+[01:45:31] [Test worker/WARN]: fabric-permissions-api is present but its check(Entity, String, boolean) surface was not found (API drift?) — the service gate will serve everyone on this loader
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.CompressedColumnPaperWireTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:47.662Z" hostname="diarmid-desktop" time="0.347">
+  <properties/>
+  <testcase name="rawOverloadEncodesCodec0()" classname="dev.vox.lss.paper.CompressedColumnPaperWireTest" time="0.335"/>
+  <testcase name="spliceRemovesExactlyTwoBytesFromARawFrame()" classname="dev.vox.lss.paper.CompressedColumnPaperWireTest" time="0.0"/>
+  <testcase name="spliceThrowsOnACodec1Frame()" classname="dev.vox.lss.paper.CompressedColumnPaperWireTest" time="0.0"/>
+  <testcase name="codec1EncodeMatchesExplicitV19Layout()" classname="dev.vox.lss.paper.CompressedColumnPaperWireTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[2026-09-26T21:08:47.928254914Z Test worker WARN Advanced terminal features are not available in this environment
+]]></system-err>
+</testsuite>

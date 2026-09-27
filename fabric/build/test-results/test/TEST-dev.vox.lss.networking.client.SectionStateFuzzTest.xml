@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.SectionStateFuzzTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:35.422Z" hostname="diarmid-desktop" time="0.565">
+  <properties/>
+  <testcase name="randomOpSequencesMatchTheReferenceImplementation()" classname="dev.vox.lss.networking.client.SectionStateFuzzTest" time="0.562"/>
+  <testcase name="ringNeedsFreeEngagesOnConvergedLeavesAndDisengagesPerNeedsFlavor()" classname="dev.vox.lss.networking.client.SectionStateFuzzTest" time="0.0"/>
+  <testcase name="detachForSaveEmptiesTheStoreAndMergeSaveDetachedMatchesLegacyMergeSave()" classname="dev.vox.lss.networking.client.SectionStateFuzzTest" time="0.002"/>
+  <testcase name="buildLoadedPlusAdoptEqualsLoadFromOverLiveState()" classname="dev.vox.lss.networking.client.SectionStateFuzzTest" time="0.0"/>
+  <testcase name="detachedStateVisitsExactlyThePresentEntries()" classname="dev.vox.lss.networking.client.SectionStateFuzzTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:35] [Test worker/INFO]: Saved 2 cached column entries for lss_test_quad_detach
+[01:45:35] [Test worker/INFO]: Saved 2 cached column entries for lss_test_quad_detach
+[01:45:35] [Test worker/INFO]: Loaded 2 cached column entries for lss_test_quad_detach
+[01:45:35] [Test worker/INFO]: Saved 3 cached column entries for lss_test_quad_detach
+[01:45:35] [Test worker/INFO]: Loaded 2 cached column entries for lss_test_quad_detach
+[01:45:35] [Test worker/INFO]: Saved 3 cached column entries for lss_test_quad_detach
+[01:45:35] [Test worker/INFO]: Loaded 3 cached column entries for lss_test_quad_detach
+[01:45:35] [Test worker/INFO]: Loaded 3 cached column entries for lss_test_quad_detach
+[01:45:35] [LSS-CacheIO/INFO]: Cleared column cache for server test-quad-detach-legacy
+[01:45:35] [LSS-CacheIO/INFO]: Cleared column cache for server test-quad-detach-new
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

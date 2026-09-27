@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.trace.MoveTraceHookContractTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:45.675Z" hostname="diarmid-desktop" time="0.003">
+  <properties/>
+  <testcase name="ringFlushPrecedesEventEmissionInBothEventBodies()" classname="dev.vox.lss.trace.MoveTraceHookContractTest" time="0.0"/>
+  <testcase name="extractedMovementBytecodeMatchesTheTargetingCensus()" classname="dev.vox.lss.trace.MoveTraceHookContractTest" time="0.001"/>
+  <testcase name="ensureRunningOnSameThreadIsTheFirstInvoke()" classname="dev.vox.lss.trace.MoveTraceHookContractTest" time="0.001"/>
+  <testcase name="mixinSourceCarriesTheContractedTargetingScheme()" classname="dev.vox.lss.trace.MoveTraceHookContractTest" time="0.001"/>
+  <testcase name="traceMixinConfigIsSeparateAndNonRequired()" classname="dev.vox.lss.trace.MoveTraceHookContractTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

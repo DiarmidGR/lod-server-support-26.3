@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.soak.PaperExporterContractTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:54.695Z" hostname="diarmid-desktop" time="0.052">
+  <properties/>
+  <testcase name="highWaterGaugesCaptureBurstsAndMsptCountsSamplerTicks()" classname="dev.vox.lss.paper.soak.PaperExporterContractTest" time="0.043"/>
+  <testcase name="malformedProbeTokensAreSkippedAndValidOnesKept()" classname="dev.vox.lss.paper.soak.PaperExporterContractTest" time="0.001"/>
+  <testcase name="diskMapIsEmptyWhenNoReaderIsConfigured()" classname="dev.vox.lss.paper.soak.PaperExporterContractTest" time="0.001"/>
+  <testcase name="serverSnapshotMatchesTheSharedFabricContractLiteral()" classname="dev.vox.lss.paper.soak.PaperExporterContractTest" time="0.002"/>
+  <testcase name="emptyProbeSpecEmitsNoProbeHashesKey()" classname="dev.vox.lss.paper.soak.PaperExporterContractTest" time="0.001"/>
+  <testcase name="generationDisabledZeroFillsEveryGenerationField()" classname="dev.vox.lss.paper.soak.PaperExporterContractTest" time="0.0"/>
+  <testcase name="probeHashesCaptureFnvOfWireBytesKeyedByProbedPositionOnly()" classname="dev.vox.lss.paper.soak.PaperExporterContractTest" time="0.001"/>
+  <testcase name="appendJsonLineWritesOneCompactRowPerCallCreatesDirsAndAppends(Path)" classname="dev.vox.lss.paper.soak.PaperExporterContractTest" time="0.001"/>
+  <testcase name="buildServerMetricsOfNullServiceReturnsNull()" classname="dev.vox.lss.paper.soak.PaperExporterContractTest" time="0.001"/>
+  <testcase name="distinctValuesLandOnTheirContractKeys()" classname="dev.vox.lss.paper.soak.PaperExporterContractTest" time="0.001"/>
+  <system-out><![CDATA[[15:08:54 WARN]: [LSS] [Soak] Ignoring malformed probe token 'banana' (want x:z)
+[15:08:54 WARN]: [LSS] [Soak] Ignoring malformed probe token ':5' (want x:z)
+[15:08:54 WARN]: [LSS] [Soak] Ignoring malformed probe token '4:-2x' (want x:z)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

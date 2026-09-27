@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.AccessorLivingEntityContractTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.750Z" hostname="diarmid-desktop" time="0.032">
+  <properties/>
+  <testcase name="theAccessorTargetsFieldsThatActuallyExist()" classname="dev.vox.lss.networking.client.AccessorLivingEntityContractTest" time="0.002"/>
+  <testcase name="theDispatcherAccessorTargetsTheEquipmentAssetsField()" classname="dev.vox.lss.networking.client.AccessorLivingEntityContractTest" time="0.029"/>
+  <testcase name="bothMixinConfigsListTheAccessorsUnderClient()" classname="dev.vox.lss.networking.client.AccessorLivingEntityContractTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

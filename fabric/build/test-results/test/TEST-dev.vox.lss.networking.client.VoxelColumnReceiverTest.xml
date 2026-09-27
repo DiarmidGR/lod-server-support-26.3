@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.VoxelColumnReceiverTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.108Z" hostname="diarmid-desktop" time="0.001">
+  <properties/>
+  <testcase name="contentResyncAirFills()" classname="dev.vox.lss.networking.client.VoxelColumnReceiverTest" time="0.0"/>
+  <testcase name="clearRacingADroppedStampStillAirFills()" classname="dev.vox.lss.networking.client.VoxelColumnReceiverTest" time="0.0"/>
+  <testcase name="firstServeOfContentIsNotAResync()" classname="dev.vox.lss.networking.client.VoxelColumnReceiverTest" time="0.0"/>
+  <testcase name="directUnownedDispatchSeamStillOffersTheColumn()" classname="dev.vox.lss.networking.client.VoxelColumnReceiverTest" time="0.0"/>
+  <testcase name="resyncClearIsFlaggedAuthoritative()" classname="dev.vox.lss.networking.client.VoxelColumnReceiverTest" time="0.0"/>
+  <testcase name="retiredOwnerCannotAdmitOrStampAColumn()" classname="dev.vox.lss.networking.client.VoxelColumnReceiverTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

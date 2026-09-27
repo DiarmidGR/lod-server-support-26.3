@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.GateRetentionRoutingTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:06.163Z" hostname="diarmid-desktop" time="0.015">
+  <properties/>
+  <testcase name="dedupAttachedRequestsRideThroughSaturation()" classname="dev.vox.lss.common.processing.GateRetentionRoutingTest" time="0.003"/>
+  <testcase name="saturatedGateRetainsTheEntryStopsThePassAndCountsExactlyOneStop()" classname="dev.vox.lss.common.processing.GateRetentionRoutingTest" time="0.003"/>
+  <testcase name="poolHeadroomStopIsNeverBilledToTheGate()" classname="dev.vox.lss.common.processing.GateRetentionRoutingTest" time="0.003"/>
+  <testcase name="midPassSaturationFlipStopsAdmissionAtTheFlip()" classname="dev.vox.lss.common.processing.GateRetentionRoutingTest" time="0.002"/>
+  <testcase name="unsaturatedGateRoutesByteIdenticallyWithZeroStops()" classname="dev.vox.lss.common.processing.GateRetentionRoutingTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.compat.MoonriseReadCompatTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:31.994Z" hostname="diarmid-desktop" time="0.005">
+  <properties/>
+  <testcase name="nullTagCompletesAsAuthoritativeNotFound()" classname="dev.vox.lss.compat.MoonriseReadCompatTest" time="0.002"/>
+  <testcase name="nonEnumPriorityParamResolvesUnavailable()" classname="dev.vox.lss.compat.MoonriseReadCompatTest" time="0.0"/>
+  <testcase name="modNotLoadedResolvesUnavailableWithoutClassloadingOrWarning()" classname="dev.vox.lss.compat.MoonriseReadCompatTest" time="0.0"/>
+  <testcase name="throwingLookupIsContainedIncludingLinkageError()" classname="dev.vox.lss.compat.MoonriseReadCompatTest" time="0.001"/>
+  <testcase name="happyPathResolvesAndInvokesWithPaperParityArguments()" classname="dev.vox.lss.compat.MoonriseReadCompatTest" time="0.001"/>
+  <testcase name="callbackErrorCompletesExceptionally()" classname="dev.vox.lss.compat.MoonriseReadCompatTest" time="0.0"/>
+  <testcase name="missingClassResolvesUnavailableWithOneWarning()" classname="dev.vox.lss.compat.MoonriseReadCompatTest" time="0.0"/>
+  <testcase name="missingLowConstantResolvesUnavailable()" classname="dev.vox.lss.compat.MoonriseReadCompatTest" time="0.0"/>
+  <testcase name="missingOverloadResolvesUnavailableWithOneWarning()" classname="dev.vox.lss.compat.MoonriseReadCompatTest" time="0.0"/>
+  <testcase name="synchronousInvokeThrowPropagatesRawForCallerClassification()" classname="dev.vox.lss.compat.MoonriseReadCompatTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

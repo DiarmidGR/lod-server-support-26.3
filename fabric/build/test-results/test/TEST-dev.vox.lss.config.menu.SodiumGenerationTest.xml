@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.config.menu.SodiumGenerationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.737Z" hostname="diarmid-desktop" time="0.003">
+  <properties/>
+  <testcase name="modernFromTheConfigApiEntryPoint()" classname="dev.vox.lss.config.menu.SodiumGenerationTest" time="0.0"/>
+  <testcase name="nothingIsNone()" classname="dev.vox.lss.config.menu.SodiumGenerationTest" time="0.0"/>
+  <testcase name="modernWinsAnImpossibleOverlap()" classname="dev.vox.lss.config.menu.SodiumGenerationTest" time="0.0"/>
+  <testcase name="aThrowingLookupIsNoneNeverAThrow()" classname="dev.vox.lss.config.menu.SodiumGenerationTest" time="0.0"/>
+  <testcase name="theProbeSourceNeverLoadsAClass()" classname="dev.vox.lss.config.menu.SodiumGenerationTest" time="0.001"/>
+  <testcase name="theLegacyPrefixIgnoringModernSeesThroughAForeignApiJar()" classname="dev.vox.lss.config.menu.SodiumGenerationTest" time="0.001"/>
+  <testcase name="legacyFromTheOptionsScreenUnderEitherPrefix()" classname="dev.vox.lss.config.menu.SodiumGenerationTest" time="0.0"/>
+  <testcase name="theResourceNameIsTheClassFilePath()" classname="dev.vox.lss.config.menu.SodiumGenerationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

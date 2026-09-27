@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.config.RuntimeSettingsTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.223Z" hostname="diarmid-desktop" time="0.047">
+  <properties/>
+  <testcase name="lodDistanceWorldOverridePersistsAcrossSave(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.005"/>
+  <testcase name="loweringTheGlobalGenCapDragsPerPlayerDownViaValidate(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.001"/>
+  <testcase name="farPlayersMaxDistanceRowClampsLikeBootValidation(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.001"/>
+  <testcase name="pingBackstopRowParsesStrictBooleans()" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.001"/>
+  <testcase name="failedPersistenceKeepsAppliedValueAndOriginalFile(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.003"/>
+  <testcase name="requireServicePermissionRowIsAStrictBooleanWithTheReofferNote(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.003"/>
+  <testcase name="zeroRoundTripsUnchangedForTheTwoZeroSemanticKeys(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.003"/>
+  <testcase name="everyRegisteredKeyRoundTripsAnInBandValue(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.003"/>
+  <testcase name="lodDistanceWorldOverrideRoundTripsAndClears(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.007"/>
+  <testcase name="malformedValuesThrowWithoutAssigningAndUnknownKeysResolveNull(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.001"/>
+  <testcase name="lodDistanceGrammarCornersAndReplyRendering(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.003"/>
+  <testcase name="clampedValuesReportTheEffectiveValueNotTheRequest(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.001"/>
+  <testcase name="sendPacingRowParsesStrictBooleans()" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.001"/>
+  <testcase name="listingsCoverEveryKeyExactlyOnce()" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.001"/>
+  <testcase name="applyPersistsToTheConfigFileAndKeepsHiddenKeysDropped(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.002"/>
+  <testcase name="farPlayersModeRowParsesStrictlyNormalizesAliasesAndAssignsNothingOnFailure(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.002"/>
+  <testcase name="bandwidthOverflowClampsAndNegativeResetsToTheCompiledDefault(Path)" classname="dev.vox.lss.common.config.RuntimeSettingsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

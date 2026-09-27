@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.PairedIngressLifecycleTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:08.285Z" hostname="diarmid-desktop" time="0.009">
+  <properties/>
+  <testcase name="generationOutcomeFiltersBothPendingAndAlreadyActivePairedBytes()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.003"/>
+  <testcase name="lateCorrectionIsOneShotAndRequiresOriginalDiskResult()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.001"/>
+  <testcase name="newerEmptyOfferDropsActiveBytesAndSupersedesOldHeldRelease()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="dirtyAndRetirementCannotResurrectLateBytes()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="generationCancellationDiscardsAlreadyPublishedClaim()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="lateCorrectionWaitsForPendingAndQueuedOlderWork()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.001"/>
+  <testcase name="ordinaryIngressStillRoutesImmediatelyButFoliaFreshWaitsForPump()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="selectedCompletionSurvivesFrontierButNotActualInvalidation()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="lateAttemptCountAndRawBytesAreBounded()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.001"/>
+  <testcase name="oldDiskResultCannotArmOrDiscardNewAttempt()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="movedOutOfRangeLateResultIsDiscarded()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="selectedOldCompletionCannotConsumeReplacementDiskOrder()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.001"/>
+  <testcase name="retirementDropsPendingAndActiveHolders()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="admittedLateOpportunityIsOneShotAndNullCompletionRetiresIt()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="nullClaimCompletionPreservesEarlierOriginalPublication()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="overlapPreservesAdmissionIdentityWithoutRenewingOpportunityOrExpiry()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="releasedEnvelopeCannotBeStolenByLaterPumpAndCopiesOnlyMatchingBoundedProbes()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.001"/>
+  <testcase name="explicitBacklogReplacementDropsPreviousPair()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="pairedBytesSurvivePollThenRetainedRestoreButNotConvergence()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="offerBeforeReservationCannotCancelAlreadyAdmittedOldRoutingAttempt()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.001"/>
+  <testcase name="laterFrontiersIncludingEmptyPreserveOnlyTheExistingAdmission()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="lateBytesExpireWithoutWaitingForSendQueueCapacity()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <testcase name="retiredCallbackCannotConsumeReplacementAdmission()" classname="dev.vox.lss.common.processing.PairedIngressLifecycleTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

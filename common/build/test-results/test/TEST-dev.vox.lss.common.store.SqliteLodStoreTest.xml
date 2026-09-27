@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.store.SqliteLodStoreTest" tests="45" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:18.261Z" hostname="diarmid-desktop" time="90.047">
+  <properties/>
+  <testcase name="sweepDropsRowsOfVanishedRegionsAndAbsentChunks()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.206"/>
+  <testcase name="storeServesNothingUntilTheStartupSweepCompletes()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.204"/>
+  <testcase name="corruptDbFileIsDroppedAndRecreated()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.204"/>
+  <testcase name="rowIntegrityFailureCountsErrorAndPurgesTheRow()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.407"/>
+  <testcase name="sizeCapEvictionIsOldestFirstAcrossDimensions()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="17.102"/>
+  <testcase name="sweepDropsRowsWhoseHeaderStampAdvancedAndKeepsUntouchedOnes()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.204"/>
+  <testcase name="schemaVersionDriftDropsAndRebuildsTheStore()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.408"/>
+  <testcase name="emptyContentFingerprintOnEitherSideCannotProveAPermutation()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.408"/>
+  <testcase name="failedDeleteRequeuesAndAppliesOnRetry()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.407"/>
+  <testcase name="sizeCapConvergesToAWorkingSetInsteadOfEvictingEverything()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="18.241"/>
+  <testcase name="uncappedStoreNeverEvictsAndNeverLogsTheCapLine()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.203"/>
+  <testcase name="registryFingerprintDriftDropsAndRebuildsTheStore()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.206"/>
+  <testcase name="sizeCapEvictsOldestRowsAndKeepsNewest()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="17.094"/>
+  <testcase name="depositImmediatelyInvalidatedNeverResurrects()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.027"/>
+  <testcase name="appliedDeleteSurvivesALaterOpsRollback()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.432"/>
+  <testcase name="latestWinsByStoredTsAndSkipCounted()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.403"/>
+  <testcase name="writerFailureStreakLatchesTheStoreOff()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.228"/>
+  <testcase name="metaDriftDropsAndRebuildsTheStore()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.407"/>
+  <testcase name="permutationWithPendingLegacyRowsStillDrops()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.206"/>
+  <testcase name="periodicResweepReportsDroppedPositionsToTheListener()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="1.031"/>
+  <testcase name="preContentKeyStoreWithMatchingOrderAdoptsTheKeyWithoutDropping()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.205"/>
+  <testcase name="repeatedReadsOnOneThreadStayCorrectAcrossCachedStatements()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.203"/>
+  <testcase name="tombstonesOutliveTheirOwnQueuedDeletes()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="11.255"/>
+  <testcase name="shutdownIsIdempotentAndDepositAfterShutdownIsIgnored()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.001"/>
+  <testcase name="readsAfterShutdownOpenAndRegisterNoConnections()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.203"/>
+  <testcase name="sweepJudgesRowsByAcquisitionStampNotDepositTime()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.407"/>
+  <testcase name="runtimeDimensionUnknownToTheResolverIsDroppedAtReopen()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.204"/>
+  <testcase name="writerRollbackUnpoisonsTheSweepReopenedMemo()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.683"/>
+  <testcase name="sizeCapEvictionLogsExactlyOncePerSession()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="10.118"/>
+  <testcase name="unresolvableRegionDirDropsOnlyThatDimension()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.204"/>
+  <testcase name="readerSetupThrowClosesTheHandleAndTheThreadRecovers()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.204"/>
+  <testcase name="pureRegistryPermutationKeepsAV20OnlyStore()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.206"/>
+  <testcase name="sizeCapEvictionUnmarksTheAffectedBackfillRegions()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="5.011"/>
+  <testcase name="periodicResweepDropsRowsStaleFromUnfiredEvents()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="1.03"/>
+  <testcase name="invalidateIsEffectiveBeforeTheAsyncRowDelete()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.203"/>
+  <testcase name="unknownDimensionReadsAsMissWithoutError()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.001"/>
+  <testcase name="maskFingerprintDriftDropsTheDimensionsRows()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.406"/>
+  <testcase name="shutdownMustNotMarkUnexaminedRegionsSeen()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.204"/>
+  <testcase name="registryContentDriftDropsRegardlessOfV20Rows()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.205"/>
+  <testcase name="depositRoundTripsAcrossReopenIncludingAllAir()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.204"/>
+  <testcase name="concurrentProducersKeepTheStoreConsistent()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.04"/>
+  <testcase name="sweepSkipsRegionsWhoseMtimeIsUnchangedSinceItsLastExamination()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.205"/>
+  <testcase name="preContentKeyStoreUnderPermutationDropsOnceAsUnprovable()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.407"/>
+  <testcase name="contentHashIsCrc32cZeroExtended()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.0"/>
+  <testcase name="coreKeyDriftDropsEvenWithMatchingContentFingerprint()" classname="dev.vox.lss.common.store.SqliteLodStoreTest" time="0.205"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

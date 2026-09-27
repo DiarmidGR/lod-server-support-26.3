@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.DiskReaderStoreRungTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:04.698Z" hostname="diarmid-desktop" time="0.003">
+  <properties/>
+  <testcase name="missCountsStoreMissAndRunsTheNbtPathWithTodaysCounters()" classname="dev.vox.lss.common.processing.DiskReaderStoreRungTest" time="0.0"/>
+  <testcase name="noStoreAttachedBehavesExactlyAsBefore()" classname="dev.vox.lss.common.processing.DiskReaderStoreRungTest" time="0.001"/>
+  <testcase name="saturationBounceCountsTheFullTripleTogether()" classname="dev.vox.lss.common.processing.DiskReaderStoreRungTest" time="0.0"/>
+  <testcase name="hitServesStoredBytesAndTimestampWithZeroDiskCounters()" classname="dev.vox.lss.common.processing.DiskReaderStoreRungTest" time="0.0"/>
+  <testcase name="allAirHitDeliversAllAirShapeNeverNotFound()" classname="dev.vox.lss.common.processing.DiskReaderStoreRungTest" time="0.0"/>
+  <testcase name="throwingStoreIsContainedAsMissAndCountsStoreError()" classname="dev.vox.lss.common.processing.DiskReaderStoreRungTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

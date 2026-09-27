@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.compat.ViaProbeTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:31.774Z" hostname="diarmid-desktop" time="0.005">
+  <properties/>
+  <testcase name="absentClassIsSilentNoSignal()" classname="dev.vox.lss.common.compat.ViaProbeTest" time="0.001"/>
+  <testcase name="unresolvableShapeWarnsOnceAtBuildAndStaysNoSignal()" classname="dev.vox.lss.common.compat.ViaProbeTest" time="0.0"/>
+  <testcase name="resolvesAndReadsThePlayerProtocol()" classname="dev.vox.lss.common.compat.ViaProbeTest" time="0.001"/>
+  <testcase name="theProductionHolderResolvesTheRealClassName()" classname="dev.vox.lss.common.compat.ViaProbeTest" time="0.001"/>
+  <testcase name="theMismatchRuleIsFailOpen()" classname="dev.vox.lss.common.compat.ViaProbeTest" time="0.0"/>
+  <testcase name="nullApiIsNoSignal()" classname="dev.vox.lss.common.compat.ViaProbeTest" time="0.0"/>
+  <testcase name="throwingGetApiIsNoSignalForThatCallOnlyNeverALatch()" classname="dev.vox.lss.common.compat.ViaProbeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

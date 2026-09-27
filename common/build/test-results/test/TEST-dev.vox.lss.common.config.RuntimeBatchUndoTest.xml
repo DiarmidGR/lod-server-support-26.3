@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.config.RuntimeBatchUndoTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.207Z" hostname="diarmid-desktop" time="0.01">
+  <properties/>
+  <testcase name="previewAndUndoCannotCrossConfigIdentity()" classname="dev.vox.lss.common.config.RuntimeBatchUndoTest" time="0.002"/>
+  <testcase name="undoPublishesOneGenerationPairForRaiseAndLowerInEitherRequestOrder()" classname="dev.vox.lss.common.config.RuntimeBatchUndoTest" time="0.005"/>
+  <testcase name="validLaterEditToUnchangedDependencySurvivesUndo()" classname="dev.vox.lss.common.config.RuntimeBatchUndoTest" time="0.001"/>
+  <testcase name="validationDependencyConflictRefusesUndoBeforeAnyPublicationOrSave()" classname="dev.vox.lss.common.config.RuntimeBatchUndoTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

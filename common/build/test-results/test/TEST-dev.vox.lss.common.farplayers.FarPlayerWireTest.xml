@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.farplayers.FarPlayerWireTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.389Z" hostname="diarmid-desktop" time="0.005">
+  <properties/>
+  <testcase name="quantizationHelpersAreInverseWithinPrecision()" classname="dev.vox.lss.common.farplayers.FarPlayerWireTest" time="0.0"/>
+  <testcase name="rosterRoundTrip()" classname="dev.vox.lss.common.farplayers.FarPlayerWireTest" time="0.001"/>
+  <testcase name="prefsRoundTrip()" classname="dev.vox.lss.common.farplayers.FarPlayerWireTest" time="0.001"/>
+  <testcase name="encodingIsDeterministicAcrossCalls()" classname="dev.vox.lss.common.farplayers.FarPlayerWireTest" time="0.0"/>
+  <testcase name="hostileFramesAreRejectedBounded()" classname="dev.vox.lss.common.farplayers.FarPlayerWireTest" time="0.002"/>
+  <testcase name="updatesRoundTripWithEquipmentAndVehicle()" classname="dev.vox.lss.common.farplayers.FarPlayerWireTest" time="0.0"/>
+  <testcase name="dictionaryDeduplicatesSharedIdentities()" classname="dev.vox.lss.common.farplayers.FarPlayerWireTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

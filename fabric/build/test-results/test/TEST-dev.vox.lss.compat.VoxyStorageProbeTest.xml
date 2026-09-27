@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.compat.VoxyStorageProbeTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.114Z" hostname="diarmid-desktop" time="0.004">
+  <properties/>
+  <testcase name="aNonClientInstanceIsContainedToUnobservable()" classname="dev.vox.lss.compat.VoxyStorageProbeTest" time="0.001"/>
+  <testcase name="aNullStorageRootIsUnobservable()" classname="dev.vox.lss.compat.VoxyStorageProbeTest" time="0.0"/>
+  <testcase name="anUnresolvableProbeNeverCostsTheIngestBridge()" classname="dev.vox.lss.compat.VoxyStorageProbeTest" time="0.001"/>
+  <testcase name="aDeadResetDomainLeavesTheProbeAlive()" classname="dev.vox.lss.compat.VoxyStorageProbeTest" time="0.001"/>
+  <testcase name="aFailedResolutionLatchesForTheSession()" classname="dev.vox.lss.compat.VoxyStorageProbeTest" time="0.0"/>
+  <testcase name="noLiveInstanceIsUnobservable()" classname="dev.vox.lss.compat.VoxyStorageProbeTest" time="0.0"/>
+  <testcase name="observesTheLiveRootsDirectoryName()" classname="dev.vox.lss.compat.VoxyStorageProbeTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:32] [Test worker/WARN]: Voxy storage probe failed (java.lang.ClassCastException: Cannot cast me.cortex.voxy.commonImpl.VoxyInstance to me.cortex.voxy.client.VoxyClientInstance) — treating as unobservable
+[01:45:32] [Test worker/INFO]: Voxy storage probe: the live instance reports no storage root
+[01:45:32] [Test worker/WARN]: Voxy storage probe unavailable on this Voxy version — cacheAddressAliases will fall back per connection (java.lang.ClassNotFoundException: me.cortex.voxy.client.VoxyClientInstance)
+[01:45:32] [Test worker/INFO]: Voxy detected — registered raw ingest bridge
+[01:45:32] [Test worker/WARN]: Voxy reset unavailable on this Voxy version — /lss reset will clear only the LSS half (java.lang.ClassNotFoundException: me.cortex.voxy.client.core.IGetVoxyRenderSystem)
+[01:45:32] [Test worker/INFO]: Voxy storage probe: live root directory is 'still-observable'
+[01:45:32] [Test worker/WARN]: Voxy storage probe unavailable on this Voxy version — cacheAddressAliases will fall back per connection (java.lang.ClassNotFoundException: me.cortex.voxy.commonImpl.VoxyCommon)
+[01:45:32] [Test worker/INFO]: Voxy storage probe: live root directory is 'after-reset'
+[01:45:32] [Test worker/INFO]: Voxy storage probe: no live Voxy instance to observe
+[01:45:32] [Test worker/INFO]: Voxy storage probe: live root directory is 'alt.example.com'
+[01:45:32] [Test worker/INFO]: Voxy storage probe: live root directory is 'play.example.com'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

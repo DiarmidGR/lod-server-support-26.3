@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.store.StoreBackfillTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:25:48.308Z" hostname="diarmid-desktop" time="8.39">
+  <properties/>
+  <testcase name="terminalStatusLineIsAScriptConsumedContract()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.028"/>
+  <testcase name="estimateLodBytesAppliesTheMeasuredRatio()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.0"/>
+  <testcase name="backfillDepositSrcStampPredatesTheRead()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="2.712"/>
+  <testcase name="invalidateAllResetsBackfillProgressSoTheWalkCanRewarm()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.43"/>
+  <testcase name="regionWithReadErrorsIsNotMarkedDone()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.027"/>
+  <testcase name="walkHardStopsAtAnActiveCapAndResumesAfterRaisingIt()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.455"/>
+  <testcase name="remainingEstimateArithmeticCoversBothBranchesAndTheClamps()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.001"/>
+  <testcase name="skipsColumnsTheStoreAlreadyHas()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.228"/>
+  <testcase name="startIsIdempotentWhileRunning()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.027"/>
+  <testcase name="describePlanSumsPlannedRegionFilesAndFlagsACapExceedingEstimate()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.002"/>
+  <testcase name="columnsPerSecondCtorValuePacesTheWalkInRateWindows()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="3.011"/>
+  <testcase name="progressResetsOnASecondStart()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.43"/>
+  <testcase name="walksNearestRegionFirstAndDepositsPresentChunks()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.228"/>
+  <testcase name="finishedRegionsResumeAsDoneAcrossAStoreRestart()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.255"/>
+  <testcase name="remainingEstimateReflectsMidWalkProgressUnderALatchParkedReader()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.053"/>
+  <testcase name="pauseGateHoldsWhileRestrainedAndStopExits()" classname="dev.vox.lss.common.store.StoreBackfillTest" time="0.503"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

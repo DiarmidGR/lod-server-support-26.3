@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.LodRequestManagerTickTest" tests="41" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:33.700Z" hostname="diarmid-desktop" time="0.017">
+  <properties/>
+  <testcase name="oneScanNeverDeclaresMoreThanTheProtocolBatchCap()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="engagedGovernorShrinksTheDeclaredBatchThroughTheProductionWiring()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.001"/>
+  <testcase name="manualBelowTheGovernedHalfNeverLatches()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="truncatedGovernedWalkLatchesOnFastFiresOnly()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="convergedFastWalkDisarmsThroughTheManagerArming()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.001"/>
+  <testcase name="productionBacklogSupplierReadsTheApiAggregateBehindTheConfigGate()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="chunkBoundaryCrossingFasterThanTheCadenceDoesNotStarveScans()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.001"/>
+  <testcase name="partiallyAnsweredBatchStaysPeriodic()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="chunkCrossingHandsTheScannerTheRealCrossingDelta()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="disconnectDisarmsTheFastCadence()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="movementPruneDefersBelowTheHysteresisThreshold()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.001"/>
+  <testcase name="liveMissingVanillaSampleReachesTheGovernorAtProbeCadence()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="nearlyAnsweredBatchFastFiresThroughTheRealTickPath()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.001"/>
+  <testcase name="notGeneratedParksPermanentlyAndLegacyZeroStampsDeclareAsNoData()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="probeGateExcludesLegacySessionsAndHarnessJvms()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="manualCapBindingNeverLatchesTheWindowLimit()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.001"/>
+  <testcase name="productionDefaultEnablesSlowStartAndClampsTheFirstWalk()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.001"/>
+  <testcase name="ingestBacklogHaltsDeclarationsWithOneEdgeTriggeredClearPerCrossing()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="pressureAboveTheQuarterLineHoldsFastFires()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="totalPositionsRequestedCountsEveryDeclaredEntry()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="pingProbeFiresAtOneHertzOnlyWhileGovernorActive()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="firstTickOutsideChunkOriginKeepsThePrimedImmediateScan()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.001"/>
+  <testcase name="firstTickAtChunkOriginRunsThePrimedScanImmediately()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="teleportDropsStaleWantsFromTheNextBatch()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="backpressureHaltsBeforeCachePollAndScanAndClearsTheServerBacklogOnce()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.001"/>
+  <testcase name="backpressureAlsoHaltsOnTheByteDimensionOfTheQueue()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="legacySessionExcludesTheGovernor()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.001"/>
+  <testcase name="movementPruneDropsOutOfRangeColumnsAndTrackingTogether()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="killSwitchBindsThroughTheProductionConfigRead()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="sendFailureDisarmsTheFastCadence()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="governorKillSwitchBindsThroughTheProductionConfigRead()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="disconnectClearsInFlightTrackingButKeepsColumnStampsForTheCacheSave()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="dimensionChangeResetsAllRequestStateWithoutSilentOrphans()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="failedSendNeverLatchesTheWindowLimitOnTheLegacyArm()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="truncatedGovernedWalkLatchesOnFastFiresOnlyOnTheLegacyArm()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="noSignalIngestBacklogNeverHalts()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="backpressureClearDisarmsTheFastCadence()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="movementPruneStillRunsOnABackpressuredTick()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="manualCapBindingNeverLatchesTheWindowLimitOnTheLegacyArm()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <testcase name="failedSendNeverLatchesTheWindowLimit()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.001"/>
+  <testcase name="manualBelowTheGovernedHalfNeverLatchesOnTheLegacyArm()" classname="dev.vox.lss.networking.client.LodRequestManagerTickTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:33] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:33] [Test worker/INFO]: Registered voxel column consumer: dev.vox.lss.networking.client.LodRequestManagerTickTest$1
+[01:45:33] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:33] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:33] [Test worker/INFO]: LOD transfer governor engaged at 272 KB/s (link congestion: ping +1946 ms over baseline; LOD downloads now pace themselves below link capacity; logged once per session)
+[01:45:33] [LSS-CacheIO/INFO]: Saved 1 cached column entries for lss_test_overworld
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

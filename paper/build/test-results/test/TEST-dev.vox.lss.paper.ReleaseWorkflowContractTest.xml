@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.ReleaseWorkflowContractTest" tests="14" skipped="0" failures="1" errors="0" timestamp="2026-09-26T21:08:54.629Z" hostname="diarmid-desktop" time="0.007">
+  <properties/>
+  <testcase name="javaVersionIsLineData()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.001"/>
+  <testcase name="releaseWorkflowCarriesNoHardcodedMcTokens()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.0"/>
+  <testcase name="guardStepRefusesWrongLineTagsBeforeAnyBuildOrPublish()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.0"/>
+  <testcase name="triggerIsTheBroadGlobWithNoQuantifierConstruct()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.0"/>
+  <testcase name="githubReleaseStepShipsExactlyTheComposedLssAssets()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.0"/>
+  <testcase name="releaseYmlDerivesPaperDisplayProse()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.0"/>
+  <testcase name="buildYmlDerivesJavaVersionFromLineEnv()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.003"/>
+  <testcase name="dispatchIsARehearsalThatCanNeverPublish()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.0"/>
+  <testcase name="neoforgeShippingIsGatedPerLine()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.0"/>
+  <testcase name="buildWorkflowRunsOnSupportBranches()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.001"/>
+  <testcase name="neoforgeStepNameIsDataDrivenAndUnderTheLabrinthCap()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.0"/>
+  <testcase name="lineEnvIsLockedToTheBuildToolchain()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: LINE_MC_FABRIC (26.2) must equal or dot-prefix gradle.properties minecraft_version (26.3) ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: LINE_MC_FABRIC (26.2) must equal or dot-prefix gradle.properties minecraft_version (26.3) ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at dev.vox.lss.paper.ReleaseWorkflowContractTest.lineEnvIsLockedToTheBuildToolchain(ReleaseWorkflowContractTest.java:152)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="onlyTheLssModrinthStepsExistAndUseTheDataDrivenIds()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.0"/>
+  <testcase name="prevTagLookupsAreLineScoped()" classname="dev.vox.lss.paper.ReleaseWorkflowContractTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

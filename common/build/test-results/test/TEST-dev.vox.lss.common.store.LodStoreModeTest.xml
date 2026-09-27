@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.store.LodStoreModeTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:10.113Z" hostname="diarmid-desktop" time="0.0">
+  <properties/>
+  <testcase name="normalizeMapsKnownValuesAndDefaultsUnknownToOff()" classname="dev.vox.lss.common.store.LodStoreModeTest" time="0.0"/>
+  <testcase name="diagTokenIsBareInOffModeAndCarriesCountersWhenActive()" classname="dev.vox.lss.common.store.LodStoreModeTest" time="0.0"/>
+  <testcase name="configValueRoundTripsForTheConfigLegalModesOnly()" classname="dev.vox.lss.common.store.LodStoreModeTest" time="0.0"/>
+  <testcase name="retiredMemoryValueNormalizesToOffLikeAnyUnknownWord()" classname="dev.vox.lss.common.store.LodStoreModeTest" time="0.0"/>
+  <testcase name="gaugesSetNotSumAndCheckpointKeepsMax()" classname="dev.vox.lss.common.store.LodStoreModeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

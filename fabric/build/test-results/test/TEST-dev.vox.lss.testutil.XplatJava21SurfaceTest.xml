@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.testutil.XplatJava21SurfaceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:44.245Z" hostname="diarmid-desktop" time="0.01">
+  <properties/>
+  <testcase name="compiledXplatClassesReferenceNoPost21JdkApi()" classname="dev.vox.lss.testutil.XplatJava21SurfaceTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

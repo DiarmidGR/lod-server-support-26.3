@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.LibsDisguisesBridgeTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:51.761Z" hostname="diarmid-desktop" time="0.084">
+  <properties/>
+  <testcase name="aHotReloadedPluginInstanceReResolves()" classname="dev.vox.lss.paper.LibsDisguisesBridgeTest" time="0.003"/>
+  <testcase name="aDisabledPluginSkipsTheReadEntirely()" classname="dev.vox.lss.paper.LibsDisguisesBridgeTest" time="0.0"/>
+  <testcase name="thePluginNameIsPinnedExactly()" classname="dev.vox.lss.paper.LibsDisguisesBridgeTest" time="0.074"/>
+  <testcase name="aFailingClassLoadReadsAbsentWithOneWarn()" classname="dev.vox.lss.paper.LibsDisguisesBridgeTest" time="0.001"/>
+  <testcase name="anInvisibleClassReadsAbsentWithOneWarnAndNoThrow()" classname="dev.vox.lss.paper.LibsDisguisesBridgeTest" time="0.001"/>
+  <testcase name="aThrowingReadSurfacesAsIllegalStateExceptionWithoutLatching()" classname="dev.vox.lss.paper.LibsDisguisesBridgeTest" time="0.001"/>
+  <testcase name="virtualMachineErrorsPropagateUnwrapped()" classname="dev.vox.lss.paper.LibsDisguisesBridgeTest" time="0.001"/>
+  <testcase name="bindsTheVerifiedSignatureAgainstTheStub()" classname="dev.vox.lss.paper.LibsDisguisesBridgeTest" time="0.0"/>
+  <testcase name="aDriftedSurfaceReadsAbsentWithOneWarn()" classname="dev.vox.lss.paper.LibsDisguisesBridgeTest" time="0.001"/>
+  <system-out><![CDATA[[15:08:51 INFO]: [LSS] LSS handshake received from Steve (protocol v20, capabilities=1)
+[15:08:51 INFO]: [LSS] LOD unavailable for Steve: requireServicePermission is on and this player does not hold both lss.use and vss.use (a negative grant on either spelling denies) — the client was told LSS is disabled and will stop asking. Restore both nodes to serve this player.
+[15:08:51 INFO]: [LSS] LSS handshake received from Steve (protocol v20, capabilities=1)
+[15:08:51 INFO]: [LSS] LOD unavailable for Steve: requireServicePermission is on and this player does not hold both lss.use and vss.use (a negative grant on either spelling denies) — the client was told LSS is disabled and will stop asking. Restore both nodes to serve this player.
+[15:08:51 INFO]: [LSS] LSS handshake received from Steve (protocol v20, capabilities=65)
+[15:08:51 INFO]: [LSS] Player Steve registered for LSS LOD request processing (caps=65)
+[15:08:51 INFO]: [LSS] LSS handshake received from Steve (protocol v20, capabilities=1)
+[15:08:51 INFO]: [LSS] LOD unavailable for Steve: requireServicePermission is on and this player does not hold both lss.use and vss.use (a negative grant on either spelling denies) — the client was told LSS is disabled and will stop asking. Restore both nodes to serve this player.
+[15:08:51 INFO]: [LSS] LSS handshake received from Steve (protocol v20, capabilities=0)
+[15:08:51 INFO]: [LSS] Player Steve has no LOD consumer (caps=0), skipping LOD registration
+[15:08:51 INFO]: [LSS] LSS handshake received from Steve (protocol v20, capabilities=1)
+[15:08:51 INFO]: [LSS] LOD unavailable for Steve: requireServicePermission is on and this player does not hold both lss.use and vss.use (a negative grant on either spelling denies) — the client was told LSS is disabled and will stop asking. Restore both nodes to serve this player.
+[15:08:51 INFO]: [LSS] LibsDisguises detected — disguised players are hidden from far players
+[15:08:51 WARN]: [LSS] LibsDisguises is enabled but its DisguiseAPI.isDisguised(Entity) did not resolve — disguised players are NOT hidden from far players until this plugin instance is replaced (java.lang.ClassNotFoundException: me.libraryaddict.disguise.DisguiseAPI)
+[15:08:51 WARN]: [LSS] LibsDisguises is enabled but its DisguiseAPI.isDisguised(Entity) did not resolve — disguised players are NOT hidden from far players until this plugin instance is replaced (java.lang.NoClassDefFoundError: me/libraryaddict/disguise/DisguiseUtilities)
+[15:08:51 WARN]: [LSS] LibsDisguises is enabled but its DisguiseAPI.isDisguised(Entity) did not resolve — disguised players are NOT hidden from far players until this plugin instance is replaced (java.lang.ClassNotFoundException: me.libraryaddict.disguise.DisguiseAPI)
+[15:08:51 INFO]: [LSS] LibsDisguises detected — disguised players are hidden from far players
+[15:08:51 INFO]: [LSS] LibsDisguises detected — disguised players are hidden from far players
+[15:08:51 INFO]: [LSS] LibsDisguises detected — disguised players are hidden from far players
+[15:08:51 WARN]: [LSS] LibsDisguises is enabled but its DisguiseAPI.isDisguised(Entity) did not resolve — disguised players are NOT hidden from far players until this plugin instance is replaced (java.lang.NoSuchMethodException: no such method: java.lang.String.isDisguised(Entity)boolean/invokeStatic)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

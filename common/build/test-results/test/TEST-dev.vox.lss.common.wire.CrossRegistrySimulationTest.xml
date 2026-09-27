@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.wire.CrossRegistrySimulationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:25:56.699Z" hostname="diarmid-desktop" time="0.011">
+  <properties/>
+  <testcase name="missingEntriesFireTheFallbackExactlyOnTheMissingSetAndNowhereElse()" classname="dev.vox.lss.common.wire.CrossRegistrySimulationTest" time="0.004"/>
+  <testcase name="addedEntriesShiftEveryIdWithoutDisturbingDecodeByIdentity()" classname="dev.vox.lss.common.wire.CrossRegistrySimulationTest" time="0.002"/>
+  <testcase name="permutedIdsDecodeToIdenticalContentByIdentity()" classname="dev.vox.lss.common.wire.CrossRegistrySimulationTest" time="0.001"/>
+  <testcase name="twoIdentitiesResolvingToOneLocalIdCollapseWithoutErrorAndBothMapToIt()" classname="dev.vox.lss.common.wire.CrossRegistrySimulationTest" time="0.003"/>
+  <testcase name="resolverReturningNegativeIsALoudWireFormatException()" classname="dev.vox.lss.common.wire.CrossRegistrySimulationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

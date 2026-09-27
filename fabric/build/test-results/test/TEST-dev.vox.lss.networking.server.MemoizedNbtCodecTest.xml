@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.MemoizedNbtCodecTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.904Z" hostname="diarmid-desktop" time="0.006">
+  <properties/>
+  <testcase name="nestedCompoundOrderIsAlsoIndependentThroughTheMemo()" classname="dev.vox.lss.networking.server.MemoizedNbtCodecTest" time="0.001"/>
+  <testcase name="codecDecodePathSharesTheCacheAndForeignOpsBypassIt()" classname="dev.vox.lss.networking.server.MemoizedNbtCodecTest" time="0.001"/>
+  <testcase name="equalContentHitsOnceAndReturnsTheSameCachedEntry()" classname="dev.vox.lss.networking.server.MemoizedNbtCodecTest" time="0.0"/>
+  <testcase name="capStopsInsertionsAndLatchesTheWarnOnceButNeverStopsDecoding()" classname="dev.vox.lss.networking.server.MemoizedNbtCodecTest" time="0.0"/>
+  <testcase name="defensiveCopyKeepsTheCacheImmuneToCallerMutation()" classname="dev.vox.lss.networking.server.MemoizedNbtCodecTest" time="0.0"/>
+  <testcase name="errorResultsCacheWithHardErrorAndDefaultMeta()" classname="dev.vox.lss.networking.server.MemoizedNbtCodecTest" time="0.004"/>
+  <testcase name="equalContentDifferentCapacityHistoryHitsOneEntry()" classname="dev.vox.lss.networking.server.MemoizedNbtCodecTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:36] [Test worker/WARN]: Palette decode memo reached its cap (2 distinct entries) — further entries decode uncached
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

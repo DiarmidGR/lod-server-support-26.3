@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.QuadtreeWalkDifferentialTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:33.767Z" hostname="diarmid-desktop" time="0.035">
+  <properties/>
+  <testcase name="coldBackfillWithBudgetTruncationMatchesExactly()" classname="dev.vox.lss.networking.client.QuadtreeWalkDifferentialTest" time="0.002"/>
+  <testcase name="armedFastCadenceFireDecisionsMatch()" classname="dev.vox.lss.networking.client.QuadtreeWalkDifferentialTest" time="0.005"/>
+  <testcase name="movementDirtyTeleportAndShrinkScriptMatchesExactly()" classname="dev.vox.lss.networking.client.QuadtreeWalkDifferentialTest" time="0.003"/>
+  <testcase name="valveOverflowResetMatchesOnBothArms()" classname="dev.vox.lss.networking.client.QuadtreeWalkDifferentialTest" time="0.01"/>
+  <testcase name="seededChaosMatchesExactly()" classname="dev.vox.lss.networking.client.QuadtreeWalkDifferentialTest" time="0.009"/>
+  <testcase name="midSessionFastPathFlipStaysEquivalent()" classname="dev.vox.lss.networking.client.QuadtreeWalkDifferentialTest" time="0.003"/>
+  <testcase name="retentionOffQuadOnMatchesLegacy()" classname="dev.vox.lss.networking.client.QuadtreeWalkDifferentialTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

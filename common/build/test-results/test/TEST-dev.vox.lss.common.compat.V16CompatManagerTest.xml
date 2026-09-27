@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.compat.V16CompatManagerTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.098Z" hostname="diarmid-desktop" time="0.022">
+  <properties/>
+  <testcase name="unchangedSetRedeclaresUnconditionallyEachInterval()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.009"/>
+  <testcase name="ingressNeverDeclaresTheTickDoes()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.001"/>
+  <testcase name="serviceRemoveResetsTheWantSetKeepsIdentityAndArmsTheGrace()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.0"/>
+  <testcase name="disconnectDropsIdentity()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.0"/>
+  <testcase name="emptySetDeclaresNothing()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.0"/>
+  <testcase name="nonV16PlayerIsUntouched()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.001"/>
+  <testcase name="clientDeclaredTsAlwaysWinsARemerge()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.0"/>
+  <testcase name="ingressRangeFilterDropsAndCounts()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.001"/>
+  <testcase name="firstMergeAfterAnIdleStretchDeclaresOnTheVeryNextTick()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.0"/>
+  <testcase name="batchResponseObservationPrunesTerminalAnswersOnly()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.001"/>
+  <testcase name="evictionToEmptyOffersOneClearBatchSoTheStaleBacklogCannotGrind()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.001"/>
+  <testcase name="duplicateHandshakeResetsTheWantSetWithoutGraceAndKeepsIdentity()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.0"/>
+  <testcase name="remergeRefreshesTheTtl()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.001"/>
+  <testcase name="concurrentMergesAndDeclaresNeverLoseAnUnansweredPosition()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.002"/>
+  <testcase name="diagLineIsNullUntilTouchedThenReportsCounters()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.0"/>
+  <testcase name="declareSortsByChebyshevDistanceFromCurrentPlayerChunk()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.001"/>
+  <testcase name="overflowBeyondTheBudgetBouncesNewPositionsButRefreshesExistingOnes()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.001"/>
+  <testcase name="declareReAppliesTheRangeFilterAgainstTheCurrentChunkAndRecordsEvictions()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.0"/>
+  <testcase name="columnSentPrunesThePosition()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.0"/>
+  <testcase name="nonV16HandshakeShedsAStaleSession()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.0"/>
+  <testcase name="ttlEvictsOnlyAfter75SecondsWithoutARefresh()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.0"/>
+  <testcase name="declareOffersWhileHoldingTheSessionMonitor()" classname="dev.vox.lss.common.compat.V16CompatManagerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>

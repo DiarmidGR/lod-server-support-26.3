@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.V20SettlingExperimentTool" tests="1" skipped="1" failures="0" errors="0" timestamp="2026-09-27T07:45:44.082Z" hostname="diarmid-desktop" time="0.001">
+  <properties/>
+  <testcase name="runSettlingMeasurement()" classname="dev.vox.lss.networking.server.V20SettlingExperimentTool" time="0.001">
+    <skipped message="org.opentest4j.TestAbortedException: Assumption failed: settling measurement not requested (-Dlss.store.experiment.regionDir absent)" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: settling measurement not requested (-Dlss.store.experiment.regionDir absent)
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at knot//dev.vox.lss.networking.server.V20SettlingExperimentTool.runSettlingMeasurement(V20SettlingExperimentTool.java:93)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</skipped>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

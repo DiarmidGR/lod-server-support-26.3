@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.RawChunkParseTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:37.149Z" hostname="diarmid-desktop" time="0.014">
+  <properties/>
+  <testcase name="unknownVersionIdResolvesNotFoundNeverNpe()" classname="dev.vox.lss.networking.server.RawChunkParseTest" time="0.003"/>
+  <testcase name="gzipRecordRoundTrips()" classname="dev.vox.lss.networking.server.RawChunkParseTest" time="0.003"/>
+  <testcase name="deflateRecordRoundTrips()" classname="dev.vox.lss.networking.server.RawChunkParseTest" time="0.0"/>
+  <testcase name="customCompressionResolvesNotFound()" classname="dev.vox.lss.networking.server.RawChunkParseTest" time="0.0"/>
+  <testcase name="absentRecordStaysAbsent()" classname="dev.vox.lss.networking.server.RawChunkParseTest" time="0.001"/>
+  <testcase name="lz4RecordRoundTrips()" classname="dev.vox.lss.networking.server.RawChunkParseTest" time="0.007"/>
+  <testcase name="uncompressedRecordRoundTrips()" classname="dev.vox.lss.networking.server.RawChunkParseTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:37] [Test worker/WARN]: Raw chunk parse: unknown region stream version 99 at [0,0] — resolved as not-found
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

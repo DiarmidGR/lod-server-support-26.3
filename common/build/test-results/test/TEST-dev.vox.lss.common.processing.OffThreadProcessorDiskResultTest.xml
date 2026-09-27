@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" tests="59" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:06.830Z" hostname="diarmid-desktop" time="0.983">
+  <properties/>
+  <testcase name="taintedOutcomeFailureInTheCatchDoesNotResurrectTheStamp()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.012"/>
+  <testcase name="invalidationEnqueuedMidCycleAppliesBeforeRouting()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.011"/>
+  <testcase name="permanentGenerationFailureSendsNotGeneratedAndFreesGenSlot()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.031"/>
+  <testcase name="flushPendingInvalidationsOnExitAppliesQueuedInvalidations()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.021"/>
+  <testcase name="notFoundWithGenCapFullDropsSilentlyAsSuperseded()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.021"/>
+  <testcase name="oversizedGenerationOutcomeAnswersUpToDateNotClear()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.041"/>
+  <testcase name="staleSnapshotDiskResultIsInertForAReRegisteredSession()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.0"/>
+  <testcase name="innerMissEscalatesUnderAnOuterAcquisitionFrontier()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.001"/>
+  <testcase name="allAirGenerationOutcomeStampsTimestampCache()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.061"/>
+  <testcase name="lateDrainFailureRequeuesTheLateEventsForTheNextCycle()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.021"/>
+  <testcase name="anEditTaintsEveryInFlightGenerationHolderOfAPosition()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.041"/>
+  <testcase name="interruptedIdleWaitFlushesPendingInvalidationsBeforeExit()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.021"/>
+  <testcase name="aMissDeliveryHoldsEscalationWhileANearerReadIsInFlight()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.01"/>
+  <testcase name="notFoundEscalatesToGenerationForAnySyncRequest()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.0"/>
+  <testcase name="frontierOutwardDampingHoldsJumpsAndFollowsInwardInstantly()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.0"/>
+  <testcase name="dataResultEnqueuesColumnPayloadAndFreesSlot()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.011"/>
+  <testcase name="aFailedCycleDoesNotRedeliverAnAlreadyProcessedGenerationOutcome()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.021"/>
+  <testcase name="aFarStragglerTightensButNeverBlocksNearMemoEscalation()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.011"/>
+  <testcase name="memoEscalationHoldsWhileANearerReadIsInFlight()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.001"/>
+  <testcase name="dirtyClearEnqueuedMidCycleAppliesBeforeRouting()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.0"/>
+  <testcase name="nearerTsPositivePendingReadHoldsAFartherEscalation()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.011"/>
+  <testcase name="midListOutcomeFailureDoesNotReplayConsumedOutcomes()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.062"/>
+  <testcase name="memoHitWithAFreeGenSlotSubmitsTheTicketWithoutARead()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.011"/>
+  <testcase name="phase2DeliveryFailureIsContainedAndClearsTheDoneBit()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.011"/>
+  <testcase name="staleDimensionGenerationOutcomeIsInert()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.02"/>
+  <testcase name="dampingIntervalZeroRestoresInstantOutwardStamps()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.0"/>
+  <testcase name="rejectedEnqueueAnswersUpToDateInsteadOfSilence()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.03"/>
+  <testcase name="oversizedResultForClaimsDataAnswersUpToDateNotClear()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.021"/>
+  <testcase name="oldLoadedProbeCannotRestampAfterInvalidation()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.042"/>
+  <testcase name="ghostNotFoundWithoutPendingDropsSilently()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.01"/>
+  <testcase name="spreadGateAnchorsOnTheDeclaredFrontierNotOutstandingTickets()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.0"/>
+  <testcase name="errorTriagedNotFoundNeverSeedsTheMemo()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.0"/>
+  <testcase name="generationPermanentFailureClearsTheMemo()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.01"/>
+  <testcase name="timeoutShapedTransientOutcomeIsNotAMissDrop()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.02"/>
+  <testcase name="invalidationOvertakingAnInFlightGenerationSuppressesTheStaleStamp()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.021"/>
+  <testcase name="allAirResultServesUpToDateAndStampsTimestampCache()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.041"/>
+  <testcase name="staleDimensionDiskResultIsInert()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.0"/>
+  <testcase name="generationOutcomeForADepartedPlayerStillClearsTheMemo()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.041"/>
+  <testcase name="invalidationOvertakingAnInFlightReadSuppressesTheStaleStamp()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.011"/>
+  <testcase name="genDisabledAuthoritativeMissWritesNoMemo()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.021"/>
+  <testcase name="saturatedResultDropsSilentlyAndCountsSuperseded()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.01"/>
+  <testcase name="movementMintedNearWorkOutrunsAFarFrontierObservation()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.001"/>
+  <testcase name="generationTrackingIsSweptWhenAPlayerLeavesMidGeneration()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.041"/>
+  <testcase name="allAirResultForClaimsDataSendsClearingColumn()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.0"/>
+  <testcase name="notFoundEscalatesGenerationRequestToTicketAndSwapsSlot()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.021"/>
+  <testcase name="notFoundInvalidatesAStaleTimestampStamp()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.021"/>
+  <testcase name="editOvertakenMissDeliveryNeverSeedsTheMemo()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.01"/>
+  <testcase name="outerEscalationAdmitsUnderAnInnerDirtyHead()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.001"/>
+  <testcase name="transientGenerationFailureDropsSilentlyAndFreesGenSlot()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.021"/>
+  <testcase name="ghostDeliveryNeverSeedsTheMemo()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.0"/>
+  <testcase name="staleSnapshotGenerationOutcomeIsInertForAReRegisteredSession()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.021"/>
+  <testcase name="memoEscalationRespectsTheGenerationCohortSpan()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.0"/>
+  <testcase name="generationTransientTimeoutClearsTheMemo()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.041"/>
+  <testcase name="memoHitSkipsTheReReadWhileWaitingForAGenSlot()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.001"/>
+  <testcase name="productionDefaultEnablesOutwardDamping()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.0"/>
+  <testcase name="generationRefillMustNotRaceBeyondTheOldestOutstandingTicket()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.007"/>
+  <testcase name="dampingBudgetAccumulatesAcrossHeldStampsAndResetsOnInwardPulls()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.0"/>
+  <testcase name="escalatedGenerationSuccessDeliversColumnAndFreesGenSlot()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.021"/>
+  <testcase name="generationDeliveredDataClearsTheMemo()" classname="dev.vox.lss.common.processing.OffThreadProcessorDiskResultTest" time="0.04"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

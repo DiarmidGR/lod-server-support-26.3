@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.RegionScanDifferentialTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:33.802Z" hostname="diarmid-desktop" time="1.344">
+  <properties/>
+  <testcase name="movedCentersAgreeFromScratch()" classname="dev.vox.lss.networking.client.RegionScanDifferentialTest" time="0.059"/>
+  <testcase name="emptyAndConvergedStatesAgreeAcrossGeometries()" classname="dev.vox.lss.networking.client.RegionScanDifferentialTest" time="0.806"/>
+  <testcase name="seededChaosStatesAgree()" classname="dev.vox.lss.networking.client.RegionScanDifferentialTest" time="0.479"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

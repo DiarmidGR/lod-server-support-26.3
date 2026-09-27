@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.config.ConfigValidationTest" tests="62" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.624Z" hostname="diarmid-desktop" time="0.02">
+  <properties/>
+  <testcase name="everyNumericServerFieldClampedAtIntExtremes()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.005"/>
+  <testcase name="generationConcurrencyLimitPerPlayerClamped()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="rateSliderCurveRoundTripsTheClampAndCoversTheLowEnd()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.001"/>
+  <testcase name="adaptiveScanCadenceRoundTripsThroughJson()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="lodStoreMaxMBDefaultsToUncappedZero()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.001"/>
+  <testcase name="nbtTranscodeDefaultsOn()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="lodStoreCompiledDefaultIsOffForAbsentKeysWithBackfillArmed()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="defaultsSurviveValidateUnchanged()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="regionSummarySyncDefaultsOnAndRoundTripsThroughJson()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.001"/>
+  <testcase name="v16CompatFlagsDefaultOn()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="lodStoreBackfillColumnsPerSecondClamped()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="ingestBackpressureDefaultsOn()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="lodColumnsPerSecondLimitDefaultsOffAndClamps()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="lodStoreOnIsCanonicalAndFullIsAPermanentAlias()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="curatedTableNullOrBlankEntriesAreDroppedFailOpen()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.001"/>
+  <testcase name="ingestBackpressureRoundTripsThroughJson()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="adaptiveTransferRateMechanismsDefaultOn()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="crossVersionBlockFallbacksHealNullToTheEmptyMap()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="fabricDefaultsTheLodStoreResweepToZero()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="effectiveConfigEchoIsAScriptConsumedContract()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.001"/>
+  <testcase name="lodStoreMaxBytesMapsZeroAndNegativesToUncappedAndMBToBytes()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="diskReaderThreadsClamped()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.001"/>
+  <testcase name="timestampCacheAutoSizeTracksLodDistance()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="regionScanDefaultsOnAndRoundTripsThroughJson()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="xrayMaxBlockHeightClamped()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.001"/>
+  <testcase name="backgroundReadSplitDefaultsOn()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="mbPerSecondLimitPerPlayerClamped()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="sendQueueLimitPerPlayerClamped()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="clampLodDistanceByWorldCoercesNumbersDropsNonNumericAndOverLongKeys()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="viaMismatchGuardDefaultsOn()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="dirtyBroadcastIntervalSecondsZeroDisablesSendsAndNonzeroFloorsAt1()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.001"/>
+  <testcase name="lodStoreMaxMBZeroStaysUncappedAndNonzeroFloorsAt64()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="unknownBlockFallbackHealsNullAndBlankToTheDefault()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="generationTimeoutSecondsClamped()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="xrayObfuscationNormalizedToCanonicalTriState()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="effectiveMaxConcurrentDiskReadsIsStoreConditionalWithPoolClampedOverride()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="perDimensionTimestampCacheSizeMBClamped()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="lodDistanceChunksClamped()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="transportYieldDefaultsOn()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="regionSummariesDefaultOn()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="generationConcurrencyLimitGlobalClamped()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="xrayHiddenBlocksNullRestoresDefaultButEmptyIsRespected()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="xaeroMapBridgeDefaultsOffAndRoundTripsThroughJson()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.001"/>
+  <testcase name="selectiveNbtParseDefaultsOn()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="lodColumnsPerSecondLimitRoundTripsThroughJson()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="lodDistanceForWorldPrefersTheFirstMatchingOverrideThenTheDefault()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.001"/>
+  <testcase name="scanPrefixRetentionDefaultsOnAndRoundTripsThroughJson()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="clientLodDistanceChunksClamped()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="legacyBytesPerSecondKeyRidesTheSameClampAfterConversion()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="requireServicePermissionShipsOffOnTheSharedBase()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="backfillTuningDefaultsAre500ColumnsPerSecondAnd45MsCeiling()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.001"/>
+  <testcase name="compatRungsDefaultOn()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="mbPerSecondLimitGlobalClamped()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="farPlayersModeNormalizesAndMinRingDragsUnderTheConfiguredMax()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="backgroundReadPriorityDefaultsOn()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="autoDiskReaderThreadConstantsAreCoherent()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="lodDistanceChunksByWorldClampsDropsBlankKeysAndSurvivesNull()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="quadtreeScanDefaultsOnAndRoundTripsThroughJson()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.001"/>
+  <testcase name="maxConfiguredLodDistanceChunksIsTheDefaultPlusOverrideCeiling()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="xaeroMapBackpressureDefaultsOnAndRoundTripsThroughJson()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="adaptiveScanCadenceDefaultsOn()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <testcase name="diskReaderThreadsZeroMeansAutoAndSurvivesValidation()" classname="dev.vox.lss.config.ConfigValidationTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:32] [Test worker/INFO]: dirtyBroadcastIntervalSeconds is 0: dirty pushes to clients are DISABLED. The invalidation drain still runs every 10 s; connected clients pick up terrain edits only on rejoin or their own re-asks.
+[01:45:32] [Test worker/WARN]: crossVersionBlockFallbacks contained null/blank entries — dropped (fail-open); fix the config file
+[01:45:32] [Test worker/INFO]: dirtyBroadcastIntervalSeconds is 0: dirty pushes to clients are DISABLED. The invalidation drain still runs every 10 s; connected clients pick up terrain edits only on rejoin or their own re-asks.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

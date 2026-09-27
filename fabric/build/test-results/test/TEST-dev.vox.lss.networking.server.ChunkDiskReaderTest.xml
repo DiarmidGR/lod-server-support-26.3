@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.ChunkDiskReaderTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.141Z" hostname="diarmid-desktop" time="0.005">
+  <properties/>
+  <testcase name="backgroundReadIsUnavailableWhenEitherHandleIsNull()" classname="dev.vox.lss.networking.server.ChunkDiskReaderTest" time="0.0"/>
+  <testcase name="wrongMethodTypeThrowLatchesWarnsOnceAndFallsBackInline()" classname="dev.vox.lss.networking.server.ChunkDiskReaderTest" time="0.002"/>
+  <testcase name="moonriseRuntimeThrowIsPerChunkTriageAndDoesNotLatch()" classname="dev.vox.lss.networking.server.ChunkDiskReaderTest" time="0.0"/>
+  <testcase name="aThrowingHandleResolverLatchesIncompatibleAndEngagesTheThrottleWarningOnce()" classname="dev.vox.lss.networking.server.ChunkDiskReaderTest" time="0.0"/>
+  <testcase name="linkageErrorThrowLatchesWarnsOnceAndFallsBackInline()" classname="dev.vox.lss.networking.server.ChunkDiskReaderTest" time="0.0"/>
+  <testcase name="adaptationClassCastThrowLatchesWarnsOnceAndFallsBackInline()" classname="dev.vox.lss.networking.server.ChunkDiskReaderTest" time="0.0"/>
+  <testcase name="nullBridgeFallsThroughToTheExistingLadderUnchanged()" classname="dev.vox.lss.networking.server.ChunkDiskReaderTest" time="0.001"/>
+  <testcase name="asyncLinkageShapedFailureIsPerChunkTriageAndDoesNotLatch()" classname="dev.vox.lss.networking.server.ChunkDiskReaderTest" time="0.0"/>
+  <testcase name="unresolvableHandlesReturnNullRawPathWithoutLatchingOrWarning()" classname="dev.vox.lss.networking.server.ChunkDiskReaderTest" time="0.0"/>
+  <testcase name="rawDispatcherAgreesWithTheNbtLadderOnEveryRung()" classname="dev.vox.lss.networking.server.ChunkDiskReaderTest" time="0.0"/>
+  <testcase name="configRollbackKeepsTheMoonriseRungFullyOff()" classname="dev.vox.lss.networking.server.ChunkDiskReaderTest" time="0.0"/>
+  <testcase name="moonriseRungIsChosenBeforeTheIOWorkerAccessorWithoutEngagingTheThrottle()" classname="dev.vox.lss.networking.server.ChunkDiskReaderTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

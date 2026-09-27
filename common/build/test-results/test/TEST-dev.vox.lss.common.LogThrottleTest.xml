@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.LogThrottleTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.071Z" hostname="diarmid-desktop" time="0.003">
+  <properties/>
+  <testcase name="countResetsAfterEachRelease()" classname="dev.vox.lss.common.LogThrottleTest" time="0.0"/>
+  <testcase name="aQuietStretchDoesNotBankExtraReleases()" classname="dev.vox.lss.common.LogThrottleTest" time="0.0"/>
+  <testcase name="firstEventReleasesImmediatelyWithCountOne()" classname="dev.vox.lss.common.LogThrottleTest" time="0.001"/>
+  <testcase name="exactlyOneReleasePerWindowAcrossManyWindows()" classname="dev.vox.lss.common.LogThrottleTest" time="0.0"/>
+  <testcase name="eventsInsideTheIntervalStaySilent()" classname="dev.vox.lss.common.LogThrottleTest" time="0.0"/>
+  <testcase name="nextReleaseCarriesEverySuppressedEvent()" classname="dev.vox.lss.common.LogThrottleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

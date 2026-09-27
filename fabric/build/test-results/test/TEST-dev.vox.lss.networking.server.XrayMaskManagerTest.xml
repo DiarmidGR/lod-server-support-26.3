@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.XrayMaskManagerTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:44.135Z" hostname="diarmid-desktop" time="0.006">
+  <properties/>
+  <testcase name="autoWithObfuscateModeEngineMasksTheLssListAtTheEngineHeight()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.001"/>
+  <testcase name="autoWithoutEngineIsInactiveAndCachedWithOneEvaluation()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.0"/>
+  <testcase name="staticHolderLifecycleIsOwnerGuarded()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.0"/>
+  <testcase name="fallbackKindFollowsTheDimensionString()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.001"/>
+  <testcase name="autoWithUnreadableEngineFallsBackToConfigKeys()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.0"/>
+  <testcase name="offIsInactiveEvenWithAnActiveEngine()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.0"/>
+  <testcase name="onMasksWithoutAnyEngineUsingConfigKeys()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.0"/>
+  <testcase name="diagLineAggregatesLabelAndCounter()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.0"/>
+  <testcase name="transientNullProbesLatchToTheFallbackAfterTheBound()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.0"/>
+  <testcase name="emptyEngineAdoptionStaysInertNotFallback()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.0"/>
+  <testcase name="autoWithDisabledWorldIsInactive()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.0"/>
+  <testcase name="transientNullProbeIsNotCachedAndAdoptsOnceTheEngineResolves()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.001"/>
+  <testcase name="autoWithActiveEngineAdoptsItsStatesAndHeight()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.0"/>
+  <testcase name="fallbackMaskResolvesOncePerManagerAcrossDimensions()" classname="dev.vox.lss.networking.server.XrayMaskManagerTest" time="0.001"/>
+  <system-out><![CDATA[[01:45:44] [Test worker/INFO]: AntiXray engine mode 2/3 detected for minecraft:overworld — its obfuscation list includes replacement terrain, so LOD masking uses the LSS xrayHiddenBlocks list at the engine's height instead
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:overworld (source=antixray-mod+lss-list, maxY=256)
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:overworld (source=config, maxY=64)
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:the_nether (source=config, maxY=64)
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:the_end (source=config, maxY=64)
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:overworld (source=config, maxY=64)
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:overworld (source=config, maxY=64)
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:the_nether (source=config, maxY=64)
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:overworld (source=antixray-mod, maxY=64)
+[01:45:44] [Test worker/WARN]: AntiXray engine stayed unreadable (transient) for minecraft:overworld after 100 probes — caching the LSS-config fallback mask for this session
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:overworld (source=config, maxY=64)
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:overworld (source=antixray-mod, maxY=64)
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:overworld (source=antixray-mod, maxY=256)
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:overworld (source=antixray-mod, maxY=48)
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:overworld (source=config, maxY=64)
+[01:45:44] [Test worker/INFO]: LOD x-ray masking active for minecraft:the_nether (source=config, maxY=64)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

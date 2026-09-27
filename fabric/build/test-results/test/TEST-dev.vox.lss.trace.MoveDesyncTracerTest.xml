@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.trace.MoveDesyncTracerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:44.308Z" hostname="diarmid-desktop" time="1.345">
+  <properties/>
+  <testcase name="appendsAcrossRestartsSameFile(Path)" classname="dev.vox.lss.trace.MoveDesyncTracerTest" time="0.502"/>
+  <testcase name="staleRotatedFileFromAPreviousBootDoesNotInheritTheCap(Path)" classname="dev.vox.lss.trace.MoveDesyncTracerTest" time="0.277"/>
+  <testcase name="overflowDropsAreCountedNeverWaitedOn(Path)" classname="dev.vox.lss.trace.MoveDesyncTracerTest" time="0.0"/>
+  <testcase name="nullRowFromAFailedRenderCountsDropped(Path)" classname="dev.vox.lss.trace.MoveDesyncTracerTest" time="0.0"/>
+  <testcase name="rowsReachTheFileAndSurviveClose(Path)" classname="dev.vox.lss.trace.MoveDesyncTracerTest" time="0.25"/>
+  <testcase name="rotationFiresOnceThenTheCapStopsTracing(Path)" classname="dev.vox.lss.trace.MoveDesyncTracerTest" time="0.061"/>
+  <testcase name="diagLineCarriesRungRowsDropsAndEventCounts()" classname="dev.vox.lss.trace.MoveDesyncTracerTest" time="0.001"/>
+  <testcase name="closedTracerDropsEmitsAndLeavesTheFileAlone(Path)" classname="dev.vox.lss.trace.MoveDesyncTracerTest" time="0.251"/>
+  <testcase name="testSinkReceivesRowsSynchronously()" classname="dev.vox.lss.trace.MoveDesyncTracerTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:44] [LSS-MoveTrace/WARN]: Move trace rotated trace.jsonl -> trace.1.jsonl at 0 MiB; one rotation remains before the cap
+[01:45:45] [LSS-MoveTrace/WARN]: Move trace rotated trace.jsonl -> trace.1.jsonl at 0 MiB; one rotation remains before the cap
+[01:45:45] [LSS-MoveTrace/WARN]: Move trace hit its total size cap (0 MiB across trace.jsonl + trace.1.jsonl) — tracing stopped, rows now drop
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

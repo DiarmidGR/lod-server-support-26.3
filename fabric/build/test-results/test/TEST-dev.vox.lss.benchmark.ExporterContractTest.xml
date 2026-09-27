@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.benchmark.ExporterContractTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:31.732Z" hostname="diarmid-desktop" time="0.042">
+  <properties/>
+  <testcase name="disabledClientSessionZeroFillsManagerFieldsWithTheSameKeySet()" classname="dev.vox.lss.benchmark.ExporterContractTest" time="0.012"/>
+  <testcase name="clientSnapshotMatchesTheCheckedInContract()" classname="dev.vox.lss.benchmark.ExporterContractTest" time="0.001"/>
+  <testcase name="malformedProbeTokensAreSkippedAndValidOnesKept()" classname="dev.vox.lss.benchmark.ExporterContractTest" time="0.001"/>
+  <testcase name="serverValueMappingsFlowFromTheRealCounters()" classname="dev.vox.lss.benchmark.ExporterContractTest" time="0.011"/>
+  <testcase name="diskMapIsEmptyWhenNoReaderIsConfigured()" classname="dev.vox.lss.benchmark.ExporterContractTest" time="0.0"/>
+  <testcase name="highWaterGaugesCaptureBurstsBetweenSnapshotsAndResetEachWindow()" classname="dev.vox.lss.benchmark.ExporterContractTest" time="0.001"/>
+  <testcase name="timestampCacheEvictionCounterAndPerDimensionSizesTrackMutations()" classname="dev.vox.lss.benchmark.ExporterContractTest" time="0.002"/>
+  <testcase name="generationDisabledZeroFillsEveryGenerationField()" classname="dev.vox.lss.benchmark.ExporterContractTest" time="0.0"/>
+  <testcase name="probeHashesCaptureFnvOfWireBytesKeyedByProbedPositionOnly()" classname="dev.vox.lss.benchmark.ExporterContractTest" time="0.001"/>
+  <testcase name="serverSnapshotMatchesTheCheckedInContract()" classname="dev.vox.lss.benchmark.ExporterContractTest" time="0.001"/>
+  <testcase name="appendJsonLineWritesOneCompactRowPerCallCreatesDirsAndAppends(Path)" classname="dev.vox.lss.benchmark.ExporterContractTest" time="0.004"/>
+  <testcase name="emptyProbeSpecEmitsNoProbesOrProbeHashesKey()" classname="dev.vox.lss.benchmark.ExporterContractTest" time="0.001"/>
+  <testcase name="msptAvgWindowCountsSamplerTicksAndReadsMinusOneUnwired()" classname="dev.vox.lss.benchmark.ExporterContractTest" time="0.002"/>
+  <system-out><![CDATA[[01:45:31] [Test worker/WARN]: [Soak] Ignoring malformed probe token 'banana' (want x:z)
+[01:45:31] [Test worker/WARN]: [Soak] Ignoring malformed probe token ':5' (want x:z)
+[01:45:31] [Test worker/WARN]: [Soak] Ignoring malformed probe token '4:-2x' (want x:z)
+[01:45:31] [Test worker/WARN]: Timestamp 100 predates 2025-01-01 (skewed system clock, or pre-2025 world files) — clamping; affected columns re-serve instead of resolving up_to_date. Warned once per session.
+[01:45:31] [Test worker/WARN]: Timestamp 100 predates 2025-01-01 (skewed system clock, or pre-2025 world files) — clamping; affected columns re-serve instead of resolving up_to_date. Warned once per session.
+[01:45:31] [Test worker/WARN]: Timestamp 100 predates 2025-01-01 (skewed system clock, or pre-2025 world files) — clamping; affected columns re-serve instead of resolving up_to_date. Warned once per session.
+[01:45:31] [Test worker/WARN]: Timestamp 100 predates 2025-01-01 (skewed system clock, or pre-2025 world files) — clamping; affected columns re-serve instead of resolving up_to_date. Warned once per session.
+[01:45:31] [Test worker/WARN]: Timestamp 100 predates 2025-01-01 (skewed system clock, or pre-2025 world files) — clamping; affected columns re-serve instead of resolving up_to_date. Warned once per session.
+[01:45:31] [Test worker/WARN]: Timestamp 100 predates 2025-01-01 (skewed system clock, or pre-2025 world files) — clamping; affected columns re-serve instead of resolving up_to_date. Warned once per session.
+[01:45:31] [Test worker/WARN]: Timestamp 100 predates 2025-01-01 (skewed system clock, or pre-2025 world files) — clamping; affected columns re-serve instead of resolving up_to_date. Warned once per session.
+[01:45:31] [Test worker/WARN]: Timestamp 100 predates 2025-01-01 (skewed system clock, or pre-2025 world files) — clamping; affected columns re-serve instead of resolving up_to_date. Warned once per session.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.wire.IdentityCodecTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:25:56.710Z" hostname="diarmid-desktop" time="0.002">
+  <properties/>
+  <testcase name="roundTripThroughParse()" classname="dev.vox.lss.common.wire.IdentityCodecTest" time="0.0"/>
+  <testcase name="structuralCharactersCannotOccurInsideAnySegment()" classname="dev.vox.lss.common.wire.IdentityCodecTest" time="0.001"/>
+  <testcase name="canonicalValidatesItsOwnOutput()" classname="dev.vox.lss.common.wire.IdentityCodecTest" time="0.0"/>
+  <testcase name="bareFormForPropertylessStates()" classname="dev.vox.lss.common.wire.IdentityCodecTest" time="0.0"/>
+  <testcase name="propertiesAreSortedByNameRegardlessOfInputOrder()" classname="dev.vox.lss.common.wire.IdentityCodecTest" time="0.0"/>
+  <testcase name="dictionaryValidatesOnFirstInsertion()" classname="dev.vox.lss.common.wire.IdentityCodecTest" time="0.001"/>
+  <testcase name="dictionaryAssignsFirstSeenIndicesDeterministically()" classname="dev.vox.lss.common.wire.IdentityCodecTest" time="0.0"/>
+  <testcase name="biomeStyleBareIdentifiersValidate()" classname="dev.vox.lss.common.wire.IdentityCodecTest" time="0.0"/>
+  <testcase name="malformedStringsAreRejected()" classname="dev.vox.lss.common.wire.IdentityCodecTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

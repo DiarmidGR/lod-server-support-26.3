@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.ColumnBytesTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:04.302Z" hostname="diarmid-desktop" time="0.01">
+  <properties/>
+  <testcase name="zeroSectionClearBodyStaysRaw()" classname="dev.vox.lss.common.processing.ColumnBytesTest" time="0.0"/>
+  <testcase name="ofFrameWrongSizeThrows()" classname="dev.vox.lss.common.processing.ColumnBytesTest" time="0.001"/>
+  <testcase name="nullCodecNeverFrames()" classname="dev.vox.lss.common.processing.ColumnBytesTest" time="0.0"/>
+  <testcase name="belowThresholdNeverFrames()" classname="dev.vox.lss.common.processing.ColumnBytesTest" time="0.0"/>
+  <testcase name="frameMemoizedAcrossRecipients()" classname="dev.vox.lss.common.processing.ColumnBytesTest" time="0.0"/>
+  <testcase name="nonShrinkingFrameRefusedAndRefusalMemoized()" classname="dev.vox.lss.common.processing.ColumnBytesTest" time="0.0"/>
+  <testcase name="ofFrameDecompressesLazilyAndMemoizes()" classname="dev.vox.lss.common.processing.ColumnBytesTest" time="0.0"/>
+  <testcase name="compressibleAboveThresholdFramesAndRoundTrips()" classname="dev.vox.lss.common.processing.ColumnBytesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

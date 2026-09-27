@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.region.ColumnStampsWireTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:09.878Z" hostname="diarmid-desktop" time="0.004">
+  <properties/>
+  <testcase name="unknownVersionDrops()" classname="dev.vox.lss.common.region.ColumnStampsWireTest" time="0.001"/>
+  <testcase name="oversizedDimensionDrops()" classname="dev.vox.lss.common.region.ColumnStampsWireTest" time="0.001"/>
+  <testcase name="trailingBytesDrop()" classname="dev.vox.lss.common.region.ColumnStampsWireTest" time="0.0"/>
+  <testcase name="futureSecondBeyondSkewDropsWhole()" classname="dev.vox.lss.common.region.ColumnStampsWireTest" time="0.0"/>
+  <testcase name="encodeRefusesAClockDamagedSecond()" classname="dev.vox.lss.common.region.ColumnStampsWireTest" time="0.001"/>
+  <testcase name="truncatedFrameDropsBeforeAllocation()" classname="dev.vox.lss.common.region.ColumnStampsWireTest" time="0.0"/>
+  <testcase name="roundTripsPositionsAndSeconds()" classname="dev.vox.lss.common.region.ColumnStampsWireTest" time="0.0"/>
+  <testcase name="hostileCountsDrop()" classname="dev.vox.lss.common.region.ColumnStampsWireTest" time="0.0"/>
+  <testcase name="nonPositiveSecondsDropAtDecodeAndRefuseAtEncode()" classname="dev.vox.lss.common.region.ColumnStampsWireTest" time="0.001"/>
+  <testcase name="encodeRefusesAnOversizedOrEmptyDimension()" classname="dev.vox.lss.common.region.ColumnStampsWireTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

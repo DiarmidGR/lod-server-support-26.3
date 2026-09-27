@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.payloads.WireParityTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.133Z" hostname="diarmid-desktop" time="0.008">
+  <properties/>
+  <testcase name="voxelColumnEmptySectionBytes()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="farPlayerCarriersShipTheSharedCodecBytesVerbatim()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.001"/>
+  <testcase name="referenceFramesCoverEveryDeclaredChannel()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.002"/>
+  <testcase name="sessionConfigV16LegacyEncodesTheSixFieldLayoutEchoingVersion16()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="sessionConfigToleratesForeignVersionLayout()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="dirtyColumns()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="frozenHandshakeShape_theV20AnnounceIsExactlyTwoVarInts()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="columnStampsCarrierShipsTheSharedCodecBytesVerbatim()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="voxelColumnVanillaDimensions()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.001"/>
+  <testcase name="regionSummaryCarriersShipTheSharedCodecBytesVerbatim()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="sessionConfig()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="clientInfoEncodesOneVarIntAndDecodeToleratesTrailingBytes()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="handshake()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="voxelColumnCustomDimension()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="sessionConfigVarIntBoundaries()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="voxelColumnAsV16DropsExactlyTheSourceByteForEveryProducerTag()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="currentSessionConfigEncodeIsByteIdenticalWithTheLegacyFieldsDormant()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="batchChunkRequest()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="sessionConfigEchoing18IsTheCurrentFourFieldLayout()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="batchResponseAtMaxCountMatchesReference()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="voxelColumnAsV18KeepsTheGhostClearAndLongDimensions()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="batchResponse()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="batchChunkRequestExtremeCorners()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="voxelColumnAsV18DropsExactlyTheCodecByteForEveryProducerTag()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <testcase name="voxelColumnAsV16KeepsTheGhostClearAndLongDimensions()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.001"/>
+  <testcase name="voxelColumnAsV18DiffersFromCurrentByExactlyTheCodecByte()" classname="dev.vox.lss.networking.payloads.WireParityTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

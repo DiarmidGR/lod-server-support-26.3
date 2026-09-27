@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.neoforge.NeoForgeModuleContractTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:47.559Z" hostname="diarmid-desktop" time="0.016">
+  <properties/>
+  <testcase name="registrarCensusCoversAllChannels()" classname="dev.vox.lss.neoforge.NeoForgeModuleContractTest" time="0.004"/>
+  <testcase name="saveHookTwinTargetsCopyOfWithSoftFail()" classname="dev.vox.lss.neoforge.NeoForgeModuleContractTest" time="0.0"/>
+  <testcase name="everyListedMixinClassExistsInXplatOrThisModule()" classname="dev.vox.lss.neoforge.NeoForgeModuleContractTest" time="0.001"/>
+  <testcase name="accessTransformerMirrorsTheFabricAccessWidener()" classname="dev.vox.lss.neoforge.NeoForgeModuleContractTest" time="0.001"/>
+  <testcase name="theLegacySodiumOptionsConfigIsDeclaredAndItsHookExists()" classname="dev.vox.lss.neoforge.NeoForgeModuleContractTest" time="0.001"/>
+  <testcase name="loaderSurfaceFreeTwinsAreByteIdentical()" classname="dev.vox.lss.neoforge.NeoForgeModuleContractTest" time="0.002"/>
+  <testcase name="modsTomlPinsIdentityAndMixins()" classname="dev.vox.lss.neoforge.NeoForgeModuleContractTest" time="0.0"/>
+  <testcase name="loaderServicesServiceFilePointsAtTheNeoForgeImpl()" classname="dev.vox.lss.neoforge.NeoForgeModuleContractTest" time="0.001"/>
+  <testcase name="mixinConfigListsTheSharedAccessorsAndTheSaveHookTwin()" classname="dev.vox.lss.neoforge.NeoForgeModuleContractTest" time="0.0"/>
+  <testcase name="registrarIsOptionalRunsOnMainAndNeverUsesTheLssProtocolAsChannelVersion()" classname="dev.vox.lss.neoforge.NeoForgeModuleContractTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

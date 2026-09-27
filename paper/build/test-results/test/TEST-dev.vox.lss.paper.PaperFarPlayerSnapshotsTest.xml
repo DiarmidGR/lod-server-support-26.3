@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:53.299Z" hostname="diarmid-desktop" time="0.195">
+  <properties/>
+  <testcase name="aDisabledLibsDisguisesIsIgnored()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.001"/>
+  <testcase name="aThrowingVanishReadFailsHIDDENNotOpen()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.001"/>
+  <testcase name="theLadderOrderIsPermissionThenVanishThenDisguise()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.002"/>
+  <testcase name="theThrowIsContainedPerPlayerNotPerPass()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.001"/>
+  <testcase name="aThrowingPermissibleFailsHIDDENNotOpen()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.0"/>
+  <testcase name="aCleanPlayerSnapshotIsNotHidden()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.176"/>
+  <testcase name="vanishedMetadataHides()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.0"/>
+  <testcase name="aThrowingDisguiseReadFailsHIDDENNotOpen()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.002"/>
+  <testcase name="eitherBrandSpellingHides()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.001"/>
+  <testcase name="oneBrokenPlayerSkipsOnlyItselfNeverThePass()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.005"/>
+  <testcase name="aDisguisedPlayerIsHidden()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.001"/>
+  <testcase name="aCleanUnprivilegedPlayerIsVisible()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.0"/>
+  <testcase name="theSnapshotCarriesTheLadderAndIdentityFields()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.002"/>
+  <testcase name="absentLibsDisguisesLeavesTheLadderUnchanged()" classname="dev.vox.lss.paper.PaperFarPlayerSnapshotsTest" time="0.001"/>
+  <system-out><![CDATA[[15:08:53 WARN]: [LSS] Far-player privacy read (permission/vanish/disguise) threw — treating the affected player as HIDDEN (fail-safe direction; a raced read must never leak a hidden position). One warn per session (java.lang.IllegalStateException: region-owned)
+[15:08:53 INFO]: [LSS] LibsDisguises detected — disguised players are hidden from far players
+[15:08:53 WARN]: [LSS] Far-player privacy read (permission/vanish/disguise) threw — treating the affected player as HIDDEN (fail-safe direction; a raced read must never leak a hidden position). One warn per session (java.lang.IllegalStateException: LibsDisguises DisguiseAPI.isDisguised threw)
+[15:08:53 WARN]: [LSS] Far-player privacy read (permission/vanish/disguise) threw — treating the affected player as HIDDEN (fail-safe direction; a raced read must never leak a hidden position). One warn per session (java.lang.IllegalStateException: x)
+[15:08:53 WARN]: [LSS] Far-player privacy read (permission/vanish/disguise) threw — treating the affected player as HIDDEN (fail-safe direction; a raced read must never leak a hidden position). One warn per session (java.lang.IllegalStateException: raced)
+[15:08:53 INFO]: [LSS] LibsDisguises detected — disguised players are hidden from far players
+[15:08:53 WARN]: [LSS] Far-player privacy read (permission/vanish/disguise) threw — treating the affected player as HIDDEN (fail-safe direction; a raced read must never leak a hidden position). One warn per session (java.lang.IllegalStateException: LibsDisguises DisguiseAPI.isDisguised threw)
+[15:08:53 WARN]: [LSS] Far-player snapshot failed for broken — skipped this interval (once per session): java.lang.IllegalStateException: cross-region equipment read raced
+[15:08:53 INFO]: [LSS] LibsDisguises detected — disguised players are hidden from far players
+[15:08:53 WARN]: [LSS] LibsDisguises is enabled but its DisguiseAPI.isDisguised(Entity) did not resolve — disguised players are NOT hidden from far players until this plugin instance is replaced (java.lang.ClassNotFoundException: me.libraryaddict.disguise.DisguiseAPI)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

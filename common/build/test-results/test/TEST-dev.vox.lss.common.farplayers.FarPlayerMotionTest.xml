@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.farplayers.FarPlayerMotionTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.387Z" hostname="diarmid-desktop" time="0.002">
+  <properties/>
+  <testcase name="pastTheWindowVelocityExtrapolatesAndCapsAtOneAndAHalfWindows()" classname="dev.vox.lss.common.farplayers.FarPlayerMotionTest" time="0.0"/>
+  <testcase name="firstSnapshotHoldsStillAndLaterFramesLerpFromTheSampledState()" classname="dev.vox.lss.common.farplayers.FarPlayerMotionTest" time="0.0"/>
+  <testcase name="vehicleMotionSeedsFromMountPositionAndRidesTheRiderVelocity()" classname="dev.vox.lss.common.farplayers.FarPlayerMotionTest" time="0.0"/>
+  <testcase name="measuredGapCorrectsTheWindowUpButNeverPastTwiceDeclared()" classname="dev.vox.lss.common.farplayers.FarPlayerMotionTest" time="0.0"/>
+  <testcase name="isMovingReflectsLerpProgressAndExtrapolationState()" classname="dev.vox.lss.common.farplayers.FarPlayerMotionTest" time="0.0"/>
+  <testcase name="angleLerpTakesTheShortestPathAcrossTheWrap()" classname="dev.vox.lss.common.farplayers.FarPlayerMotionTest" time="0.0"/>
+  <testcase name="trackerAttachesOneMotionPerPlayerAndAppliesAcrossFrames()" classname="dev.vox.lss.common.farplayers.FarPlayerMotionTest" time="0.0"/>
+  <testcase name="midLerpFrameStartsFromTheSampledPositionNeverSnaps()" classname="dev.vox.lss.common.farplayers.FarPlayerMotionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

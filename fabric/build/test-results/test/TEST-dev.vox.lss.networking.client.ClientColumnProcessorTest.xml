@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.ClientColumnProcessorTest" tests="38" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.963Z" hostname="diarmid-desktop" time="0.075">
+  <properties/>
+  <testcase name="disconnectTeardownReportsUndispatchedBeforeSavingCache()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.002"/>
+  <testcase name="offerStopsAtCapAndCountsDrops()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.002"/>
+  <testcase name="decodeClampsHostileSectionCountToLevelSectionCount()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="consumerDeregistrationReportsClearedBacklog()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="decodeTruncatesSectionsBeyondLevelHeightSilently()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="resetStatsClearsDropCounterButNotQueue()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="ownedAlreadyPolledCallbackIsRetiredBeforeItsCompletion()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.001"/>
+  <testcase name="isClearColumnTrueForZeroSectionBody()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="resyncDeliveryKeepsImplicitSkyAboveTheServedBand()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="wrongDimensionColumnIsConsumedWithoutDispatchOrReport()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.001"/>
+  <testcase name="errorDuringDrainReportsBeforePropagating()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="receiveServerLodsDisableFlipReportsClearedBacklog()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="decodeNegativeSectionCountYieldsEmptyColumn()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.001"/>
+  <testcase name="airFillAddsAllAirSectionsForEveryAbsentYOnResync()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="shutdownZeroesBackpressureSignalAndKeepsDropStats()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.001"/>
+  <testcase name="implicitSkyFillLeavesClearsAndFullColumnsAlone()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="resyncClearInSkyDimensionAirFillsBright()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="implicitSkyFillAddsBrightAirAboveTheTopServedSection()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="decodeFailureUnstampSurvivesDisconnectCachePersistence()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.005"/>
+  <testcase name="admissionIsBoundedByBytesAsWellAsCount()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="skyThenAirFillUnitCompositionMatchesTheDrainOrder()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="dimensionChangeReportsUndispatchedBeforeSavingCache()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.001"/>
+  <testcase name="offerTracksQueuedBytesAndShutdownDrainsThem()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="teardownBetweenEpochCheckAndPollCannotAcceptANewSessionColumn()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.001"/>
+  <testcase name="resyncClearInDarkDimensionStaysDarkAir()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.001"/>
+  <testcase name="corruptAndTruncatedColumnsReportOnceEachAndDrainContinues()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="skyFillWithoutResyncLeavesBelowBandAbsent()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="isClearColumnFalseForEmptyOrNullBytes()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="resyncColumnAirFillsAbsentSectionsButFirstServeDoesNot()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.001"/>
+  <testcase name="overflowDropReportsThePositionForReRequest()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="epochBumpMidDrainStopsAtNextPollAndRemainderIsReported()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.001"/>
+  <testcase name="emptyAndNullSectionBytesReportAndDrainContinues()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="isClearColumnFalseForContentBody()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="disabledScheduleClearsBacklogAndZeroesSignal()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="reportUndispatchedUnstampsQueuedColumnsBeforeTheCacheFlush()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="epochGuardRefusesStaleDrainAfterTeardown()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.001"/>
+  <testcase name="levelNullRaceReportsClearedBacklog()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <testcase name="productionDrainRoutesThroughTheV20TranslationWithTheV16Gate()" classname="dev.vox.lss.networking.client.ClientColumnProcessorTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [Test worker/WARN]: Column processing queue full (8000), 1 columns dropped total
+[01:45:33] [Test worker/WARN]: Column processing queue full (8000), 1 columns dropped total
+[01:45:33] [Test worker/WARN]: Column processing queue full (8000), 1 columns dropped total
+[01:45:33] [Test worker/INFO]: Server session config received (protocol v20, LOD distance: 64 chunks, enabled: true)
+[01:45:33] [LSS-CacheIO/INFO]: Saved 1 cached column entries for lss_test_processor
+[01:45:33] [Test worker/INFO]: Loaded 1 cached column entries for lss_test_processor
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server lss-test-cl047-11481195106640
+[01:45:33] [Test worker/WARN]: Column processing queue full (8000), 1 columns dropped total
+[01:45:33] [Test worker/INFO]: Registered voxel column consumer: dev.vox.lss.networking.client.ClientColumnProcessorTest$$Lambda/0x0000000078fb48c8
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

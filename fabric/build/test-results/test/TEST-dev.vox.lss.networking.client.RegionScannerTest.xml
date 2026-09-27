@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.RegionScannerTest" tests="30" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:35.146Z" hostname="diarmid-desktop" time="0.268">
+  <properties/>
+  <testcase name="massDirtyScatterPricesPastTheCapAndDenseFillDoesNot()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.015"/>
+  <testcase name="auditRungHealsAStrandedOrphanWithinTwoFires()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.001"/>
+  <testcase name="confirmedRingIsTheMinimumObservedUnresolvedRing()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.0"/>
+  <testcase name="movementChaosLeavesNoPositionPermanentlyOrphaned()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.014"/>
+  <testcase name="smallLodFirstWalkDegeneratesToLegacyRingOrderWithZeroPhase2()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.0"/>
+  <testcase name="resetClearsTheRegionCountersAndSurvivesReuse()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.003"/>
+  <testcase name="needsFreeRegionsSkipWithoutAnEmitPass()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.002"/>
+  <testcase name="boundaryRegionsClampPerPositionToTheLodSquare()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.0"/>
+  <testcase name="residueRectsDecomposeExactlyAndDisjointly()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.155"/>
+  <testcase name="observeCostMetersAtLeastTheEmittedWork()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.002"/>
+  <testcase name="exactFillEndingInSatisfiedTailIsNotTruncatedOnThisArm()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.0"/>
+  <testcase name="aFiredScanClosesTheMovementWindow()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.0"/>
+  <testcase name="movingTruncatedFillPricesTheFrontierNotTheLod()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.001"/>
+  <testcase name="cachedStampsDeclareTheirResyncTimestamps()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.0"/>
+  <testcase name="lodShrinkPruneThenGrowRedeclaresTheAnnulusThroughAbsentLeaves()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.001"/>
+  <testcase name="movingTruncatedAtADeepPhase2FrontierRefusesFast()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.002"/>
+  <testcase name="satisfiedOuterRingsNeverConfirmPastAnUnsatisfiedInnerRing()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.0"/>
+  <testcase name="viewDistanceCoveringTheWholeDiscConfirmsWithoutRequests()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.0"/>
+  <testcase name="movementWindowPricesTheTruncatedFrontierAndStationaryPricesObservedWork()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.0"/>
+  <testcase name="anyChaosInterleavingLeavesNoPositionPermanentlyOrphaned()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.022"/>
+  <testcase name="steadyFillKeepsSpanAtMostTwoAsTheFrontierAdvances()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.011"/>
+  <testcase name="wholeExcludedRingsMatchesTheRealExclusionShape()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.025"/>
+  <testcase name="exactFillEndingInSatisfiedPhase2RegionsIsNotTruncated()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.001"/>
+  <testcase name="convergedBigLodMovementPricesPastTheCapOnBothArms()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.0"/>
+  <testcase name="farFillDeclaresTheResidueInRegionMajorOrder()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.002"/>
+  <testcase name="emissionIsACompletePrefixPlusAtMostOnePartialTail()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.002"/>
+  <testcase name="dirtyMarkRedeclaresThroughNeedsBitsAloneNoReopenNeeded()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.0"/>
+  <testcase name="hybridEmitsPhase1RingsBeforeAnyPhase2Region()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.001"/>
+  <testcase name="aPhase1BudgetBreakSetsTruncatedAndPhase2NeverRuns()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.0"/>
+  <testcase name="phase1MatchesTheFreshLegacyWalkOrderUnderBothQuadVariants()" classname="dev.vox.lss.networking.client.RegionScannerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

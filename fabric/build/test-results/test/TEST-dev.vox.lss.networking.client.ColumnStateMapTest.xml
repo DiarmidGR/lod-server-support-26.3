@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.ColumnStateMapTest" tests="67" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:33.631Z" hostname="diarmid-desktop" time="0.013">
+  <properties/>
+  <testcase name="tileValidationSkipsUnstampedStates()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.001"/>
+  <testcase name="sessionSatisfiedClassifiesSatisfiedButDirtyStillWins()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="dirtyRescuesParkedNotGeneratedPosition()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="retryOutranksValidation()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="staleInFlightRecordsAndResolvesOnce()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="ingestParkDoesNotPersistAFalseStampAndReAsksNextSession()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="dirtyUnparksAnIngestParkedPositionSoItReRequests()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="onUpToDateSatisfiesAbsentPositionsWithoutFabricatingAStamp()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="notGeneratedOnLegacyZeroStampPurgesItAtPark()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="notGeneratedAnswerAcrossDirtyRetryAndParkedPriorStates()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="contentSupersedesAPendingClearFlag()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="cacheLoadedLegacyZeroStampDeclaresAsNoData()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="legacyZeroPurgesRecordPersistentRemovals()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="reportAgainstANotGeneratedParkedStampStillUnstampsHonestly()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="dirtyOnUnknownPositionIsNotMarked()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="tileValidationIsStrictlyAboveTheMarginedStamp()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="tileValidationNeverRevokesServerPerColumnProofs()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="tileValidationWithAZeroFloorValidatesEveryPositiveStamp()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="receivedAndValidatedIsSatisfied()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="ingestFailureCapCountsDeliveriesNotConsumerReports()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="clearPathIngestFailuresCountDeliveriesNotConsumerReports()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="notGeneratedAnswerConsumesDirtyAndRetryMarksAndParks()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="rejectedClearReRequestsWithPreClearStampNotMinusOne()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="tileValidationIsEquivalentToUpToDateForMarkFreeStampedPositions()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.001"/>
+  <testcase name="ingestFailedOnLegacyZeroStampKeepsEmptyCountConsistent()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="lateDataOnParkedPositionRefreshesStampAndStaysSatisfied()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="onReceivedClearsRetry()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="retryMarkAcrossDirtyZeroAndParkedPriorStates()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="pruneResetsIngestFailureCounts()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.001"/>
+  <testcase name="tileValidationReportsRevokedPositionsToTheCaller()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="ingestFailureCapParksThePosition()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="repeatedlyRejectedClearParksAtCap()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="tileValidationPreservesDirtyAndRetryMarks()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="ratchetAdvancesOnlyForwardOnStampedMarkFreePositions()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="tileValidationSkipsLegacyZeroStamps()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="ingestFailedClearsDirtyAndValidatedAndLifecycleResumes()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="unknownPositionRequestsSyncOnLoad()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="tileValidationIsTwoDirectionalAFresherFrameRevokesAStalerOnes()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="ingestFailedOnAbsentPositionIsIgnored()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="countsTrackTransitions()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="onUpToDateKeepsExistingTimestamp()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="tileValidationResidueKeepsPerColumnRevalidation()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="notGeneratedIsPermanentSessionSatisfy()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="ingestFailureCapResetsWithSessionState()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="postParkSiblingEchoKeepsTheRetainedPreClearStamp()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="honestyRemovalsAreRecordedAndSurviveThePrune()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="cachedButNotValidatedRequestsResync()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="loadFromRecounts()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="sessionSatisfiedIsClearedAndDistancePruned()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="ratchetedStampHealsTheTileCompare()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="subMinusOneCacheValueClampsToUnknownAndReRequests()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="auditRegionNeedsHealsACorruptedBitAndCountsIt()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="tileValidationNeverCreatesLeaves()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="dirtyOutranksValidation()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="doubtRevokesOnlySummaryProofsAndPreservesOtherState()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="ratchetedStampSurvivesTheSessionRoundTrip()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="clearResetsEverything()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="onUpToDateAfterNotGeneratedStaysSatisfied()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="onUpToDateClearsRetry()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.001"/>
+  <testcase name="onReceivedConsumesDirty()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="ratchetSkipsUnstampedAndMarkedPositions()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="upToDateOnLegacyZeroStampPurgesItAtPark()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="legacyZeroStampWithDirtyDeclaresAsNoData()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="ingestFailedForgetsReceivedStampAndMarksRetry()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="rectNeedsFreeIsLeafGranularAndConservative()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="upToDateAnswerConsumesDirtyAndRetryMarks()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <testcase name="pruneOutOfRangeDropsAllStateAndCounts()" classname="dev.vox.lss.networking.client.ColumnStateMapTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_park_persist
+[01:45:33] [Test worker/INFO]: Loaded 1 cached column entries for lss_test_park_persist
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-park-persist
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

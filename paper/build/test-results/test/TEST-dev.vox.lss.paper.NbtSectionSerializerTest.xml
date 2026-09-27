@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.NbtSectionSerializerTest" tests="50" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:51.877Z" hostname="diarmid-desktop" time="0.607">
+  <properties/>
+  <testcase name="golden_biomeThreeBitLinear()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.102"/>
+  <testcase name="malformedBlockStates_codecParseError_sectionSkippedSiblingsServe()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.003"/>
+  <testcase name="airOnly_noLightTag_dropped()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="missingBlockStates_sectionDropped()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.002"/>
+  <testcase name="golden_multiPaletteFullSection()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.003"/>
+  <testcase name="airOnly_withBlockLight_kept()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="golden_waterloggedBlockStateProperty()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="transcodeAndObjectPathsMatchUnderRandomizedMasks()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.104"/>
+  <testcase name="noSectionsList_returnsNull()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.0"/>
+  <testcase name="nonCompoundSectionElement_failsWholeChunk()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="golden_lightPresenceCombos_fourSectionBlob()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="multiSection_orderAndNegativeY()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.0"/>
+  <testcase name="airOnly_zeroBlockLight_dropped()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.0"/>
+  <testcase name="golden_twoEntryPaletteBoundary()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.0"/>
+  <testcase name="sectionMissingY_skipped()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.0"/>
+  <testcase name="outOfWorldSections_droppedOnTheRangedProductionPath()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="maskEntryMasksHiddenStatesOnTheDiskPath()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="trulyUnparseableSection_condemnsTheColumnAsAuthoritativeMiss()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="goldenCorpusIsByteIdenticalToTheFabricTwin()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.002"/>
+  <testcase name="statusMissing_returnsNull()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="golden_uniform15SkyLight()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.0"/>
+  <testcase name="missingBiomes_defaultBiomePath_roundTrips()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="transcodeAndObjectPathsMatchForRandomizedSections()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.065"/>
+  <testcase name="deterministicPaletteTiersMatchAcrossBothPaths()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.009"/>
+  <testcase name="golden_multiSection_listOrderPreserved()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="golden_duplicateAirLenientPalette()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="corruptLightLength_skippedWithoutWireDesync()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="stoneSection_allZeroSavedLight_omitsLightLayer()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="statusNotFull_returnsNull()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.0"/>
+  <testcase name="strayDataOnASingleEntryPaletteIsIgnoredOnBothPaths()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="airOnly_skyLightOnly_dropped()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="maskedColumnMixesTranscodedAndFallbackSectionsByteIdentically()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.002"/>
+  <testcase name="outOfRangeGarbageNeverCondemnsAndTheMinSideAlsoGates()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="golden_hashmapWidePalette()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="airOnly_corruptLightLength_sectionDropped()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="golden_nonDefaultBiomePattern()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.0"/>
+  <testcase name="happyPath_stoneSection_roundTrips()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.0"/>
+  <testcase name="renamedPaletteEntryTranscodesIdenticallyToTheObjectPath()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.002"/>
+  <testcase name="renamedBlockPaletteEntry_sectionKeptWithAirSubstitution()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="biomeData_roundTrips()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="dataLengthMismatchCondemnsTheColumnOnBothPaths()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="golden_biomeGlobalPalette()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="exactPreSizingNeverFallsBackAcrossTheCorpusShapes()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.005"/>
+  <testcase name="golden_negativeYSections()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="lightBytesPreserved()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.0"/>
+  <testcase name="multiBlockSection_paletteRoundTrips()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.0"/>
+  <testcase name="sectionY_signedByteRange_extremesRoundTrip()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.001"/>
+  <testcase name="directEmitRoutesExactlyTheAllTranscodedColumns()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.012"/>
+  <testcase name="headlessWriteMatchesLevelChunkSectionWriteForRandomizedSections()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.018"/>
+  <testcase name="golden_globalPaletteFallback()" classname="dev.vox.lss.paper.NbtSectionSerializerTest" time="0.004"/>
+  <system-out><![CDATA[[15:08:52 WARN]: [LSS] Section block_states parse error (Y=1): Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: lss:no_such_block
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

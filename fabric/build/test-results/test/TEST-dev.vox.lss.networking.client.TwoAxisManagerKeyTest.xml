@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.100Z" hostname="diarmid-desktop" time="0.006">
+  <properties/>
+  <testcase name="aLateCrossDimensionUnstampTargetsTheDepartedDimensionsOwnBucket()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.001"/>
+  <testcase name="anUnreadableReadCarriesTheSubKeyForwardButAReadableAnswerReplacesIt()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.001"/>
+  <testcase name="anUnconfiguredManagerKeepsThePassedKeyVerbatim()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.0"/>
+  <testcase name="aSeedlessLegBlocksAdoptionForTheRestOfTheSession()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.0"/>
+  <testcase name="theKillSwitchOffKeepsTheBareLegacyBucket()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.0"/>
+  <testcase name="aRebuildCarriesTheSubKeyOnlyAcrossAnUnreadableRead()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.0"/>
+  <testcase name="flushCacheSweepsTheConfiguredComponents()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.0"/>
+  <testcase name="aDifferentConnectAddressRecomputesDefensively()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.0"/>
+  <testcase name="aQualifyingSeedComposesTheSubBucket()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.001"/>
+  <testcase name="onDimensionChangeSavesBeforeRederivingTheBucket()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.0"/>
+  <testcase name="seedlessSessionsNeverQueueBucketPreparation()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.0"/>
+  <testcase name="describeCacheKeyNamesBothAxes()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.0"/>
+  <testcase name="eachDimensionEntryReadsTheLiveSeed()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.001"/>
+  <testcase name="postAdoptionSwitchOffReadsAnEmptyBareBucket()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.0"/>
+  <testcase name="theLatchComputesOnceAndIsResetByJoin()" classname="dev.vox.lss.networking.client.TwoAxisManagerKeyTest" time="0.001"/>
+  <system-out><![CDATA[[01:45:36] [Test worker/INFO]: Saved 1 cached column entries for lss_test_arena
+[01:45:36] [LSS-CacheIO/INFO]: Loaded 1 cached column entries for lss_test_arena
+[01:45:36] [LSS-CacheIO/INFO]: Cleared 1 column cache bucket(s) for 1 server spelling(s)
+[01:45:36] [LSS-CacheIO/INFO]: Cleared 1 column cache bucket(s) for 1 server spelling(s)
+[01:45:36] [LSS-CacheIO/INFO]: Cleared 2 column cache bucket(s) for 1 server spelling(s)
+[01:45:36] [LSS-CacheIO/INFO]: Adopted the existing column cache for postadopt-11484273360511.example.com into its world bucket postadopt-11484273360511.example.com.world-0000000000000033 (one-time upgrade — stamps stay warm)
+[01:45:36] [LSS-CacheIO/INFO]: Cleared 1 column cache bucket(s) for 1 server spelling(s)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

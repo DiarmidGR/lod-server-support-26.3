@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.HandshakeGateTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.736Z" hostname="diarmid-desktop" time="0.003">
+  <properties/>
+  <testcase name="versionMismatchOutranksTheViaRung()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="versionCheckOutranksCapabilityAndEnabledChecks()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="zeroCapabilitiesOnDisabledServerStillClassifiesNoConsumer()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.001"/>
+  <testcase name="newerClientVersionSendsNothing()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="v18WithCompatEnabledTakesTheNormalLadderWithTheV18Dialect()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="fullBitmaskCapabilitiesStillRegister()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="futureCapabilityBitsAlongsideVoxelColumnsStillRegister()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="viaMismatchPreservesTheSelectedDialect()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="v16WithCompatDisabledStaysTheSilentVersionMismatch()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="v17StillMismatchesWithBothCompatFlagsOn()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="viaMismatchFalseIsByteIdenticalToTheSevenArgLadder()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="negativeProtocolVersionSendsNothing()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="foreignCapabilityBitsWithoutVoxelColumnsDoNotRegister()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="viaMismatchDeniesEveryLegacyDialectSilently()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="olderClientVersionSendsNothing()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="zeroCapabilitiesRepliesButNeverRegisters()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="viaMismatchNeverTouchesACurrentClient()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="happyPathRepliesAndRegisters()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="v18WithCompatDisabledStaysTheSilentVersionMismatch()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="zstdCapabilityBitNeverChangesTheLadder()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="theTwoCompatFlagsAreIndependent()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="v19WithCompatEnabledTakesTheNormalLadderWithTheV19Dialect()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="absentServiceAdvertisesDisabledWithoutRegistering()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.001"/>
+  <testcase name="theThirdCompatFlagIsIndependentToo()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="onlyExactly16GetsTheV16RungAndCurrentKeepsItsDialect()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="disabledConfigAdvertisesDisabledWithoutRegistering()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="v19WithCompatDisabledStaysTheSilentVersionMismatch()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <testcase name="v16WithCompatEnabledTakesTheNormalLadderWithTheV16Dialect()" classname="dev.vox.lss.networking.server.HandshakeGateTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.compat.MeliusVanishBridgeTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:31.989Z" hostname="diarmid-desktop" time="0.004">
+  <properties/>
+  <testcase name="aNonVanishedTargetIsVisibleWithoutThePerViewerQuery()" classname="dev.vox.lss.compat.MeliusVanishBridgeTest" time="0.001"/>
+  <testcase name="aDriftedApiSurfaceHidesEveryone()" classname="dev.vox.lss.compat.MeliusVanishBridgeTest" time="0.001"/>
+  <testcase name="aThrowingQueryIsHidden()" classname="dev.vox.lss.compat.MeliusVanishBridgeTest" time="0.0"/>
+  <testcase name="aVanishedTargetTravelsAsMeliusActorAndIsHidden()" classname="dev.vox.lss.compat.MeliusVanishBridgeTest" time="0.001"/>
+  <testcase name="anAbsentApiIsVisibleQuietly()" classname="dev.vox.lss.compat.MeliusVanishBridgeTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:31] [Test worker/INFO]: Melius Vanish detected — vanished players are filtered from far-player rendering
+[01:45:31] [Test worker/WARN]: Melius Vanish is present but its VanishAPI surface was not found (API drift?) — EVERY player is hidden from far-player rendering until LSS is updated for this Melius version (fail-safe direction) (java.lang.NoSuchMethodException: no such method: java.lang.String.isVanished(MinecraftServer,UUID)boolean/invokeStatic)
+[01:45:31] [Test worker/INFO]: Melius Vanish detected — vanished players are filtered from far-player rendering
+[01:45:31] [Test worker/WARN]: Melius Vanish query threw — treating the target as HIDDEN from far players (the fail-safe direction; a vanished player must never leak). One warn per session (java.lang.IllegalStateException: vanish backend mid-reload)
+[01:45:31] [Test worker/INFO]: Melius Vanish detected — vanished players are filtered from far-player rendering
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.ToolchainContractTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:28.871Z" hostname="diarmid-desktop" time="0.272">
+  <properties/>
+  <testcase name="mixinCompatibilityLevelMatchesTheCompiledTarget()" classname="dev.vox.lss.ToolchainContractTest" time="0.002"/>
+  <testcase name="compiledClassFileTargetsTheLineJavaVersion()" classname="dev.vox.lss.ToolchainContractTest" time="0.0"/>
+  <testcase name="resolvedMinecraftArtifactMatchesTheDeclaredLine()" classname="dev.vox.lss.ToolchainContractTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

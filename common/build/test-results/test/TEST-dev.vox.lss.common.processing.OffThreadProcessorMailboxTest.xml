@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.OffThreadProcessorMailboxTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:08.243Z" hostname="diarmid-desktop" time="0.033">
+  <properties/>
+  <testcase name="losslessEventIsRetriedAfterAProcessingCycleThrows()" classname="dev.vox.lss.common.processing.OffThreadProcessorMailboxTest" time="0.021"/>
+  <testcase name="aBufferedRemovalDoesNotKillAReRegisteredSameUuidSession()" classname="dev.vox.lss.common.processing.OffThreadProcessorMailboxTest" time="0.001"/>
+  <testcase name="eventsSurviveSnapshotReplacementLossless()" classname="dev.vox.lss.common.processing.OffThreadProcessorMailboxTest" time="0.01"/>
+  <testcase name="bufferedRemovalReleasesDedupAttachedPending()" classname="dev.vox.lss.common.processing.OffThreadProcessorMailboxTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

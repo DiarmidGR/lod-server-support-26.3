@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.LegacyColumnEgressTest" tests="13" skipped="0" failures="4" errors="0" timestamp="2026-09-27T07:45:36.807Z" hostname="diarmid-desktop" time="0.096">
+  <properties/>
+  <testcase name="v16SpliceComposesOnTheTranslatedBody()" classname="dev.vox.lss.networking.server.LegacyColumnEgressTest" time="0.001"/>
+  <testcase name="missingCodecDegradesToRawNotThrow()" classname="dev.vox.lss.networking.server.LegacyColumnEgressTest" time="0.0"/>
+  <testcase name="rawBuildTranslatesInPlaceAndRederivesRawSize()" classname="dev.vox.lss.networking.server.LegacyColumnEgressTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: array contents differ at index [4131], expected: &lt;-78&gt; but was: &lt;-107&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: array contents differ at index [4131], expected: &lt;-78&gt; but was: &lt;-107&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertArrayEquals.failArraysNotEqual(AssertArrayEquals.java:440)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:209)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:63)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:59)
+	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1225)
+	at knot//dev.vox.lss.networking.server.LegacyColumnEgressTest.rawBuildTranslatesInPlaceAndRederivesRawSize(LegacyColumnEgressTest.java:179)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="v18SpliceComposesOnTheTranslatedBody()" classname="dev.vox.lss.networking.server.LegacyColumnEgressTest" time="0.0">
+    <failure message="org.opentest4j.AssertionFailedError: the v18 frame's section array must be the TRANSLATED native body ==&gt; array contents differ at index [8], expected: &lt;-51&gt; but was: &lt;-31&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: the v18 frame's section array must be the TRANSLATED native body ==&gt; array contents differ at index [8], expected: &lt;-51&gt; but was: &lt;-31&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertArrayEquals.failArraysNotEqual(AssertArrayEquals.java:440)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:209)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:63)
+	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1234)
+	at knot//dev.vox.lss.networking.server.LegacyColumnEgressTest.v18SpliceComposesOnTheTranslatedBody(LegacyColumnEgressTest.java:263)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="unresolvableIdentityThrowsTheTranslatorsPinnedFailure()" classname="dev.vox.lss.networking.server.LegacyColumnEgressTest" time="0.001"/>
+  <testcase name="corpusDirectoriesStayInLockstep()" classname="dev.vox.lss.networking.server.LegacyColumnEgressTest" time="0.001"/>
+  <testcase name="legacyBuildIsMemoizedPerColumnAcrossTheFanOut()" classname="dev.vox.lss.networking.server.LegacyColumnEgressTest" time="0.0"/>
+  <testcase name="tinyBodyShipsRawUnderTheShrinkGate()" classname="dev.vox.lss.networking.server.LegacyColumnEgressTest" time="0.0"/>
+  <testcase name="compressedSessionBuildRecompressesTheNativeBody()" classname="dev.vox.lss.networking.server.LegacyColumnEgressTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: the recompressed frame must decompress to the exact native bytes ==&gt; array contents differ at index [11], expected: &lt;-78&gt; but was: &lt;-107&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: the recompressed frame must decompress to the exact native bytes ==&gt; array contents differ at index [11], expected: &lt;-78&gt; but was: &lt;-107&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertArrayEquals.failArraysNotEqual(AssertArrayEquals.java:440)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:209)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:63)
+	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1234)
+	at knot//dev.vox.lss.networking.server.LegacyColumnEgressTest.compressedSessionBuildRecompressesTheNativeBody(LegacyColumnEgressTest.java:199)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="overCapTranslationThrowsBeforeItCanKillTheLegacyConnection()" classname="dev.vox.lss.networking.server.LegacyColumnEgressTest" time="0.057"/>
+  <testcase name="duplicatePaletteFixtureCollapsesToContentIdenticalBytes()" classname="dev.vox.lss.networking.server.LegacyColumnEgressTest" time="0.001"/>
+  <testcase name="everyCorpusGoldenTranslatesBackToItsExactNativeBytes()" classname="dev.vox.lss.networking.server.LegacyColumnEgressTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: fromV20 must reproduce the frozen native bytes through the production registry tables for global-palette.bin ==&gt; array contents differ at index [6], expected: &lt;15&gt; but was: &lt;16&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: fromV20 must reproduce the frozen native bytes through the production registry tables for global-palette.bin ==&gt; array contents differ at index [6], expected: &lt;15&gt; but was: &lt;16&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertArrayEquals.failArraysNotEqual(AssertArrayEquals.java:440)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:209)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:63)
+	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1234)
+	at knot//dev.vox.lss.networking.server.LegacyColumnEgressTest.everyCorpusGoldenTranslatesBackToItsExactNativeBytes(LegacyColumnEgressTest.java:114)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="dialectTrackerAttachIsWiredInTheServiceConstructor()" classname="dev.vox.lss.networking.server.LegacyColumnEgressTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

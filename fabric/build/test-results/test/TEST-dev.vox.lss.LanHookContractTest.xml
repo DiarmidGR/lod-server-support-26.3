@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.LanHookContractTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:28.682Z" hostname="diarmid-desktop" time="0.151">
+  <properties/>
+  <testcase name="injectDescriptorTargetsTheTwoArgOverloadTheLanGuiCalls()" classname="dev.vox.lss.LanHookContractTest" time="0.15"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

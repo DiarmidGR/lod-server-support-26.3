@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.store.RegistryFingerprintTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:10.114Z" hostname="diarmid-desktop" time="0.001">
+  <properties/>
+  <testcase name="identicalInputsAreStableAcrossCalls()" classname="dev.vox.lss.common.store.RegistryFingerprintTest" time="0.0"/>
+  <testcase name="sameCountDifferentContentChangesTheFingerprint()" classname="dev.vox.lss.common.store.RegistryFingerprintTest" time="0.0"/>
+  <testcase name="contentFingerprintSeesRealContentChanges()" classname="dev.vox.lss.common.store.RegistryFingerprintTest" time="0.001"/>
+  <testcase name="formatIsAHashPairNeverACount()" classname="dev.vox.lss.common.store.RegistryFingerprintTest" time="0.0"/>
+  <testcase name="contentFingerprintIgnoresOrder()" classname="dev.vox.lss.common.store.RegistryFingerprintTest" time="0.0"/>
+  <testcase name="contentFormatIsADistinctHashPair()" classname="dev.vox.lss.common.store.RegistryFingerprintTest" time="0.0"/>
+  <testcase name="orderedAndContentFingerprintsAreUnconfusable()" classname="dev.vox.lss.common.store.RegistryFingerprintTest" time="0.0"/>
+  <testcase name="sameCountDifferentOrderChangesTheFingerprint()" classname="dev.vox.lss.common.store.RegistryFingerprintTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

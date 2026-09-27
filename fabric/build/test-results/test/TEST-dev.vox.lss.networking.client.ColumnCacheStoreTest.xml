@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.ColumnCacheStoreTest" tests="32" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:33.224Z" hostname="diarmid-desktop" time="0.402">
+  <properties/>
+  <testcase name="hungIoThreadCannotFreezeASynchronousClearForever()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.251"/>
+  <testcase name="mergeSaveEvictsFarthestFirstWhenOverTheCap()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.002"/>
+  <testcase name="v4RoundTripsRawServerTimestamps()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <testcase name="saveAsyncSnapshotsBeforeCallerMutates()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.012"/>
+  <testcase name="invalidFormatVersionReturnsEmpty()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.0"/>
+  <testcase name="clearForServerRemovesAllDimensionFiles()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.0"/>
+  <testcase name="resolveCacheRootAdoptsTheOtherBrandsDotDir(Path)" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <testcase name="mergeSaveAppliesHonestyRemovalsWithoutTouchingReReceivedEntries()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <testcase name="clearAllRemovesEveryServersCache()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.002"/>
+  <testcase name="excessiveOrNegativeCountReturnsEmpty()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.0"/>
+  <testcase name="sanitizationCollapsesColonAndUnderscoreServerIds()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <testcase name="dimensionFilesDoNotBleedAcrossDimensions()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.0"/>
+  <testcase name="resolveCacheRootUsesGameRootDotLssWhenNoLegacyDirExists(Path)" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.0"/>
+  <testcase name="truncatedDataReturnsPartial()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <testcase name="saveAndLoadRoundtrip()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.0"/>
+  <testcase name="preV4CachesAreDiscardedNotMigrated()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <testcase name="missingFileReturnsEmpty()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.0"/>
+  <testcase name="mergeSavePreservesFileOnlyEntriesAndMemoryWins()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <testcase name="clearForServerRemovesFiles()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.0"/>
+  <testcase name="flushPendingIoWaitsForQueuedAsyncSave()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <testcase name="resolveCacheRootAdoptsAnExistingLegacyDirectory(Path)" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.0"/>
+  <testcase name="removeAsyncUnstampsOnePositionAndDeletesTheFileWhenEmptied()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.002"/>
+  <testcase name="clearForServerRunsAfterQueuedAsyncSave()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.0"/>
+  <testcase name="oversizedSaveLoadsBackEmptyNotTruncated()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.116"/>
+  <testcase name="bareDotsServerAddressSanitizesToAPlainSegment()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.0"/>
+  <testcase name="minusOneEntriesRoundtripToUnknownClassify()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <testcase name="clearForServerLeavesOtherServersIntact()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <testcase name="mergeSaveDegradesToOverwriteOnACorruptExistingFile()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <testcase name="hostileServerAddressCannotEscapeCacheDir()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.0"/>
+  <testcase name="burstOfRemoveAsyncCoalescesIntoOneRewrite()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <testcase name="clearAllRunsAfterQueuedAsyncSave()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <testcase name="removalsOnlyMergeSaveDeletesTheEmptiedFile()" classname="dev.vox.lss.networking.client.ColumnCacheStoreTest" time="0.001"/>
+  <system-out><![CDATA[[01:45:33] [test-hung-io-caller/WARN]: Column cache IO wait exceeded 250ms — abandoning the wait (the task stays queued on the IO thread)
+[01:45:33] [Test worker/INFO]: Saved 3 cached column entries for lss_test_merge_evict
+[01:45:33] [Test worker/INFO]: Loaded 3 cached column entries for lss_test_merge_evict
+[01:45:33] [Test worker/INFO]: Saved 4 cached column entries for lss_test_merge_evict
+[01:45:33] [Test worker/INFO]: Loaded 4 cached column entries for lss_test_merge_evict
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-merge-evict
+[01:45:33] [Test worker/INFO]: Saved 2 cached column entries for lss_test_v4_roundtrip
+[01:45:33] [Test worker/INFO]: Loaded 2 cached column entries for lss_test_v4_roundtrip
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-v4-roundtrip
+[01:45:33] [LSS-CacheIO/INFO]: Saved 20000 cached column entries for lss_test_snapshot
+[01:45:33] [LSS-CacheIO/INFO]: Saved 2 cached column entries for lss_test_snapshot
+[01:45:33] [Test worker/INFO]: Loaded 2 cached column entries for lss_test_snapshot
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-snapshot-gate
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-snapshot
+[01:45:33] [Test worker/INFO]: Column cache /home/diarmid/Documents/Coding/lod-server-support/fabric/.lss/cache/test-bad-version/lss_test_bad_version.bin is v999 (< v4); discarding — timestamps rebuild on resync
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_clear_multi_a
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_clear_multi_b
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-clear-multi
+[01:45:33] [Test worker/INFO]: Saved 2 cached column entries for lss_test_merge_removals
+[01:45:33] [Test worker/INFO]: Loaded 2 cached column entries for lss_test_merge_removals
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_merge_removals
+[01:45:33] [Test worker/INFO]: Loaded 1 cached column entries for lss_test_merge_removals
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-merge-removals
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_clear_all_a
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_clear_all_b
+[01:45:33] [LSS-CacheIO/INFO]: Cleared all column caches
+[01:45:33] [Test worker/WARN]: Column cache /home/diarmid/Documents/Coding/lod-server-support/fabric/.lss/cache/test-excess/lss_test_excess_count_3000000.bin has invalid entry count 3000000, discarding
+[01:45:33] [Test worker/WARN]: Column cache /home/diarmid/Documents/Coding/lod-server-support/fabric/.lss/cache/test-excess/lss_test_excess_count_-1.bin has invalid entry count -1, discarding
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_collision
+[01:45:33] [Test worker/INFO]: Loaded 1 cached column entries for lss_test_collision
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server coll.example_25565
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_iso_a
+[01:45:33] [Test worker/INFO]: Saved 2 cached column entries for lss_test_iso_b
+[01:45:33] [Test worker/INFO]: Loaded 1 cached column entries for lss_test_iso_a
+[01:45:33] [Test worker/INFO]: Loaded 2 cached column entries for lss_test_iso_b
+[01:45:33] [Test worker/WARN]: Failed to load column cache from /home/diarmid/Documents/Coding/lod-server-support/fabric/.lss/cache/test-truncated/lss_test_truncated.bin
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:215)
+	at java.base/java.io.DataInputStream.readLong(DataInputStream.java:412)
+	at knot//dev.vox.lss.networking.client.ColumnCacheStore.load(ColumnCacheStore.java:130)
+	at knot//dev.vox.lss.networking.client.ColumnCacheStoreTest.truncatedDataReturnsPartial(ColumnCacheStoreTest.java:179)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor$CollectThenExecuteTestDefinitionConsumer.processAllTestDefinitions(JUnitPlatformTestDefinitionProcessor.java:179)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor$CollectThenExecuteTestDefinitionConsumer.access$000(JUnitPlatformTestDefinitionProcessor.java:122)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor.stop(JUnitPlatformTestDefinitionProcessor.java:116)
+	at org.gradle.api.internal.tasks.testing.SuiteTestDefinitionProcessor.stop(SuiteTestDefinitionProcessor.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.gradle.internal.dispatch.MethodInvocation.invokeOn(MethodInvocation.java:77)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:28)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:19)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:88)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:195)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:126)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+[01:45:33] [Test worker/INFO]: Saved 3 cached column entries for lss_test_roundtrip
+[01:45:33] [Test worker/INFO]: Loaded 3 cached column entries for lss_test_roundtrip
+[01:45:33] [Test worker/INFO]: Column cache /home/diarmid/Documents/Coding/lod-server-support/fabric/.lss/cache/test-discard-v1/lss_test_discard_v1.bin is v1 (< v4); discarding — timestamps rebuild on resync
+[01:45:33] [Test worker/INFO]: Column cache /home/diarmid/Documents/Coding/lod-server-support/fabric/.lss/cache/test-discard-v2/lss_test_discard_v2.bin is v2 (< v4); discarding — timestamps rebuild on resync
+[01:45:33] [Test worker/INFO]: Column cache /home/diarmid/Documents/Coding/lod-server-support/fabric/.lss/cache/test-discard-v3/lss_test_discard_v3.bin is v3 (< v4); discarding — timestamps rebuild on resync
+[01:45:33] [Test worker/INFO]: Saved 2 cached column entries for lss_test_merge_basic
+[01:45:33] [Test worker/INFO]: Loaded 2 cached column entries for lss_test_merge_basic
+[01:45:33] [Test worker/INFO]: Saved 3 cached column entries for lss_test_merge_basic
+[01:45:33] [Test worker/INFO]: Loaded 3 cached column entries for lss_test_merge_basic
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-merge-basic
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_clear_test
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-clear-server
+[01:45:33] [LSS-CacheIO/INFO]: Saved 1 cached column entries for lss_test_flush_wait
+[01:45:33] [Test worker/INFO]: Loaded 1 cached column entries for lss_test_flush_wait
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-flush-wait
+[01:45:33] [Test worker/INFO]: Saved 2 cached column entries for lss_test_remove_async
+[01:45:33] [LSS-CacheIO/INFO]: Loaded 2 cached column entries for lss_test_remove_async
+[01:45:33] [LSS-CacheIO/INFO]: Saved 1 cached column entries for lss_test_remove_async
+[01:45:33] [Test worker/INFO]: Loaded 1 cached column entries for lss_test_remove_async
+[01:45:33] [LSS-CacheIO/INFO]: Loaded 1 cached column entries for lss_test_remove_async
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-remove
+[01:45:33] [LSS-CacheIO/INFO]: Saved 1 cached column entries for lss_test_fifo_clear
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-fifo-clear
+[01:45:33] [Test worker/INFO]: Saved 2000001 cached column entries for lss_test_oversized
+[01:45:33] [Test worker/WARN]: Column cache /home/diarmid/Documents/Coding/lod-server-support/fabric/.lss/cache/test-oversized/lss_test_oversized.bin has invalid entry count 2000001, discarding
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-oversized
+[01:45:33] [Test worker/INFO]: Saved 2 cached column entries for lss_test_minus_one
+[01:45:33] [Test worker/INFO]: Loaded 2 cached column entries for lss_test_minus_one
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_server_iso
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_server_iso
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-server-iso-a
+[01:45:33] [Test worker/INFO]: Loaded 1 cached column entries for lss_test_server_iso
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-server-iso-b
+[01:45:33] [Test worker/WARN]: Failed to load column cache from /home/diarmid/Documents/Coding/lod-server-support/fabric/.lss/cache/test-merge-corrupt/lss_test_merge_corrupt.bin
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:215)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:390)
+	at knot//dev.vox.lss.networking.client.ColumnCacheStore.load(ColumnCacheStore.java:109)
+	at knot//dev.vox.lss.networking.client.ColumnCacheStore.mergeSave(ColumnCacheStore.java:261)
+	at knot//dev.vox.lss.networking.client.ColumnCacheStoreTest.mergeSaveDegradesToOverwriteOnACorruptExistingFile(ColumnCacheStoreTest.java:582)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor$CollectThenExecuteTestDefinitionConsumer.processAllTestDefinitions(JUnitPlatformTestDefinitionProcessor.java:179)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor$CollectThenExecuteTestDefinitionConsumer.access$000(JUnitPlatformTestDefinitionProcessor.java:122)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor.stop(JUnitPlatformTestDefinitionProcessor.java:116)
+	at org.gradle.api.internal.tasks.testing.SuiteTestDefinitionProcessor.stop(SuiteTestDefinitionProcessor.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.gradle.internal.dispatch.MethodInvocation.invokeOn(MethodInvocation.java:77)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:28)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:19)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:88)
+	at jdk.proxy1/jdk.proxy1.$Proxy4.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:195)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:126)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:122)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_merge_corrupt
+[01:45:33] [Test worker/INFO]: Loaded 1 cached column entries for lss_test_merge_corrupt
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-merge-corrupt
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_traversal
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server lss-evil/../../traversal-target
+[01:45:33] [Test worker/INFO]: Saved 3 cached column entries for lss_test_coalesce
+[01:45:33] [LSS-CacheIO/INFO]: Loaded 3 cached column entries for lss_test_coalesce
+[01:45:33] [LSS-CacheIO/INFO]: Saved 1 cached column entries for lss_test_coalesce
+[01:45:33] [Test worker/INFO]: Loaded 1 cached column entries for lss_test_coalesce
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-coalesce
+[01:45:33] [LSS-CacheIO/INFO]: Saved 1 cached column entries for lss_test_fifo_clear_all
+[01:45:33] [LSS-CacheIO/INFO]: Cleared all column caches
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_merge_empty
+[01:45:33] [LSS-CacheIO/INFO]: Loaded 1 cached column entries for lss_test_merge_empty
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-merge-empty
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

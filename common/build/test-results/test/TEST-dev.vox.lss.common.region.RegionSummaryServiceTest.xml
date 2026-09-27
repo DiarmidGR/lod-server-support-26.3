@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.region.RegionSummaryServiceTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:09.895Z" hostname="diarmid-desktop" time="0.211">
+  <properties/>
+  <testcase name="hostileCenterClampsToThePlayerWindowAndCounts()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.012"/>
+  <testcase name="noRegionTilesCountApartFromKnown()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.01"/>
+  <testcase name="aRetriedFrameIsRetainedAndSentByTheNextWritableDrain()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.01"/>
+  <testcase name="assemblyFailureIsContainedAndLaterJobsStillServe()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.061"/>
+  <testcase name="removePlayerClearsTheCooldownMark()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.02"/>
+  <testcase name="dimensionMismatchRetainsUntilTtlThenDrops()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.001"/>
+  <testcase name="resweepCooldownRetainsThenAdmits()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.02"/>
+  <testcase name="admittedRequestProducesADecodableWindow()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.011"/>
+  <testcase name="removePlayerSweepsRetainedFrames()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.01"/>
+  <testcase name="retainedFramesSendInAssemblyOrderPerPlayer()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.011"/>
+  <testcase name="removePlayerSweepsPendingWork()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.0"/>
+  <testcase name="aDeclinedSendIsNotCountedAsAFrame()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.011"/>
+  <testcase name="unknownPlayerRetainsThenExpires()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.0"/>
+  <testcase name="latestRequestWinsBeforeAdmission()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.01"/>
+  <testcase name="aQuitDuringAssemblyCannotResurrectTheReadyQueue()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.0"/>
+  <testcase name="eligibilityMarkArmsOnRequestAndSweepsAtDisconnect()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.0"/>
+  <testcase name="radiusAndCenterClampToTheServerWindowNotTheProtocolMax()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.011"/>
+  <testcase name="anchorlessSweepClearsAQuitRaceResurrectedMark()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.0"/>
+  <testcase name="aRetriedFrameExpiresAtTheTtl()" classname="dev.vox.lss.common.region.RegionSummaryServiceTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.SharedBandwidthLimiterReconfigureTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.087Z" hostname="diarmid-desktop" time="0.001">
+  <properties/>
+  <testcase name="raisingTakesEffectAtTheNextRefillWindow()" classname="dev.vox.lss.common.SharedBandwidthLimiterReconfigureTest" time="0.0"/>
+  <testcase name="loweringClampsBankedTokensAndRefillsAtTheNewRate()" classname="dev.vox.lss.common.SharedBandwidthLimiterReconfigureTest" time="0.001"/>
+  <testcase name="unchangedValueIsANoOpAndDebtSurvivesReconfigure()" classname="dev.vox.lss.common.SharedBandwidthLimiterReconfigureTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

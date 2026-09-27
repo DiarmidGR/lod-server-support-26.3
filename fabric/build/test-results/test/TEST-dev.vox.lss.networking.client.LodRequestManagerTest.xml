@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.client.LodRequestManagerTest" tests="50" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:33.674Z" hostname="diarmid-desktop" time="0.026">
+  <properties/>
+  <testcase name="notGeneratedResponseDoesNotResetTheConfirmedRing()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.001"/>
+  <testcase name="unknownAskAnsweredUpToDateSatisfiesWithoutStampAndStopsReAsking()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="shouldDriveV16GenerationTruthTable()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.001"/>
+  <testcase name="maxSizeDirtyFrameOnTheRegionArmMarksKnownOnlyAndKeepsTheCadence()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.002"/>
+  <testcase name="crossDimensionColumnDataIsNeverStamped()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="saveCachePersistsThroughTheMergePathWithRemovalsAndHistory()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.002"/>
+  <testcase name="v16GenerationDriveIsWireOnlyAndLeavesCoreFirstServeStateHonest()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="trackedNotGeneratedSessionSatisfiesAndReleasesSlot()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="tierBTreatsNotGeneratedAsReDeclarableOnAGenEnabledLegacyServer()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="withoutTierBNotGeneratedParksPermanentlyEvenOnAGenEnabledSession()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="columnDataAppliesEvenWhenNoLongerTracked()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.001"/>
+  <testcase name="scanReDeclaresAwaitedPositionsAndSkipsSatisfiedOnes()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="tierBStillPermanentlyParksNotGeneratedOnAGenDisabledLegacyServer()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="untrackedUpToDateNeverFabricatesSatisfiedState()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="withoutV16GenerationDriveFirstServeStampsStayMinusOne()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="emptyDirtyFrameIsACompleteNoOp()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.001"/>
+  <testcase name="enteringBackpressureHaltSendsExactlyOneEmptyClearBatch()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="dispatchRoutesEachTypeAndUnknownTypeSkipsOnlyThatEntry()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.001"/>
+  <testcase name="convergedScanSendsNothingAtAll()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="dirtyCrossingAnInFlightFirstServeReRequestsOnReceived()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="ingestFailureDuringPendingCacheLoadIsNotResurrectedByTheLoad()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="ingestFailureForAnotherDimensionDoesNotTouchTheCurrentMap()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="dirtyBroadcastOnTheRegionArmIsCadenceNeutralAndMarks()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="maxSizeDirtyFrameMarksKnownPositionsOnlyAndKeepsTheCadence()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.003"/>
+  <testcase name="marksSurviveSendAndAreConsumedByAnswers()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="tierBParksNotGeneratedForACachedResyncEvenOnAGenEnabledLegacyServer()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="sendFailureLeavesEveryPositionReDeclarableNextScan()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.001"/>
+  <testcase name="trackedUpToDateStampsValidationAndReleasesSlot()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="flushCacheDropsAPendingCacheLoadResultThatCompletesAfterTheFlush()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="abandonedLoadWindowFailuresUnstampTheFileAtSaveCache()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.001"/>
+  <testcase name="wantSetCarriesTheClassifyDerivedTimestampNotAStaleClaim()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="ingestFailureUnstampsSoTheReAskCarriesUnknown()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="dirtyBroadcastAllUnknownLeavesScanCadenceAndConfirmedRingUntouched()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.001"/>
+  <testcase name="noWalkTickNeitherSendsNorReplacesTheAwaitingSet()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.001"/>
+  <testcase name="columnDataBeforeFirstTickApplies()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="ingestFailureNeverDelaysTheScanCadence()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="farOutOfRangeUnsolicitedColumnIsNeverStamped()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.001"/>
+  <testcase name="dirtyCrossingAnInFlightFirstServeReRequestsOnNotGenerated()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="untrackedNotGeneratedCountsMetricButNeverStampsState()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="dirtyCrossingAnInFlightFirstServeReRequestsOnUpToDate()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.001"/>
+  <testcase name="trackedColumnDataReleasesInFlightSlot()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="crossDimensionIngestReportUnstampsTheOtherDimensionsSavedCache()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="dirtyPushAfterDimensionChangeNeitherDebouncesNorPoisonsTheFreshMap()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="v16GenerationDriveRewritesFirstServeStampsToTheGenerateTrigger()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="rejectedAuthoritativeClearReRequestsWithPreClearStamp()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="dirtyBroadcastWithKnownPositionReopensItsRingWithoutTouchingTheCadence()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.002"/>
+  <testcase name="dispatchHonorsCountOverArrayLength()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="duplicatePositionInOneBatchFrameResolvesConsistently()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="productionDefaultCtorSelectsTheArmFromTheConfigKey()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <testcase name="dirtyCrossingAnInFlightResyncReRequests()" classname="dev.vox.lss.networking.client.LodRequestManagerTest" time="0.0"/>
+  <system-out><![CDATA[[01:45:33] [Test worker/INFO]: Saved 2 cached column entries for lss_test_overworld
+[01:45:33] [LSS-CacheIO/INFO]: Loaded 2 cached column entries for lss_test_overworld
+[01:45:33] [LSS-CacheIO/INFO]: Saved 2 cached column entries for lss_test_overworld
+[01:45:33] [Test worker/INFO]: Loaded 2 cached column entries for lss_test_overworld
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-savewiring-11481846953563
+[01:45:33] [Test worker/WARN]: Unknown batch response type: 99 (1 unknown element(s) since the last report)
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_overworld
+[01:45:33] [LSS-CacheIO/INFO]: Loaded 1 cached column entries for lss_test_overworld
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-loadwindow-11481859601859
+[01:45:33] [Test worker/INFO]: Saved 1 cached column entries for lss_test_overworld
+[01:45:33] [LSS-CacheIO/INFO]: Loaded 1 cached column entries for lss_test_overworld
+[01:45:33] [LSS-CacheIO/INFO]: Cleared column cache for server test-crossdim-11481864350158
+[01:45:33] [LSS-CacheIO/INFO]: Saved 1 cached column entries for lss_test_overworld
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.DirtyContentFilterTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.481Z" hostname="diarmid-desktop" time="0.099">
+  <properties/>
+  <testcase name="observeSaveAndContentChangedShareTheBaseline()" classname="dev.vox.lss.networking.server.DirtyContentFilterTest" time="0.003"/>
+  <testcase name="remappedZeroHashKeepsFirstObservationAndResaveSemantics()" classname="dev.vox.lss.networking.server.DirtyContentFilterTest" time="0.0"/>
+  <testcase name="seedLoadedSuppressesTheFirstSaveUnlessContentChanged()" classname="dev.vox.lss.networking.server.DirtyContentFilterTest" time="0.001"/>
+  <testcase name="observeSaveHandsOutBytesOnChangeAndSuppressesUnchanged()" classname="dev.vox.lss.networking.server.DirtyContentFilterTest" time="0.0"/>
+  <testcase name="fnvZeroResultStoresAsOneOffTheAbsentSentinel()" classname="dev.vox.lss.networking.server.DirtyContentFilterTest" time="0.0"/>
+  <testcase name="overflowEvictsTheColdestBaselineOnly()" classname="dev.vox.lss.networking.server.DirtyContentFilterTest" time="0.093"/>
+  <testcase name="serializationExceptionFailsOpenAsChanged()" classname="dev.vox.lss.networking.server.DirtyContentFilterTest" time="0.001"/>
+  <testcase name="metadataOnlyResaveOfAServedCornerIsSuppressed_noReloadLoop()" classname="dev.vox.lss.networking.server.DirtyContentFilterTest" time="0.0"/>
+  <testcase name="observeSaveAllAirIsDepositableAndFailOpenIsNot()" classname="dev.vox.lss.networking.server.DirtyContentFilterTest" time="0.0"/>
+  <testcase name="seedToleratesAllAirNullBytes()" classname="dev.vox.lss.networking.server.DirtyContentFilterTest" time="0.0"/>
+  <testcase name="seedLoadedFailsOpenByOmission()" classname="dev.vox.lss.networking.server.DirtyContentFilterTest" time="0.0"/>
+  <testcase name="serializationExceptionLeavesStoredBaselineUntouched()" classname="dev.vox.lss.networking.server.DirtyContentFilterTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

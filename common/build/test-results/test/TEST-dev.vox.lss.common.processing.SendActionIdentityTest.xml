@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.SendActionIdentityTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:08.747Z" hostname="diarmid-desktop" time="0.042">
+  <properties/>
+  <testcase name="actionProducedForReplacedSessionNeverReachesTheFreshOne()" classname="dev.vox.lss.common.processing.SendActionIdentityTest" time="0.011"/>
+  <testcase name="actionsAreDroppedNotHeldWhileHandshakeIsIncomplete()" classname="dev.vox.lss.common.processing.SendActionIdentityTest" time="0.02"/>
+  <testcase name="actionProducedForDisconnectedSessionIsDropped()" classname="dev.vox.lss.common.processing.SendActionIdentityTest" time="0.011"/>
+  <testcase name="drainStampsProbeSuppressOnDeliveredUpToDateOnly()" classname="dev.vox.lss.common.processing.SendActionIdentityTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

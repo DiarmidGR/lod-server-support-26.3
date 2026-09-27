@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.server.IdentityTablesTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.739Z" hostname="diarmid-desktop" time="0.068">
+  <properties/>
+  <testcase name="everyBlockStateIdentityIsCanonicalAndGloballyUnique()" classname="dev.vox.lss.networking.server.IdentityTablesTest" time="0.02"/>
+  <testcase name="inverseTableIsTheExactMirror()" classname="dev.vox.lss.networking.server.IdentityTablesTest" time="0.009"/>
+  <testcase name="boundsCheckedLookupReturnsNullOutsideTheTable()" classname="dev.vox.lss.networking.server.IdentityTablesTest" time="0.0"/>
+  <testcase name="propertiedStateCarriesAllPropertiesSorted()" classname="dev.vox.lss.networking.server.IdentityTablesTest" time="0.0"/>
+  <testcase name="biomeTableCoversTheRegistryBothDirections()" classname="dev.vox.lss.networking.server.IdentityTablesTest" time="0.001"/>
+  <testcase name="propertylessStateIsTheBareForm()" classname="dev.vox.lss.networking.server.IdentityTablesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

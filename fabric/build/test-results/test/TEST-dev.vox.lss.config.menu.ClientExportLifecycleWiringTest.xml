@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.config.menu.ClientExportLifecycleWiringTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.711Z" hostname="diarmid-desktop" time="0.003">
+  <properties/>
+  <testcase name="actualExportClosuresRetainOnlyTicketAndResult()" classname="dev.vox.lss.config.menu.ClientExportLifecycleWiringTest" time="0.0"/>
+  <testcase name="originalConsumerCaptureWouldFail()" classname="dev.vox.lss.config.menu.ClientExportLifecycleWiringTest" time="0.002"/>
+  <testcase name="actualSubmissionExceptionHandlersReleaseReservation()" classname="dev.vox.lss.config.menu.ClientExportLifecycleWiringTest" time="0.0"/>
+  <testcase name="clientOwnerAndCurrentIdentityAreCheckedBeforeCallbackTake()" classname="dev.vox.lss.config.menu.ClientExportLifecycleWiringTest" time="0.001"/>
+  <testcase name="removedBusyCatchReleaseWouldFail()" classname="dev.vox.lss.config.menu.ClientExportLifecycleWiringTest" time="0.0"/>
+  <testcase name="immutableTicketCannotRetainScreenSourceOrWorld()" classname="dev.vox.lss.config.menu.ClientExportLifecycleWiringTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

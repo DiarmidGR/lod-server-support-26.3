@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.networking.payloads.VoxelSectionPayloadTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:36.121Z" hostname="diarmid-desktop" time="0.001">
+  <properties/>
+  <testcase name="dimensionOverworldRoundtrip()" classname="dev.vox.lss.networking.payloads.VoxelSectionPayloadTest" time="0.001"/>
+  <testcase name="roundtripPreservesHeaderFields()" classname="dev.vox.lss.networking.payloads.VoxelSectionPayloadTest" time="0.0"/>
+  <testcase name="estimatedBytesPositive()" classname="dev.vox.lss.networking.payloads.VoxelSectionPayloadTest" time="0.0"/>
+  <testcase name="roundtripEmptyColumn()" classname="dev.vox.lss.networking.payloads.VoxelSectionPayloadTest" time="0.0"/>
+  <testcase name="sessionConfigRoundtrip()" classname="dev.vox.lss.networking.payloads.VoxelSectionPayloadTest" time="0.0"/>
+  <testcase name="dimensionNetherRoundtrip()" classname="dev.vox.lss.networking.payloads.VoxelSectionPayloadTest" time="0.0"/>
+  <testcase name="dimensionEndRoundtrip()" classname="dev.vox.lss.networking.payloads.VoxelSectionPayloadTest" time="0.0"/>
+  <testcase name="roundtripPreservesSectionData()" classname="dev.vox.lss.networking.payloads.VoxelSectionPayloadTest" time="0.0"/>
+  <testcase name="handshakeWithCapabilitiesRoundtrip()" classname="dev.vox.lss.networking.payloads.VoxelSectionPayloadTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

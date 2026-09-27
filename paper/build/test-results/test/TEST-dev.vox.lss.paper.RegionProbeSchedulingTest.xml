@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.RegionProbeSchedulingTest" tests="29" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:54.480Z" hostname="diarmid-desktop" time="0.149">
+  <properties/>
+  <testcase name="retiredCallbackCannotOverwriteSuccessorBatchWithSameUuid()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.004"/>
+  <testcase name="foreignRegionChunksAreNeitherProbedNorPublished()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.002"/>
+  <testcase name="syncProbeSkipsSuppressedPositionsAndStillProbesSiblings()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="aConvergedPlayerStillCostsNoRegionTask()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="scheduleSnapshotSkipsPositionsWithAGenerationOutcomeThisTick()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="latePublishForADepartedPlayerIsSweptNotServedOnRejoin()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="actualShutdownRetiresBeforeADeferredHeldReleaseCanPublish()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="multiPlayerHoldIsolationAndDepartedSweep()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.002"/>
+  <testcase name="retirementDuringSerializationCannotPublishIntoSuccessor()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="batchPublishedUnderTheOldDimensionIsDiscardedNotServed()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.002"/>
+  <testcase name="heldBatchLosesToANewerArrivalAndIsCountedSuperseded()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.002"/>
+  <testcase name="publishedBatchIsMergedIntoTheNextSnapshotAndConsumedOnce()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="consumeDropsPositionsWithAGenerationOutcomeInTheSameSnapshot()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.002"/>
+  <testcase name="thePublishedWantSetArmProbesBetweenDeclarations()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="syncProbingIsUnchangedWhenRegionizedProbingIsOff()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="aLateProbeTaskNeverDelaysTheRelease()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.0"/>
+  <testcase name="unconsumedPublishesMergePerPlayer()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="positionSnapshotCapsAtTheSharedPerTickProbeLimit()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="noTaskIsScheduledWithoutPendingRequests()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.0"/>
+  <testcase name="heldBatchDiesWithTheRemovedPlayer()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="regionProbeSnapshotSkipsSuppressedPositions()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.0"/>
+  <testcase name="regionizedTickSchedulesATaskAndNeverProbesOnThePump()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="heldBatchDiesWhenANewerBatchPassesThroughTheMailboxDuringTheHold()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="synchronousCapturePrecedesSerializerAndFreshCaptureRemainsUsable()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.002"/>
+  <testcase name="regionCapturePrecedesSerializationAndDoesNotRefreshAtPublication()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="aRegionTaskRacingTheTickNeverCorruptsTheHandoff()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.113"/>
+  <testcase name="anArrivalTickSchedulesExactlyOneTask()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="freshRequestsAreHeldOneTickAndReleasedWithTheirProbeResults()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <testcase name="shutdownBeforeOwnerCallbackSkipsNativeRead()" classname="dev.vox.lss.paper.RegionProbeSchedulingTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

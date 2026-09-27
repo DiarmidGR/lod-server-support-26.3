@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.347Z" hostname="diarmid-desktop" time="0.022">
+  <properties/>
+  <testcase name="updatesChunkUnderTheDictionaryBoundAndStayDecodable()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.009"/>
+  <testcase name="hiddenPermissionDropsTheTargetFromRosterAndUpdates()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="aResubscriptionSeedsTheRetainedPrefsSoServingResumes()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="aShareSelfOptOutSurvivesTheViewerShed()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="disconnectForgetsTheRetainedPrefs()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="optInModeServesOnlySharingTargetsAndModeOnHonorsOptOut()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="membershipChangesRideIncrementalFramesWithinTheEpoch()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.001"/>
+  <testcase name="anyPrefsReceiptQueuesAFullRosterButTheRateBoundHoldsIt()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="lifecycleSurfacesFollowTheV18RungChecklist()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="withheldUpdatesLeaveRowsUncommittedSoAStationaryTargetStillHeals()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="anUnsubscribedSendersPrefsAreRetainedForTheTargetFilter()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="stopAfterMotionShipsExactlyOneRestFrameThenSuppresses()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.001"/>
+  <testcase name="filterLadderExcludesEveryIneligibleShape()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="excludeListBlocksByNameAndUuidCaseInsensitively()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="wholeSnapshotDeltaSuppressionAndTheR10DismountForce()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="equipmentShipsOnFirstSendAndOnHashChangeOnly()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="withheldIncrementalRosterCommitsNothingAndRetriesNextTick()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="withheldFullRosterNeverBurnsAnEpochTheClientDidNotSee()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="visibleSetCapsNearestFirstAtTheWireBound()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.005"/>
+  <testcase name="offModeAndDisabledPrefsTickToNothing()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <testcase name="farTargetsUpdateAtTierCadenceButForcesBreakThrough()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.001"/>
+  <testcase name="subscribeSendsAFullRosterAndFirstUpdates()" classname="dev.vox.lss.common.farplayers.FarPlayerBroadcastServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

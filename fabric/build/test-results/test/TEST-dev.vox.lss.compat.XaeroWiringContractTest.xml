@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.compat.XaeroWiringContractTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:45:32.618Z" hostname="diarmid-desktop" time="0.002">
+  <properties/>
+  <testcase name="theClientTickGlueDrivesThePump()" classname="dev.vox.lss.compat.XaeroWiringContractTest" time="0.001"/>
+  <testcase name="modCompatForwardsToTheBridge()" classname="dev.vox.lss.compat.XaeroWiringContractTest" time="0.0"/>
+  <testcase name="theRenderFrameGlueDrivesTheRebuildSlice()" classname="dev.vox.lss.compat.XaeroWiringContractTest" time="0.0"/>
+  <testcase name="theDisconnectGlueTearsDownTheSession()" classname="dev.vox.lss.compat.XaeroWiringContractTest" time="0.001"/>
+  <testcase name="theConsumerPassesThisLinesWorldHeightExpression()" classname="dev.vox.lss.compat.XaeroWiringContractTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

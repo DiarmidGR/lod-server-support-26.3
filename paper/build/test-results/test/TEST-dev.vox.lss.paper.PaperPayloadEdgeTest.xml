@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.paper.PaperPayloadEdgeTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2026-09-26T21:08:53.768Z" hostname="diarmid-desktop" time="0.015">
+  <properties/>
+  <testcase name="voxelColumnOverSectionsLimitRejectedByClientGuard()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.001"/>
+  <testcase name="handshakeTrailingBytesIgnored()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.001"/>
+  <testcase name="handshakeLegacyFrameWithoutCapabilitiesDefaultsToZero()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.0"/>
+  <testcase name="dirtyColumnsEncoderClampsToWireLimit()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.002"/>
+  <testcase name="voxelColumnDimensionOver256CharsThrowsOnEncode()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.0"/>
+  <testcase name="handshakeNegativeVersionDecodesAndGateRefusesReply()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.001"/>
+  <testcase name="batchRequestCountGuardRejectsBeforeAllocation()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.0"/>
+  <testcase name="batchRequestAtMaxCountAccepted()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.001"/>
+  <testcase name="batchRequestNegativeCountRejected()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.0"/>
+  <testcase name="dirtyColumnsEncoderAtLimitKeepsEveryPosition()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.001"/>
+  <testcase name="processorDropsOversizedColumnInsteadOfEncoding()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.001"/>
+  <testcase name="processorDropReturnsFalseSoTheDropGetsAnswered()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.001"/>
+  <testcase name="processorEncodesAndEnqueuesColumnAtSectionsLimit()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.002"/>
+  <testcase name="voxelColumnAtSectionsLimitPassesClientGuard()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.001"/>
+  <testcase name="voxelColumnDimensionAt256CharsEncodesAndPassesClientGuard()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.001"/>
+  <testcase name="batchRequestTruncatedFrameThrowsCatchableException()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.0"/>
+  <testcase name="handshakeFrameEncodeDecodesRoundTrip()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.0"/>
+  <testcase name="sendRawNmsPayloadWithNullConnectionIsNoOp()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.001"/>
+  <testcase name="handshakeNullOrEmptyPayloadRejected()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.0"/>
+  <testcase name="handshakeMalformedVarIntOverflowThrowsCatchableException()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.0"/>
+  <testcase name="batchRequestTrailingBytesIgnored()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.0"/>
+  <testcase name="batchRequestNullOrEmptyPayloadRejected()" classname="dev.vox.lss.paper.PaperPayloadEdgeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

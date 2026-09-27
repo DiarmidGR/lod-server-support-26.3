@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:03.394Z" hostname="diarmid-desktop" time="0.385">
+  <properties/>
+  <testcase name="getDiagnosticsAppendsThrottleStateOnlyWhenEngaged()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.0"/>
+  <testcase name="gateSaturationPredicateBindsAtParkFullAndClearsOnDrain()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.005"/>
+  <testcase name="poolSaturationBouncesTheSubmitWithASaturatedResult()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.007"/>
+  <testcase name="allAirChunkResolvesAsFoundWithoutBytes()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.006"/>
+  <testcase name="timeoutTriageReleasesThePermitSoTheNextReadProceeds()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.002"/>
+  <testcase name="recordGateStopFeedsDiagAndLatchesTheWarnOnlyOnASustainedEpisode()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.002"/>
+  <testcase name="completionPartitionIsExactAcrossLiveOutcomes()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.001"/>
+  <testcase name="errorThrowingReadDeliversExactlyOneResultAndPoolSurvives()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.006"/>
+  <testcase name="reapplyGateCapacityResolvesConfigAgainstPoolAndStoreState()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.0"/>
+  <testcase name="gateSaturationIsStructurallyFalseAtPoolK()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.003"/>
+  <testcase name="hasHeadroomIsFalseExactlyWhenTheNextSubmitWouldBeRejected()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.006"/>
+  <testcase name="gateSaturationStaysFalseAtPoolKWithAllPermitsHeldAndADeepQueue()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.004"/>
+  <testcase name="shutdownReturnsPromptlyByInterruptingAnInFlightRead()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.0"/>
+  <testcase name="successfulReadDeliversBytesWithTimestampAndOverhead()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.005"/>
+  <testcase name="adaptiveThrottleNarrowsHasHeadroomWhenEngagedAndRecoversAtLowLatency()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.006"/>
+  <testcase name="shutDownReaderIsSilent()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.005"/>
+  <testcase name="nullReadResolvesAsNotFound()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.006"/>
+  <testcase name="peggedGateParksMissesWhileStoreHitsKeepFlowingAndDrainsOnRelease()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.302"/>
+  <testcase name="parkOverflowBouncesAsSaturatedFlavorAndCountsGated()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.001"/>
+  <testcase name="throwingReadStillDeliversExactlyOneResult()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.006"/>
+  <testcase name="getDiagnosticsRendersTheReadGateToken()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.0"/>
+  <testcase name="concurrentParkDrainHammerDeliversExactlyOneResultPerSubmit()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.004"/>
+  <testcase name="resultsDeliveredAfterPlayerRemovalAreSilentlyDropped()" classname="dev.vox.lss.common.processing.AbstractChunkDiskReaderTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

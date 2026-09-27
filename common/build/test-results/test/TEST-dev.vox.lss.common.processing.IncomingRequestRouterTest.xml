@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.vox.lss.common.processing.IncomingRequestRouterTest" tests="32" skipped="0" failures="0" errors="0" timestamp="2026-09-27T03:24:06.214Z" hostname="diarmid-desktop" time="0.613">
+  <properties/>
+  <testcase name="revalidationHeadStampsAtEndOfPassUnderAnEarlyStop()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.001"/>
+  <testcase name="servedPositionReRequestsFollowTheHonestReResolutionLadder(Path)" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.015"/>
+  <testcase name="innerDirtyRevalidationDoesNotCollapseTheAcquisitionFrontier()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.001"/>
+  <testcase name="loadedProbeBeatsAFreshMissMemo()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.011"/>
+  <testcase name="staleSnapshotDimensionDoesNotRouteAReRegisteredSession()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.011"/>
+  <testcase name="generationRequestWithNoDiskAndNoGenerationAnswersNotGenerated()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.021"/>
+  <testcase name="mixedBatchEveryRequestGetsExactlyOneDisposition(Path)" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.023"/>
+  <testcase name="submitFailureUnwindsSlotAndDedupGroupAndDropsSilently()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.001"/>
+  <testcase name="crossingReAskCostsExactlyOneRedundantServeThenConverges()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.022"/>
+  <testcase name="replaceSupersedesUnadmittedButNeverInFlight()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.011"/>
+  <testcase name="freshTimestampBeatsLoadedProbeInTheLadder(Path)" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.022"/>
+  <testcase name="generationDisabledNeverConsultsTheMemo()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.021"/>
+  <testcase name="emptyBatchClearsTheBacklog()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.001"/>
+  <testcase name="epochSecondGranularityAndSkewedStampsFollowTheCacheVsClaimLadder(Path)" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.012"/>
+  <testcase name="terminalUpToDateAfterDropStaysConvergentUnderTsZeroReAsks()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.061"/>
+  <testcase name="pureRevalidationPassStampsItsHeadAtEndOfPass()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.001"/>
+  <testcase name="clientTimestampLadderDecidesUpToDateVsReserve(Path)" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.012"/>
+  <testcase name="inFlightAcquisitionDuplicatePinsTheFrontierAtItsOwnRing()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.0"/>
+  <testcase name="inFlightRevalidationDuplicateDefersWhileAcquisitionStampsInstantly()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.001"/>
+  <testcase name="playerWithoutVoxelCapabilityIsSkippedWithBacklogIntact()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.0"/>
+  <testcase name="retiredZeroTimestampRoutesExactlyLikeMinusOne(Path)" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.001"/>
+  <testcase name="clientTimestampExtremesRouteThroughTheLadder(Path)" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.011"/>
+  <testcase name="duplicateSkipDoesNotAttachToTheDedupGroup()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.001"/>
+  <testcase name="queueFullGateSitsBetweenDoneBitAnswersAndTheTimestampLadder(Path)" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.021"/>
+  <testcase name="dampedMixedPassKeepsTheOuterAcquisitionFrontier()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.001"/>
+  <testcase name="sendQueueFullRetainsTheBacklogInOrderUntilAReplaceSupersedesIt()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.021"/>
+  <testcase name="quiescentFullLedgerBalancesEveryDispositionClass(Path)" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.022"/>
+  <testcase name="sendQueueFullRetainedRevalHeadStampsAtEndOfPass()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.011"/>
+  <testcase name="twentyRemoveReRegisterCyclesWithInFlightWorkNeverErodeCapacity()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.192"/>
+  <testcase name="crossingReAskWithinTheDepartureGraceIsAbsorbedThenHealsAfterExpiry()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.072"/>
+  <testcase name="queueCapZeroDisablesTheGateEvenWithANonzeroQueue()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.011"/>
+  <testcase name="acquisitionEntryOutranksAnEarlierRevalidationEntry()" classname="dev.vox.lss.common.processing.IncomingRequestRouterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
